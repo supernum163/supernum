@@ -1,0 +1,241 @@
+baseURL = "gethugothemes.com"
+theme = "dot-hugo-documentation-theme"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+defaultContentLanguage = "zh"
+
+[params]
+primaryColor = "#02007e"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+
+[Languages]
+
+  # 中文
+  [Languages.zh]
+  languageName = "中文"
+  weight = 1
+  languageCode = "zh-cn"
+  title = "极数科技官网"
+  dateFormat = "2006-01-02"
+  home = "首页"
+  logo = "极数科技"
+  copyright = "本站所有权归 @极数科技 所有"
+  
+    # 导航栏
+    [Languages.zh.menu]
+    
+      [[Languages.zh.menu.main]]
+        weight = 1
+        name = "产品中心"
+        hasChildren = true
+
+          [[Languages.zh.menu.main]]
+            parent = "产品中心"
+            name = "免费版"
+            URL = "/dataAnalyse_free"
+            weight = 1
+  
+          [[Languages.zh.menu.main]]
+            parent = "产品中心"
+            name = "会员版"
+            URL = "/dataAnalyse_vip"
+            weight = 2
+  
+          [[Languages.zh.menu.main]]
+            parent = "产品中心"
+            name = "高度定制"
+            URL = "/dataAnalyse_customise"
+            weight = 3
+            
+          
+      [[Languages.zh.menu.main]]
+        weight = 2
+        name = "管理员手册"
+        hasChildren = true
+
+          [[Languages.zh.menu.main]]
+            parent = "管理员手册"
+            name = "免费版管理手册"
+            URL = "/dataAnalyse_free_config"
+            weight = 1
+            
+          [[Languages.zh.menu.main]]
+            parent = "管理员手册"
+            name = "会员版管理手册"
+            URL = "/dataAnalyse_vip_config"
+            weight = 2
+            
+
+      [[Languages.zh.menu.main]]
+        weight = 3
+        name = "常见问题"
+        url = "/faq"
+        
+      [[Languages.zh.menu.main]]
+        weight = 4
+        name = "关于我们"
+        URL = "/about"
+        
+      [[Languages.zh.menu.main]]
+        weight = 5
+        name = "与我联系"
+        url = "/contact"
+        
+      [[Languages.zh.menu.main]]
+        weight = 6
+        name = "其它"
+        url = "/pages"
+        hasChildren = true
+
+          [[Languages.zh.menu.main]]
+            parent = "其它"
+            name = "Features"
+            URL = "/features"
+            weight = 1
+
+
+
+
+    # banner
+    [Languages.zh.params.banner]
+      title = "帮助与支持中心"
+      description = "与我们一起寻找快速搭建报表平台、报表可视化展示和数据分析的最佳解决方案"
+      image = "images/banner.jpg"
+      placeholder = "请输入关键字或文章标题"
+
+    # Topics
+    [Languages.zh.params.topics]
+      title = ""
+    
+    # call to action
+    [Languages.zh.params.cta]
+      enable = true
+      title = "没有找到您想要的内容 ？"
+      description = "您可以尝试在导航栏的常见问题中查看经常被提及的问题，在搜索框中搜索相应的关键字，或者留言给我们。"
+      btnText = "联系我们"
+      btnURL = "/contact"
+
+    # contact
+    [Languages.zh.params.contact]
+      title = "留下您的联系方式"
+      content = "如果您有任何疑问，欢迎留言给我们，我们将在第一时间与您取得联系。"
+
+    # footer social icon
+    [[Languages.zh.socialIcon]]
+      icon = "ti-id-badge"
+      URL = "/about"
+      
+    [[Languages.zh.socialIcon]]
+      icon = "ti-comments"
+      URL = "/#"
+
+    [[Languages.zh.socialIcon]]
+      icon = "ti-email"
+      URL = "/#"
+      
+    [[Languages.zh.socialIcon]]
+      icon = "ti-share"
+      URL = "/#"
+
+
+
+
+
+  # English Language
+  [Languages.en]
+  languageName = "English"
+  weight = 2
+  languageCode = "en-us"
+  title = "Doc List"
+  dateFormat = "2 January 2006"
+  home = "Home"
+  logo = "Dot"
+  copyright = "The Hugo Documents are copyright © gethugothemes 2018."
+
+    # navigation
+    [Languages.en.menu]
+    
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "/en/faq"
+        
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "contact"
+        url = "/en/contact"
+        
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "pages"
+        hasChildren = true
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Elements"
+          URL = "/en/elements"
+          weight = 1
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Installation"
+          URL = "/en/installation"
+          weight = 2
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Billing and Pricing"
+          URL = "/en/billing-pricing"
+          weight = 3
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Features"
+          URL = "/en/features"
+          weight = 4
+
+
+
+
+    # banner
+    [Languages.en.params.banner]
+      title = "Support Center & Knowledge base"
+      description = "Find advice and answers from our support team fast or get in touch"
+      image = "images/banner.jpg"
+      placeholder = "Have a question? Just ask here or enter terms"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "Find your answer by subject"
+    
+    # call to action
+    [Languages.en.params.cta]
+      enable = true
+      title = "Didn't find an answer to your question?"
+      description = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+      btnText = "contact us"
+      btnURL = "/en/contact"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+    # footer social icon
+    [[Languages.en.socialIcon]]
+      icon = "ti-facebook"
+      URL = "/#"
+      
+    [[Languages.en.socialIcon]]
+      icon = "ti-twitter-alt"
+      URL = "/#"
+      
+    [[Languages.en.socialIcon]]
+      icon = "ti-vimeo-alt"
+      URL = "/#"
+      
+    [[Languages.en.socialIcon]]
+      icon = "ti-instagram"
+      URL = "/#"

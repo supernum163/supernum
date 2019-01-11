@@ -1,0 +1,21 @@
+{{ partial "head.html" . }}
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<center>
+  <br><br><br>
+  <h1 id="title">
+    <a href="{{ "/" | relURL }}">您访问的页面不存在，请返回首页</a>
+  </h1>
+  <br><br><br>
+</center>
+
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>极数科技官网</title>
+    <link>/gethugothemes.com/</link>
+    <description>Recent content on 极数科技官网</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>本站所有权归 @极数科技 所有</copyright>
+    <lastBuildDate>Sat, 29 Dec 2018 11:02:05 +0600</lastBuildDate>
+    
+	<atom:link href="/gethugothemes.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Requirments</title>
+      <link>/gethugothemes.com/dataanalyse_free/requirments/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/dataanalyse_free/requirments/</guid>
+      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.
+Just download latest version of Hugo binary (&amp;gt; 0.53) for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.</description>
+    </item>
+    
+    <item>
+      <title>Requirments</title>
+      <link>/gethugothemes.com/installation/requirments/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/installation/requirments/</guid>
+      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.
+Just download latest version of Hugo binary (&amp;gt; 0.53) for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>/gethugothemes.com/dataanalyse_free/install/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/dataanalyse_free/install/</guid>
+      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.
+Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt;  Install the theme Install the Doc-List theme by following this documentation
+This theme&amp;rsquo;s repository is: https://github.com/matcornic/Doc-List.git
+Alternatively, you can download the theme as .</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>/gethugothemes.com/installation/install/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/installation/install/</guid>
+      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.
+Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt;  Install the theme Install the Doc-List theme by following this documentation
+This theme&amp;rsquo;s repository is: https://github.com/matcornic/Doc-List.git
+Alternatively, you can download the theme as .</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>/gethugothemes.com/dataanalyse_free/configuration/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/dataanalyse_free/configuration/</guid>
+      <description>Global site parameters On top of Hugo global configuration, Doc-list lets you define the following parameters in your config.toml (here, values are default).
+Note that some of these parameters are explained in details in other sections of this documentation.
+[params] # Prefix URL to edit current page. # Useful to give opportunity to people to create merge request for your doc. # See the config.toml file from this documentation site to have an example.</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>/gethugothemes.com/installation/configuration/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/installation/configuration/</guid>
+      <description>Global site parameters On top of Hugo global configuration, Doc-list lets you define the following parameters in your config.toml (here, values are default).
+Note that some of these parameters are explained in details in other sections of this documentation.
+[params] # Prefix URL to edit current page. # Useful to give opportunity to people to create merge request for your doc. # See the config.toml file from this documentation site to have an example.</description>
+    </item>
+    
+    <item>
+      <title>Customer instructions for change of ownership</title>
+      <link>/gethugothemes.com/billing-pricing/ownership/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/billing-pricing/ownership/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Customization</title>
+      <link>/gethugothemes.com/dataanalyse_free/customization/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/dataanalyse_free/customization/</guid>
+      <description>Doc-List has been built to be as configurable as possible.
+Change the logo In config.toml you will find a logo variable. you can change your logo there.
+The size of the logo will adapt automatically  Change the favicon If your favicon is a png, just drop off your image in your local static/images/ folder and name it favicon.png
+If you need to change this default behavior, create a new file in layouts/partials/ named head.</description>
+    </item>
+    
+    <item>
+      <title>Customization</title>
+      <link>/gethugothemes.com/installation/customization/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/installation/customization/</guid>
+      <description>Doc-List has been built to be as configurable as possible.
+Change the logo In config.toml you will find a logo variable. you can change your logo there.
+The size of the logo will adapt automatically  Change the favicon If your favicon is a png, just drop off your image in your local static/images/ folder and name it favicon.png
+If you need to change this default behavior, create a new file in layouts/partials/ named head.</description>
+    </item>
+    
+    <item>
+      <title>How to pay your bill</title>
+      <link>/gethugothemes.com/billing-pricing/bill/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/billing-pricing/bill/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/gethugothemes.com/features/linux/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/features/linux/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS</title>
+      <link>/gethugothemes.com/features/mac/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/features/mac/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Manage My Sprint account</title>
+      <link>/gethugothemes.com/billing-pricing/manage/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/billing-pricing/manage/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Payment arrangements</title>
+      <link>/gethugothemes.com/billing-pricing/payment/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/billing-pricing/payment/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Routing</title>
+      <link>/gethugothemes.com/features/routing/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/features/routing/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>/gethugothemes.com/features/ubuntu/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/features/ubuntu/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Understand the different levels of profile</title>
+      <link>/gethugothemes.com/billing-pricing/profile/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/billing-pricing/profile/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/gethugothemes.com/features/windows/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>/gethugothemes.com/features/windows/</guid>
+      <description>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+A simple primary alert—check it out!  Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</description>
+    </item>
+    
+  </channel>
+</rss>
