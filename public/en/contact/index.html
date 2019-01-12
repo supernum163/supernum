@@ -120,11 +120,11 @@
       <div class="col-12">
         <h2 class="section-title text-primary">Got Any Questions</h2> 
         <p>Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter.</p> 
-
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action="/">
           <input type="text" id="name" name="name" placeholder="Your Name" class="form-control mb-4 shadow rounded-0">
           <input type="email" id="mail" name="mail" placeholder="Your Email" class="form-control mb-4 shadow rounded-0">
           <textarea name="message" id="message" placeholder="Message" class="form-control mb-4 shadow rounded-0"></textarea>
+          <div data-netlify-recaptcha="false"></div>
           <button type="submit" value="send" class="btn btn-primary">Send</button>
         </form>
       </div>
