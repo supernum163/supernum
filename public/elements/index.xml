@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elements on 极数科技官网</title>
-    <link>/gethugothemes.com/elements/</link>
+    <link>/elements/</link>
     <description>Recent content in Elements on 极数科技官网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>本站所有权归 @极数科技 所有</copyright>
     <lastBuildDate>Thu, 27 Dec 2018 09:10:27 +0600</lastBuildDate>
     
-	<atom:link href="/gethugothemes.com/elements/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/elements/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
