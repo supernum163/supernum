@@ -33,7 +33,7 @@ whiteColor = "#ffffff"
 
           [[Languages.zh.menu.main]]
             parent = "产品中心"
-            name = "免费版"
+            name = "极速版"
             URL = "/dataAnalyse_free"
             weight = 1
   
@@ -45,7 +45,7 @@ whiteColor = "#ffffff"
   
           [[Languages.zh.menu.main]]
             parent = "产品中心"
-            name = "高度定制"
+            name = "高级定制"
             URL = "/dataAnalyse_customise"
             weight = 3
             
@@ -57,7 +57,7 @@ whiteColor = "#ffffff"
 
           [[Languages.zh.menu.main]]
             parent = "管理员手册"
-            name = "免费版管理手册"
+            name = "极速版管理手册"
             URL = "/dataAnalyse_free_config"
             weight = 1
             
@@ -80,20 +80,25 @@ whiteColor = "#ffffff"
         
       [[Languages.zh.menu.main]]
         weight = 5
-        name = "与我联系"
+        name = "联系我们"
         url = "/contact"
         
       [[Languages.zh.menu.main]]
         weight = 6
         name = "其它"
-        url = "/pages"
         hasChildren = true
 
           [[Languages.zh.menu.main]]
             parent = "其它"
-            name = "Features"
-            URL = "/features"
+            name = "elements"
+            URL = "/elements"
             weight = 1
+            
+          [[Languages.zh.menu.main]]
+            parent = "其它"
+            name = "installation"
+            URL = "/installation"
+            weight = 2
 
 
 
@@ -107,7 +112,7 @@ whiteColor = "#ffffff"
 
     # Topics
     [Languages.zh.params.topics]
-      title = ""
+      title = "产品展示"
     
     # call to action
     [Languages.zh.params.cta]
@@ -128,12 +133,12 @@ whiteColor = "#ffffff"
       URL = "/about"
       
     [[Languages.zh.socialIcon]]
-      icon = "ti-comments"
-      URL = "/#"
+      icon = "ti-email"
+      URL = "/contact"
 
     [[Languages.zh.socialIcon]]
-      icon = "ti-email"
-      URL = "/#"
+      icon = "ti-question"
+      URL = "/faq"
       
     [[Languages.zh.socialIcon]]
       icon = "ti-share"
