@@ -133,16 +133,16 @@ whiteColor = "#ffffff"
       URL = "/about"
       
     [[Languages.zh.socialIcon]]
-      icon = "ti-email"
+      icon = "ti-comments"
       URL = "/contact"
 
     [[Languages.zh.socialIcon]]
-      icon = "ti-question"
-      URL = "/faq"
-      
-    [[Languages.zh.socialIcon]]
       icon = "ti-share"
       URL = "/#"
+      
+    [[Languages.zh.socialIcon]]
+      icon = "ti-help"
+      URL = "/faq"
 
 
 

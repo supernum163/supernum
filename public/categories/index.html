@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Requirments</title>
+  <title>Categories</title>
 
   <meta name="generator" content="Hugo 0.53" />
 
@@ -49,6 +49,7 @@
 </head>
 
 <body>
+
 
 <!-- navigation -->
 <header class="shadow-bottom position-relative">
@@ -151,95 +152,73 @@
 
 
 
-<section class="single pt-5 bg-gray">
+<section class="section bg-dark">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3">
-        <div class="p-4 bg-white sticky-top">
-            
-            <nav class="sidebar-menu">
-              <ul class="list-styled">
-            <li class="parent d-block "><a href="/dataanalyse_free/">极速版</a>
-              <ul class="sub-menu">
-            <li class=" active "><a href="/dataanalyse_free/requirments/">Requirments</a>
-            </li>
-            <li class=""><a href="/dataanalyse_free/install/">Installation</a>
-            </li>
-            <li class=""><a href="/dataanalyse_free/configuration/">Configuration</a>
-            </li>
-            <li class=""><a href="/dataanalyse_free/customization/">Customization</a>
-            </li></ul>
-              
-            </li>
-            <li class=""><a href="/installation/">Installation</a>
-              <ul class="">
-            <li class=""><a href="/installation/requirments/">Requirments</a>
-            </li>
-            <li class=""><a href="/installation/install/">Installation</a>
-            </li>
-            <li class=""><a href="/installation/configuration/">Configuration</a>
-            </li>
-            <li class=""><a href="/installation/customization/">Customization</a>
-            </li></ul>
-              
-            </li>
-            <li class=""><a href="/billing-pricing/">Billing &amp; Pricing</a>
-              <ul class="">
-            <li class=""><a href="/billing-pricing/ownership/">Customer instructions for change of ownership</a>
-            </li>
-            <li class=""><a href="/billing-pricing/bill/">How to pay your bill</a>
-            </li>
-            <li class=""><a href="/billing-pricing/manage/">Manage My Sprint account</a>
-            </li>
-            <li class=""><a href="/billing-pricing/payment/">Payment arrangements</a>
-            </li>
-            <li class=""><a href="/billing-pricing/profile/">Understand the different levels of profile</a>
-            </li></ul>
-              
-            </li>
-            <li class=""><a href="/features/">Features</a>
-              <ul class="">
-            <li class=""><a href="/features/linux/">Linux</a>
-            </li>
-            <li class=""><a href="/features/mac/">Mac OS</a>
-            </li>
-            <li class=""><a href="/features/routing/">Routing</a>
-            </li>
-            <li class=""><a href="/features/ubuntu/">Ubuntu</a>
-            </li>
-            <li class=""><a href="/features/windows/">Windows</a>
-            </li></ul>
-              
-            </li>
-            <li class=""><a href="/elements/">Elements</a>
-            </li>
-            <li class=""><a href="/about/">极数科技-关于我们</a>
-            </li>
-            <li class=""><a href="/faq/">极数科技-常见问题</a>
-            </li>
-            <li class=""><a href="/contact/">极数科技-联系我们</a>
-            </li></ul>
-            </nav>
-    
-            
-        </div>
-      </div>
-      <div class="col-lg-9">
-        <div class="p-5 bg-white">
-            <h2>Requirments</h2>
-            <p>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.</p>
-
-<p>Just download latest version of <a href="https://gohugo.io/getting-started/installing/">Hugo binary (&gt; 0.53)</a> for your OS (Windows, Linux, Mac) : it&rsquo;s that simple.</p>
-
-<p><img src="../../../../images/hugo.jpg" alt="image example" title="image" /></p>
-
-            <p class="post-meta border-bottom pb-3 mb-0">Updated on 29 Dec 2018</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/dataanalyse_free/" title="极速版"><i class="ti-arrow-left mr-2"></i>极速版</a>
-            <a class="nav nav-next" href="/dataanalyse_free/install/" title="Installation">Installation<i class="ti-arrow-right ml-2"></i></a>
-            </nav></div>
+      <div class="col-lg-8 mx-auto text-center">
+         <h1 class="text-white mb-4">帮助与支持中心</h1> 
+         <input id="search" class="form-control" placeholder="请输入关键字或文章标题"> 
+          
+          <script>
+            $(function() {
+              var projects = [
+                
+              ];
+              $( "#search" ).autocomplete({
+                  minLength: 0,
+                  source: projects,
+                  focus: function( event, ui ) {
+                    $( "#search" ).val( ui.item.label );
+                      return false;
+                  },
+                  select: function( event, ui ) {
+                    $( "#search" ).val( ui.item.label );
+                    $( "#project-id" ).val( ui.item.value );
+                    return false;
+                  }
+              })
+              .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+                return $( "<li>" )
+                .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
+                .appendTo( ul );
+              };
+            });
+          </script>
       </div>
     </div>
   </div>
 </section>
+
+
+
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="mb-5 bg-white p-4 sticky-top">
+          <a href="/categories/">
+            <h4 class="mb-4">Categories</h4>
+          </a>
+          <ul class="list-styled">
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+            <h2>Categories</h2>
+            <div class="bg-gray p-4">
+                <h3 class="mt-0">Article</h3>
+                <ul class="list-unstyled">
+                  
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <!-- footer -->
