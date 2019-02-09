@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maintenance on supernum</title>
+    <link>/en/maintenance/</link>
+    <description>Recent content in maintenance on supernum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>copyrights belong to ©supernum.</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
+    
+	<atom:link href="/en/maintenance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

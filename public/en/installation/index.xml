@@ -1,61 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Installation on Doc List</title>
+    <title>Installation and Configuration on supernum</title>
     <link>/en/installation/</link>
-    <description>Recent content in Installation on Doc List</description>
+    <description>Recent content in Installation and Configuration on supernum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>The Hugo Documents are copyright © gethugothemes 2018.</copyright>
-    <lastBuildDate>Sat, 29 Dec 2018 11:02:05 +0600</lastBuildDate>
+    <copyright>copyrights belong to ©supernum.</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
     
 	<atom:link href="/en/installation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Requirments</title>
-      <link>/en/installation/requirments/</link>
-      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      <title>VM Configurate</title>
+      <link>/en/installation/virtualsystem/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/en/installation/requirments/</guid>
-      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.
-Just download latest version of Hugo binary (&amp;gt; 0.53) for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.</description>
+      <guid>/en/installation/virtualsystem/</guid>
+      <description>First of all, you need to download the corresponding VirtualBox installer  and VirtualBox extension package  in virtualbox official website for your operating system. Extension packages allow your virtual machine to share pasteboards, folders and other functions with the local machine. If you do not need these functions, you don&amp;rsquo;t need to download the extension packages.
+   
+Secondly, you need to install VirtualBox installer just like normal software, open VirtualBox software after installation, and drag VirtualBox extension package into the VirtualBox interface to install the extension.</description>
     </item>
     
     <item>
-      <title>Installation</title>
-      <link>/en/installation/install/</link>
-      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      <title>DB Configurate</title>
+      <link>/en/installation/database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/installation/install/</guid>
-      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt;  Install the theme Install the Doc-List theme by following this documentation
-This theme&amp;rsquo;s repository is: https://github.com/matcornic/Doc-List.git
-Alternatively, you can download the theme as .</description>
+      <guid>/en/installation/database/</guid>
+      <description>Configuring different types of database connections requires slightly different steps.
+For SQLite, you only need to provide the path of the database file of the SQLite. Of course, you can skip this configuration by using our default SQLLite database file.
+For MySQL, SQL Server, and other databases, you need to provide the user name and password necessary to connect to the database, as well as the database name to connect to.</description>
     </item>
     
     <item>
-      <title>Configuration</title>
-      <link>/en/installation/configuration/</link>
-      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      <title>global Config</title>
+      <link>/en/installation/globalconfig/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/en/installation/configuration/</guid>
-      <description>Global site parameters On top of Hugo global configuration, Doc-list lets you define the following parameters in your config.toml (here, values are default).
-Note that some of these parameters are explained in details in other sections of this documentation.
-[params] # Prefix URL to edit current page. # Useful to give opportunity to people to create merge request for your doc. # See the config.toml file from this documentation site to have an example.</description>
+      <guid>/en/installation/globalconfig/</guid>
+      <description>The report platform must rely on the global configuration fileconfig.Rto run normally. The default global configuration file is in a subfolder of/supernum. You can modify some of them to suit your needs.
+The content of the global configuration file is roughly as follows. The global configuration file will be different for different editions or products with different systems.
+  Setting global configuration variables     1
+2</description>
     </item>
     
     <item>
-      <title>Customization</title>
-      <link>/en/installation/customization/</link>
-      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      <title>Access The Report Platform</title>
+      <link>/en/installation/howtovisit/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/en/installation/customization/</guid>
-      <description>Doc-List has been built to be as configurable as possible.
-Change the logo In config.toml you will find a logo variable. you can change your logo there.
-The size of the logo will adapt automatically  Change the favicon If your favicon is a png, just drop off your image in your local static/images/ folder and name it favicon.png
-If you need to change this default behavior, create a new file in layouts/partials/ named head.</description>
+      <guid>/en/installation/howtovisit/</guid>
+      <description>If you have completed the above steps, your report system has been built successfully in theory. Next, you may need to verify that the report platform is open properly or that your users can access the report platform.
+Here you just need to query the IP address of the virtual machine and tell your users about it. Your user can open the browser in any device in the same LAN, and enter the IP address of the virtual machine in the browser&amp;rsquo;s address bar to access the report platform as if it were a normal website.</description>
     </item>
     
   </channel>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>showcase on supernum</title>
+    <link>/en/showcase/</link>
+    <description>Recent content in showcase on supernum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>copyrights belong to ©supernum.</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
+    
+	<atom:link href="/en/showcase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Primary Edition</title>
+      <link>/en/showcase/supernumv1/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/showcase/supernumv1/</guid>
+      <description>The Framework When the user opens the report platform, he will see title bar  above, navigation bar  on the left and content display area  on the right. Under mobile devices, the navigation bar on the left side may be hidden automatically. Users need to click on of the title bar to expand the navigation bar  to expand it.
+   Report Management The navigation bar will use report category  as the primary heading and report name  as the secondary heading.</description>
+    </item>
+    
+    <item>
+      <title>Membership Edition</title>
+      <link>/en/showcase/supernumv2/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/showcase/supernumv2/</guid>
+      <description>The Framework When the user opens the report platform, he will see title bar  above, navigation bar  on the left and content display area  on the right. Under mobile devices, the navigation bar on the left side may be hidden automatically. Users need to click on of the title bar to expand the navigation bar  to expand it.
+   User Management The upper half of the navigation bar is User Management Interface .</description>
+    </item>
+    
+    <item>
+      <title>Custom Edition</title>
+      <link>/en/showcase/supernumv3/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/showcase/supernumv3/</guid>
+      <description>The Framework When the user opens the report platform, he will see title bar  above, navigation bar  on the left and content display area  on the right. Under mobile devices, the navigation bar on the left side may be hidden automatically. Users need to click on of the title bar to expand the navigation bar  to expand it.
+   User Management The upper half of the navigation bar is User Management Interface .</description>
+    </item>
+    
+  </channel>
+</rss>

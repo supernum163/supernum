@@ -1,7 +1,12 @@
 ---
-title: "Installation"
-date: 2018-12-29T11:02:05+06:00
-icon: "ti-panel"
-description: "Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet"
+title: "安装与配置"
+date: 2019-01-01T11:02:05+06:00
+icon: "ti-brush-alt"
+description: ""
 type : "pages"
+weight: 2
 ---
+
+这本手册将帮助您在本地搭建起我们的报表系统。您需要按照阅读顺序逐一完成操作过程，如果遇到任何困惑，我们可以为您在线解答。  
+  
+实际上，如果您有安装虚拟机、或使用R语言的经验，则完全可以跳过这本手册的一些操作步骤，或者使用更好的方式完成配置。  

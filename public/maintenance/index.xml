@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>管理员手册 on 极数科技官网</title>
+    <link>/maintenance/</link>
+    <description>Recent content in 管理员手册 on 极数科技官网</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>本站所有权归 @极数科技 所有</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
+    
+	<atom:link href="/maintenance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>报表管理系统</title>
+      <link>/maintenance/reportmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/maintenance/reportmanager/</guid>
+      <description>我们的报表管理系统默认是根据__报表管理__表来对报表进行管理的。您可以参考以下sql语句建立__报表管理__表，当然您需要修改部分内容以适应自己的数据库，比如SQLite中查询当前时间的方式是DATETIME(&#39;now&#39;, &#39;localtime&#39;)，而SQL Server中则是GETDATE()（以后不作赘述）。
+  创建__报表管理__表     1
+2
+3
+4
+5
+6
+7
+8
+  CREATE TABLE IF NOT EXISTS __报表管理__ ( 制作者 VARCHAR(25), 报表类别 VARCHAR(255), 报表名称 VARCHAR(255) UNIQUE NOT NULL, 报表位置 VARCHAR(255) NOT NULL, 报表更新时间 DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, 报表说明 TEXT );      在__报表管理__表中，您至少需要创建以下几个字段：报表类别、报表名称、报表位置，其它字段则可以根据实际需求创建或删除。
+    报表类别和报表名称是报表平台赖以生成报表导航栏的唯一依据，您必须保证报表被归纳到相应的类别、报表名称是唯一的，且名称不能太长(15个字以内)。
+报表位置是报表平台查找报表位置的唯一依据，您最好从数据库名开始，写出报表的完整路径。
+ 对于报表值作者而言，想要将您的报表上传至报表平台，您只需要在报表制作完成之后，将报表的信息插入__报表管理__表中即可。
+ </description>
+    </item>
+    
+    <item>
+      <title>用户管理系统</title>
+      <link>/maintenance/usermanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/maintenance/usermanager/</guid>
+      <description>我们的用户管理系统默认是根据__用户管理__表来对用户进行管理的。您可以参考以下sql语句建立__用户管理__表。
+  创建__报表管理__表     1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+  CREATE TABLE IF NOT EXISTS __用户管理__ ( 用户名称 TEXT UNIQUE NOT NULL, 所属部门 TEXT, 密码 VARCHAR(40, 40) NOT NULL, 注册时间 DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, 最后一次登陆时间 DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, 最近一天尝试登陆次数 INT DEFAULT 0 NOT NULL, 是否准入 INT DEFAULT 0 NOT NULL, 用户说明 TEXT );      在__用户管理__表中，您至少需要创建以下几个字段：用户名称、密码、注册时间，最后一次登陆时间，最近一天尝试登陆次数，是否准入，其它字段则可以根据实际需求创建或删除。</description>
+    </item>
+    
+    <item>
+      <title>权限管理系统</title>
+      <link>/maintenance/authmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/maintenance/authmanager/</guid>
+      <description>我们的用户管理系统默认是根据__报表权限管理__表来对用户阅读报表的权限进行管理的。您可以参考以下sql语句建立__报表权限管理__表。
+  创建 __报表权限管理__ 表     1
+2
+3
+4
+5
+6
+7
+8
+  CREATE TABLE IF NOT EXISTS __报表权限管理__ ( 报表名称 TEXT NOT NULL, 授权者 TEXT, 使用者 TEXT NOT NULL, 字段筛选 TEXT DEFAULT &amp;#34;*&amp;#34; NOT NULL, 记录筛选 TEXT DEFAULT NULL, 权限说明 TEXT );      在__报表权限管理__表中，您至少需要创建以下几个字段：报表名称、使用者、字段筛选，记录筛选，其它字段则可以根据实际需求创建或删除。
+    报表名称即您在 报表管理系统 中定义的报表名称，二者必须互相关联，否则将导致报表无法展示。
+使用者即您在 用户管理系统 中定义的用户名称，二者必须互相关联，否则将导致某些用户无法正常查看报表。
+字段筛选即允许用户查看那些字段。默认情况下为全部字段，您也可以指明用户所能查看的字段，使用逗号分割。
+记录筛选即允许用户查看那些记录。默认情况下为空，即允许用户查看全部记录，您可以使用静态SQL语句或验证用户身份的方式，限制用户所能访问的记录。比如：where rowid ，限制用户查询前10条记录，where 销售人员 = %用户名称%， 限制用户只能访问该报表中销售人员的名字等于用户名称的记录。其中%之间的信息将被逐一替换为用户的实际身份信息。</description>
+    </item>
+    
+    <item>
+      <title>可用报表</title>
+      <link>/maintenance/availablereports/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/maintenance/availablereports/</guid>
+      <description>报表平台默认展示的第一张报表，就是用户可以查看的报表列表。对于不同版本的产品，实现这个功能的方式略有不同。
+极速版 对于极速版而言，您只需要创建一个__可用报表__视图，并将该视图的位置、名称、类别等信息作为第一条数据插入__报表管理__表即可。您可以参考以下sql语句建立__可用报表__视图。
+  创建__可用报表__视图     1
+2
+3
+4
+5
+6
+7
+8
+  CREATE VIEW IF NOT EXISTS __可用报表__ as SELECT 制作者, 报表类别, 报表名称, 报表更新时间, 报表说明 FROM __报表管理__         会员版 对于会员版而言，__可用报表__不仅是用户查看自己可以查看那些报表的地方，同时也是赖以统一 报表管理系统 和 权限管理系统 的重要依据。您可以参考以下sql语句建立__可用报表__视图。
+  创建__可用报表__视图     1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13</description>
+    </item>
+    
+    <item>
+      <title>可视化管理系统</title>
+      <link>/maintenance/plotmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/maintenance/plotmanager/</guid>
+      <description>可视化管理系统本质上是将报表以可视化的形式呈现出来，所以您不需要创建额外的系统管理表，只需要在已有的系统管理表中稍加修改。
+首先，修改__报表管理__表， 加入绘图命令字段：
+  修改__报表管理__表     1
+2
+  ALTER TABLE __报表管理__ ADD COLUMN 绘图命令 TEXT;      其次，修改__报表权限管理__表， 加入定制绘图命令字段：
+  修改__报表权限管理__表     1
+2
+  ALTER TABLE __报表权限管理__ ADD COLUMN 定制绘图命令 TEXT;      最后，创建__可用报表__ 视图
+  创建__可用报表__ 视图     1
+2
+3
+4
+5
+6
+7
+8
+9</description>
+    </item>
+    
+    <item>
+      <title>阅读记录管理系统</title>
+      <link>/maintenance/readinghistorymanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/maintenance/readinghistorymanager/</guid>
+      <description>我们的用户管理系统默认是根据__报表阅读记录__表来对阅读记录进行管理的。您可以参考以下sql语句建立__报表阅读记录__表。
+  创建__报表阅读记录__表     1
+2
+3
+4
+5
+6
+  CREATE TABLE IF NOT EXISTS __报表阅读记录__ ( 报表名称 TEXT NOT NULL, 阅读者 TEXT NOT NULL, 最后一次阅读时间 DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, 阅读次数 INT DEFAULT 1 NOT NULL );      在__报表阅读记录__表中，您至少需要创建以下几个字段：报表名称、阅读者、最后一次阅读时间，阅读次数，其它字段则可以根据实际需求创建或删除。
+    报表名称即您在 报表管理系统 中定义的报表名称。
+阅读者即您在 用户管理系统 中定义的用户名称。
+最后一次阅读时间即用户最后一次阅读报表的时间。
+阅读次数即用户阅读该报表的总次数。
+同时您还需要在__报表管理__表中加入报表更新时间字段。
+ 创建__报表阅读记录__表     1</description>
+    </item>
+    
+    <item>
+      <title>用户留言管理系统</title>
+      <link>/maintenance/messagesmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/maintenance/messagesmanager/</guid>
+      <description>我们的用户管理系统默认是根据__留言管理__表来对报表进行管理的。您可以参考以下sql语句建立__留言管理__表。
+  创建__留言管理__表     1
+2
+3
+4
+5
+6
+7
+8
+  CREATE TABLE IF NOT EXISTS __留言管理__ ( 留言者 TEXT NOT NULL, 接收者 TEXT NOT NULL, 留言时间 DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, 留言生效日期 DATE DEFAULT (DATE(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)), 留言过期日期 DATE DEFAULT (DATE(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;, &amp;#39;&amp;#43;90 day&amp;#39;)), 留言内容 TEXT NOT NULL );      在__留言管理__表中，您至少需要创建以下几个字段：留言者、接收者、留言时间，留言生效日期，留言过期日期，留言内容，其它字段则可以根据实际需求创建或删除。
+    留言者和接收者分别代表留言信息的发送者与接收者，两者都需要与 用户管理系统 中定义的用户名称相互关联。留言者与接收者可以是同一人，代表给自己留言（或添加备忘录）。</description>
+    </item>
+    
+  </channel>
+</rss>

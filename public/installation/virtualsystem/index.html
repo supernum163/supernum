@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html  lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <title>配置虚拟系统</title>
+
+  <meta name="generator" content="Hugo 0.53" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+  }  
+  </style>
+
+
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+
+  <!-- Custom Stylesheet-->
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  <!-- font-awesome Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <!-- fancybox Stylesheet-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+
+
+  <!--Favicon-->
+  <link rel="icon" href="/image/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- navigation -->
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/">极数科技</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/">首页</a>
+        </li>
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            产品中心
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/showcase/supernumv1">极速版</a>
+            
+            <a class="dropdown-item" href="/showcase/supernumv2">会员版</a>
+            
+            <a class="dropdown-item" href="/showcase/supernumv3">高级定制</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/faq">常见问题</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/contact">联系我们</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            其它
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/installation">安装与配置</a>
+            
+            <a class="dropdown-item" href="/maintenance">管理员手册</a>
+            
+            <a class="dropdown-item" href="/tips">实用技巧</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+      <ul class="list-inline text-center mb-0">
+        
+        <li class="list-inline-item"><a class="text-dark" href="/">中文</a></li>
+        
+        <li class="list-inline-item"><a class="text-dark" href="/en/">English</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+<section class="single pt-5 bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="p-4 bg-white sticky-top">
+            
+            <nav class="sidebar-menu">
+              <ul class="list-styled">
+            <li class=""><a href="/showcase/">产品展示</a>
+              <ul class="">
+            <li class=""><a href="/showcase/supernumv1/">极速版展示</a>
+            </li>
+            <li class=""><a href="/showcase/supernumv2/">会员版展示</a>
+            </li>
+            <li class=""><a href="/showcase/supernumv3/">高级定制版展示</a>
+            </li></ul>
+              
+            </li>
+            <li class="parent d-block "><a href="/installation/">安装与配置</a>
+              <ul class="sub-menu">
+            <li class=" active "><a href="/installation/virtualsystem/">配置虚拟系统</a>
+            </li>
+            <li class=""><a href="/installation/database/">配置数据库</a>
+            </li>
+            <li class=""><a href="/installation/globalconfig/">全局配置文件</a>
+            </li>
+            <li class=""><a href="/installation/howtovisit/">如何访问报表平台</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/maintenance/">管理员手册</a>
+              <ul class="">
+            <li class=""><a href="/maintenance/reportmanager/">报表管理系统</a>
+            </li>
+            <li class=""><a href="/maintenance/usermanager/">用户管理系统</a>
+            </li>
+            <li class=""><a href="/maintenance/authmanager/">权限管理系统</a>
+            </li>
+            <li class=""><a href="/maintenance/availablereports/">可用报表</a>
+            </li>
+            <li class=""><a href="/maintenance/plotmanager/">可视化管理系统</a>
+            </li>
+            <li class=""><a href="/maintenance/readinghistorymanager/">阅读记录管理系统</a>
+            </li>
+            <li class=""><a href="/maintenance/messagesmanager/">用户留言管理系统</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/tips/">实用技巧</a>
+            </li>
+            <li class=""><a href="/contact/">联系我们</a>
+            </li>
+            <li class=""><a href="/faq/">常见问题</a>
+            </li></ul>
+            </nav>
+    
+            
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+            <h2>配置虚拟系统</h2>
+            <p>首先，您需要在<a href="https://www.virtualbox.org/wiki/Downloads">virtualbox官网</a>中下载与您的操作系统相应的<span class="highlight-text green">virtualbox安装程序</span>与<span class="highlight-text green">VirtualBox扩展包</span>，扩展包可以让您的虚拟机与本机实现共享粘贴板、共享文件夹等功能，如果您不需要这些功能，也可以不用下载扩展包。</p>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e4%b8%8b%e8%bd%bdvirtualbox.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e4%b8%8b%e8%bd%bdvirtualbox.png" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+
+<p><br>
+其次，您需要像安装普通软件一样安装<strong>virtualbox安装程序</strong>，安装完成后打开virtualbox软件，将<strong>VirtualBox扩展包</strong>拖入virtualbox界面即可安装扩展。</p>
+
+<p>再次，在virtualbox主界面点击<span class="highlight-text yellow">新建</span>，在打开的界面中配置适当的参数，选择<span class="highlight-text yellow">使用已有的虚拟硬盘文件</span>并点击查找文件选取我们提供给您的vdi硬盘文件，点击<span class="highlight-text yellow">创建</span>完成向导。</p>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e5%ae%89%e8%a3%85%e8%99%9a%e6%8b%9f%e6%9c%ba01.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e5%ae%89%e8%a3%85%e8%99%9a%e6%8b%9f%e6%9c%ba01.png" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+
+<p><br>
+最后，您需要选中新建的虚拟机，并在virtualbox主界面点击<span class="highlight-text yellow">设置</span>，在设置界面中选择<span class="highlight-text yellow">网络</span>，将其中<span class="highlight-text blue">网卡1</span>的连接方式设为<span class="highlight-text cyan">桥接网卡</span>。</p>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e5%ae%89%e8%a3%85%e8%99%9a%e6%8b%9f%e6%9c%ba02.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e5%ae%89%e8%a3%85%e8%99%9a%e6%8b%9f%e6%9c%ba02.png" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+
+<p><br>
+至此您的虚拟系统已经配置完成，您可以选中virtualbox中新生城的虚拟机，点击<span class="highlight-text yellow">启动</span>便可以像操作普通的操作系统一样启动我们的虚拟机。</p>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e5%ae%89%e8%a3%85%e8%99%9a%e6%8b%9f%e6%9c%ba03.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e5%ae%89%e8%a3%85%e8%99%9a%e6%8b%9f%e6%9c%ba03.png" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+
+<p><br></p>
+
+<blockquote>
+<p>注意，虚拟机的默认用户名与密码分别是<strong>supernum</strong>，<strong>supernum163</strong>。您需要在登陆后的第一时间修改root用户的安全密码。</p>
+</blockquote>
+<nav class="pagination mt-3"><a class="nav nav-prev" href="/installation/" title="安装与配置"><i class="ti-arrow-left mr-2"></i>安装与配置</a>
+            <a class="nav nav-next" href="/installation/database/" title="配置数据库">配置数据库<i class="ti-arrow-right ml-2"></i></a>
+            </nav></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+        <p>本站所有权归 @极数科技 所有</p> 
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/showcase"><i class="ti-blackboard"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/contact"><i class="ti-comments"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/faq"><i class="ti-help"></i></a></li>
+          
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jquiry -->
+<script src="/plugins/jquery/jquery-1.12.4.js"></script>
+<!-- jquary ui -->
+<script src="/plugins/jquery/jquery-ui.js"></script>
+<!-- Bootstrap JS -->
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- tabcode -->
+<script src="/js/tabcode.js"></script>
+<!--fancybox -->
+<script src="/js/fancybox.js"></script>
+<!--gotop -->
+<script src='/js/gotop.js'></script>
+
+<!--custom -->
+<script src="/js/custom.js"></script>
+
+</body>
+
+</html>

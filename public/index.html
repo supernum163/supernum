@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>极数科技官网</title>
+  <title>极数科技</title>
 
-  <meta name="generator" content="Hugo 0.51" />
+  <meta name="generator" content="Hugo 0.53" />
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,11 +16,7 @@
   <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
   <!-- themefy-icon -->
   <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
-  <!-- highlight -->
-  <link rel="stylesheet" href="/plugins/highlight/hybrid.css">
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-
+  
 
   <style>
   :root{
@@ -33,31 +29,29 @@
   </style>
 
 
+
   <!-- Main Stylesheet -->
   
   <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
-  
+
   <!-- Custom Stylesheet-->
-  <link href="/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/custom.css">
   
-  <!-- Custom Jquiry -->
-  <script src="/css/custom.js"></script>
+  <!-- font-awesome Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <!-- fancybox Stylesheet-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
 
-  <!-- jquiry -->
-  <script src="/plugins/jquery/jquery-1.12.4.js"></script>
-
-  <!-- jquary ui -->
-  <script src="/plugins/jquery/jquery-ui.js"></script>
 
   <!--Favicon-->
-  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/image/favicon.png" type="image/x-icon">
 
 </head>
 
 <body>
 
 <!-- header -->
-<header class="hero-section overlay bg-cover banner" data-background="/images/banner.jpg">
+<header class="hero-section overlay bg-cover banner" data-background="/">
   <div class="container mb-100">
     <!-- navigation -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -81,27 +75,11 @@
           </a>
           <div class="dropdown-menu" >
             
-            <a class="dropdown-item" href="/dataanalyse_free">极速版</a>
+            <a class="dropdown-item" href="/showcase/supernumv1">极速版</a>
             
-            <a class="dropdown-item" href="/dataanalyse_vip">会员版</a>
+            <a class="dropdown-item" href="/showcase/supernumv2">会员版</a>
             
-            <a class="dropdown-item" href="/dataanalyse_customise">高级定制</a>
-            
-          </div>
-        </li>
-        
-        
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            管理员手册
-          </a>
-          <div class="dropdown-menu" >
-            
-            <a class="dropdown-item" href="/dataanalyse_free_config">极速版管理手册</a>
-            
-            <a class="dropdown-item" href="/dataanalyse_vip_config">会员版管理手册</a>
+            <a class="dropdown-item" href="/showcase/supernumv3">高级定制</a>
             
           </div>
         </li>
@@ -110,12 +88,6 @@
         
         <li class="nav-item">
             <a class="nav-link text-dark" href="/faq">常见问题</a>
-        </li>
-        
-        
-        
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="/about">关于我们</a>
         </li>
         
         
@@ -133,9 +105,11 @@
           </a>
           <div class="dropdown-menu" >
             
-            <a class="dropdown-item" href="/elements">elements</a>
+            <a class="dropdown-item" href="/installation">安装与配置</a>
             
-            <a class="dropdown-item" href="/installation">installation</a>
+            <a class="dropdown-item" href="/maintenance">管理员手册</a>
+            
+            <a class="dropdown-item" href="/tips">实用技巧</a>
             
           </div>
         </li>
@@ -168,111 +142,87 @@
               var projects = [
                 
                   {
-                    value: "Requirments",
-                    label: "Requirments",
-                    url:"\/dataanalyse_free\/requirments\/"
+                    value: "报表管理系统",
+                    label: "报表管理系统",
+                    url:"\/maintenance\/reportmanager\/"
                   },
                 
                   {
-                    value: "Requirments",
-                    label: "Requirments",
-                    url:"\/installation\/requirments\/"
+                    value: "极速版展示",
+                    label: "极速版展示",
+                    url:"\/showcase\/supernumv1\/"
                   },
                 
                   {
-                    value: "Installation",
-                    label: "Installation",
-                    url:"\/dataanalyse_free\/install\/"
+                    value: "配置虚拟系统",
+                    label: "配置虚拟系统",
+                    url:"\/installation\/virtualsystem\/"
                   },
                 
                   {
-                    value: "Installation",
-                    label: "Installation",
-                    url:"\/installation\/install\/"
+                    value: "会员版展示",
+                    label: "会员版展示",
+                    url:"\/showcase\/supernumv2\/"
                   },
                 
                   {
-                    value: "Configuration",
-                    label: "Configuration",
-                    url:"\/dataanalyse_free\/configuration\/"
+                    value: "用户管理系统",
+                    label: "用户管理系统",
+                    url:"\/maintenance\/usermanager\/"
                   },
                 
                   {
-                    value: "Configuration",
-                    label: "Configuration",
-                    url:"\/installation\/configuration\/"
+                    value: "配置数据库",
+                    label: "配置数据库",
+                    url:"\/installation\/database\/"
                   },
                 
                   {
-                    value: "Customer instructions for change of ownership",
-                    label: "Customer instructions for change of ownership",
-                    url:"\/billing-pricing\/ownership\/"
+                    value: "全局配置文件",
+                    label: "全局配置文件",
+                    url:"\/installation\/globalconfig\/"
                   },
                 
                   {
-                    value: "Customization",
-                    label: "Customization",
-                    url:"\/dataanalyse_free\/customization\/"
+                    value: "权限管理系统",
+                    label: "权限管理系统",
+                    url:"\/maintenance\/authmanager\/"
                   },
                 
                   {
-                    value: "Customization",
-                    label: "Customization",
-                    url:"\/installation\/customization\/"
+                    value: "高级定制版展示",
+                    label: "高级定制版展示",
+                    url:"\/showcase\/supernumv3\/"
                   },
                 
                   {
-                    value: "How to pay your bill",
-                    label: "How to pay your bill",
-                    url:"\/billing-pricing\/bill\/"
+                    value: "可用报表",
+                    label: "可用报表",
+                    url:"\/maintenance\/availablereports\/"
                   },
                 
                   {
-                    value: "Linux",
-                    label: "Linux",
-                    url:"\/features\/linux\/"
+                    value: "可视化管理系统",
+                    label: "可视化管理系统",
+                    url:"\/maintenance\/plotmanager\/"
                   },
                 
                   {
-                    value: "Mac OS",
-                    label: "Mac OS",
-                    url:"\/features\/mac\/"
+                    value: "阅读记录管理系统",
+                    label: "阅读记录管理系统",
+                    url:"\/maintenance\/readinghistorymanager\/"
                   },
                 
                   {
-                    value: "Manage My Sprint account",
-                    label: "Manage My Sprint account",
-                    url:"\/billing-pricing\/manage\/"
+                    value: "用户留言管理系统",
+                    label: "用户留言管理系统",
+                    url:"\/maintenance\/messagesmanager\/"
                   },
                 
                   {
-                    value: "Payment arrangements",
-                    label: "Payment arrangements",
-                    url:"\/billing-pricing\/payment\/"
-                  },
-                
-                  {
-                    value: "Routing",
-                    label: "Routing",
-                    url:"\/features\/routing\/"
-                  },
-                
-                  {
-                    value: "Ubuntu",
-                    label: "Ubuntu",
-                    url:"\/features\/ubuntu\/"
-                  },
-                
-                  {
-                    value: "Understand the different levels of profile",
-                    label: "Understand the different levels of profile",
-                    url:"\/billing-pricing\/profile\/"
-                  },
-                
-                  {
-                    value: "Windows",
-                    label: "Windows",
-                    url:"\/features\/windows\/"
+                    value: "如何访问报表平台",
+                    label: "如何访问报表平台",
+                    url:"\/installation\/howtovisit\/"
                   },
                 
               ];
@@ -304,44 +254,190 @@
 </header>
 <!-- /header -->
 
+<!-- index -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="col-12 text-center">
+      <h2 class="section-title">关于我们</h2> 
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-6 mb-4">
+        <p style="text-indent:2em;">极数科技是一个致力于通过高效率的报表平台、美观整洁的可视化方案、专业的数据处理与建模知识，帮助企业有效利用数据资源，依靠数据发现问题、分析问题、解决问题、跟踪问题，进而实现数字化管理的组织。</p>
+        <p style="text-indent:2em;">我们的产品和服务，可以帮助您快速搭建一款公司内部的报表管理平台，您只需要专注于对企业的数据资源进行加工，便可以为企业的业务操作者、管理者、决策者提供有效的数据支持，可以对企业的人力、物力、财力等资源进行数字化管理，可以为企业的客户、合作伙伴提供及时的信息。</p>
+        <p style="text-indent:2em;">以下内容是仅是我们的部分成果，如果您需要定制专属的数据资源管理系统，或者需要咨询任何与数据资源管理相关的问题，欢迎留言给我们或者发送邮件至我们的官邮<span class="highlight-text green">supernum@163.com</span>。</p>
+      </div>
+      <div class="col-lg-6 col-sm-6 mb-4">
+        <img src="/image/数字化思维.png" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-gray">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 text-center">
+             <h2 class="section-title">我们的产品</h2> 
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="/showcase/supernumv1/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <img src="/image/产品展示/supernumV1.gif" alt="supernum 极速版" />
+              <h3 class="mb-3">极速版</h3>
+              <p class="mb-0">一款高效率的报表平台，可以动态生成报表列表。</p>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="/showcase/supernumv2/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <img src="/image/产品展示/supernumV2.gif" alt="supernum 会员版" />
+              <h3 class="mb-3">会员版</h3>
+              <p class="mb-0">加入了用户与权限管理系统，可以为不同角色的用户提供特定的报表。</p>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="/showcase/supernumv3/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <img src="/image/产品展示/supernumV3.gif" alt="supernum 高级定制版" />
+              <h3 class="mb-3">高级定制版</h3>
+              <p class="mb-0">定制您需要的数据资源管理系统与前端展示UI，无限可能等您发现。</p>
+            </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section bg-gray">
+  <div class="container">
+    <div class="col-12 text-center">
+      <h2 class="section-title">不同版本的区别</h2> 
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th align="center"></th>
+          <th align="left">极速版</th>
+          <th align="left">会员版</th>
+          <th align="left">高级定制版</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td align="center">报表管理系统</td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">用户管理系统</td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">权限管理系统</td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">留言管理系统</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">报表可视化系统</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">阅读记录管理系统</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">更多资源管理系统</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-more-alt"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  
+</section>
+
+<section class="bg-gray">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="section-title">为什么选择我们</h2> 
+      </div>  
+      <ul>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>高度集成的虚拟系统</b>
+          <p>我们的数据资源管理系统使用了虚拟机技术与HTML技术，使您无需准备单独的服务器，也无需为您的用户配置任何客户端。</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>更美观的UI设计</b>  
+          <p>我们的UI设计本着美观实用的原则，使页面更加美观、信息展示方式更加合理的同时，又不降低系统本身的响应速度。</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>使用页面自适应技术</b>
+          <p>我们数据资源管理系统中的绝大部分元素都可以根据屏幕大小自动调整，使展示结果更加完美的适应手机、PC、台式机等多种设备。</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>支持对接多种数据库</b>
+          <p>我们的系统默认使用sqlite数据库，并且已经为您配置好了sqlite与mysql数据库。当然您也可以通过少量的配置，对接您所使用的数据库。</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>更丰富的资源管理系统</b>  
+          <p>我们以尽可能模块化的方式打造了用户、报表、权限、阅读记录、留言等管理系统，您可以根据自己的需求选择需要的数据资源管理系统。</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>精心设计的系统后台</b>
+          <p>我们以简单明晰的方式定义配置与运维文件，并且已经为您准备好了操作手册。您无需掌握复杂的代码，只需了解简单的行列结构就能操作。</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>支持高度定制</b>  
+          <p>更多特征，期待您与我们共同进步！</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- index -->
+
 <!-- topics -->
 <section class="section bg-gray">
   <div class="container">
       <div class="row justify-content-center">
           <div class="col-12 text-center">
-             <h2 class="section-title">产品展示</h2> 
+             <h2 class="section-title">深入了解</h2> 
           </div>
           <!-- topic-item -->
           
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/dataanalyse_free/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-panel icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">极速版</h3>
-              <p class="mb-0">一款高效率的报表平台</p>
+            <a href="/showcase/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <i class="ti-blackboard icon text-dark d-block mb-4"></i>
+              <h3 class="mb-3">产品展示</h3>
+              <p class="mb-0"></p>
             </a>
           </div>
           
           <div class="col-lg-4 col-sm-6 mb-4">
             <a href="/installation/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-panel icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">Installation</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+              <i class="ti-brush-alt icon text-dark d-block mb-4"></i>
+              <h3 class="mb-3">安装与配置</h3>
+              <p class="mb-0"></p>
             </a>
           </div>
           
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/billing-pricing/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-credit-card icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">Billing &amp; Pricing</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
-            </a>
-          </div>
-          
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/features/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-package icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">Features</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <a href="/maintenance/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <i class="ti-palette icon text-dark d-block mb-4"></i>
+              <h3 class="mb-3">管理员手册</h3>
+              <p class="mb-0"></p>
             </a>
           </div>
           
@@ -357,8 +453,8 @@
     <div class="row">
       <div class="col-12">
         <div class="section bg-white shadow text-center">
-         <h2 class="mb-4">没有找到您想要的内容 ？</h2> 
-         <p class="mb-4">您可以尝试在导航栏的常见问题中查看经常被提及的问题，在搜索框中搜索相应的关键字，或者留言给我们。</p> 
+         <h2 class="mb-4">立即与我们展开合作</h2> 
+         <p class="mb-4">如果您想要与我们展开合作，或者您仍有任何疑问，欢迎留言给我们，当然您也可以直接发送邮件至我们的官邮。</p> 
         <a href="/contact" class="btn btn-primary">联系我们</a>
         </div>
       </div>
@@ -378,14 +474,13 @@
       <div class="col-md-4 text-md-right text-center">
         <ul class="list-inline mb-3">
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/about"><i class="ti-id-badge"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/showcase"><i class="ti-blackboard"></i></a></li>
           
           <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/contact"><i class="ti-comments"></i></a></li>
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/"><i class="ti-share"></i></a></li>
-          
           <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/faq"><i class="ti-help"></i></a></li>
           
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
         </ul>
       </div>
     </div>
@@ -393,16 +488,26 @@
 </footer>
 <!-- /footer -->
 
+<!-- jquiry -->
+<script src="/plugins/jquery/jquery-1.12.4.js"></script>
+<!-- jquary ui -->
+<script src="/plugins/jquery/jquery-ui.js"></script>
 <!-- Bootstrap JS -->
 <script src="/plugins/bootstrap/bootstrap.min.js"></script>
-<!-- highlight -->
-<script src="/plugins/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 <!-- Main Script -->
 
 <script src="/js/script.min.js"></script>
 
+<!-- tabcode -->
+<script src="/js/tabcode.js"></script>
+<!--fancybox -->
+<script src="/js/fancybox.js"></script>
+<!--gotop -->
+<script src='/js/gotop.js'></script>
+
+<!--custom -->
+<script src="/js/custom.js"></script>
 
 </body>
 

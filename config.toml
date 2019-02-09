@@ -20,6 +20,7 @@ whiteColor = "#ffffff"
   title = "极数科技官网"
   dateFormat = "2006-01-02"
   home = "首页"
+  homeURL = "/"
   logo = "极数科技"
   copyright = "本站所有权归 @极数科技 所有"
   
@@ -34,38 +35,20 @@ whiteColor = "#ffffff"
           [[Languages.zh.menu.main]]
             parent = "产品中心"
             name = "极速版"
-            URL = "/dataAnalyse_free"
+            URL = "/showcase/supernumV1"
             weight = 1
   
           [[Languages.zh.menu.main]]
             parent = "产品中心"
             name = "会员版"
-            URL = "/dataAnalyse_vip"
+            URL = "/showcase/supernumV2"
             weight = 2
   
           [[Languages.zh.menu.main]]
             parent = "产品中心"
             name = "高级定制"
-            URL = "/dataAnalyse_customise"
+            URL = "/showcase/supernumV3"
             weight = 3
-            
-          
-      [[Languages.zh.menu.main]]
-        weight = 2
-        name = "管理员手册"
-        hasChildren = true
-
-          [[Languages.zh.menu.main]]
-            parent = "管理员手册"
-            name = "极速版管理手册"
-            URL = "/dataAnalyse_free_config"
-            weight = 1
-            
-          [[Languages.zh.menu.main]]
-            parent = "管理员手册"
-            name = "会员版管理手册"
-            URL = "/dataAnalyse_vip_config"
-            weight = 2
             
 
       [[Languages.zh.menu.main]]
@@ -75,31 +58,31 @@ whiteColor = "#ffffff"
         
       [[Languages.zh.menu.main]]
         weight = 4
-        name = "关于我们"
-        URL = "/about"
-        
-      [[Languages.zh.menu.main]]
-        weight = 5
         name = "联系我们"
         url = "/contact"
         
       [[Languages.zh.menu.main]]
-        weight = 6
+        weight = 5
         name = "其它"
         hasChildren = true
-
+        
           [[Languages.zh.menu.main]]
             parent = "其它"
-            name = "elements"
-            URL = "/elements"
+            name = "安装与配置"
+            URL = "/installation"
             weight = 1
             
           [[Languages.zh.menu.main]]
             parent = "其它"
-            name = "installation"
-            URL = "/installation"
+            name = "管理员手册"
+            URL = "/maintenance"
             weight = 2
 
+          [[Languages.zh.menu.main]]
+            parent = "其它"
+            name = "实用技巧"
+            URL = "/tips"
+            weight = 3
 
 
 
@@ -107,38 +90,37 @@ whiteColor = "#ffffff"
     [Languages.zh.params.banner]
       title = "帮助与支持中心"
       description = "与我们一起寻找快速搭建报表平台、报表可视化展示和数据分析的最佳解决方案"
-      image = "images/banner.jpg"
       placeholder = "请输入关键字或文章标题"
 
     # Topics
     [Languages.zh.params.topics]
-      title = "产品展示"
+      title = "深入了解"
     
     # call to action
     [Languages.zh.params.cta]
       enable = true
-      title = "没有找到您想要的内容 ？"
-      description = "您可以尝试在导航栏的常见问题中查看经常被提及的问题，在搜索框中搜索相应的关键字，或者留言给我们。"
+      title = "立即与我们展开合作"
+      description = "如果您想要与我们展开合作，或者您仍有任何疑问，欢迎留言给我们，当然您也可以直接发送邮件至我们的官邮。"
       btnText = "联系我们"
       btnURL = "/contact"
 
     # contact
     [Languages.zh.params.contact]
-      title = "留下您的联系方式"
-      content = "如果您有任何疑问，欢迎留言给我们，我们将在第一时间与您取得联系。"
+      title = "欢迎留言给我们"
+      content = "留下您的联系方式，我们将在第一时间与您取得联系。"
+      name = "您的名称"
+      email = "您的联系方式"
+      message = "留言内容"
+      send = "发送"
 
     # footer social icon
     [[Languages.zh.socialIcon]]
-      icon = "ti-id-badge"
-      URL = "/about"
+      icon = "ti-blackboard"
+      URL = "/showcase"
       
     [[Languages.zh.socialIcon]]
       icon = "ti-comments"
       URL = "/contact"
-
-    [[Languages.zh.socialIcon]]
-      icon = "ti-share"
-      URL = "/#"
       
     [[Languages.zh.socialIcon]]
       icon = "ti-help"
@@ -153,94 +135,107 @@ whiteColor = "#ffffff"
   languageName = "English"
   weight = 2
   languageCode = "en-us"
-  title = "Doc List"
+  title = "supernum"
   dateFormat = "2 January 2006"
   home = "Home"
-  logo = "Dot"
-  copyright = "The Hugo Documents are copyright © gethugothemes 2018."
+  homeURL = "/en"
+  logo = "supernum"
+  copyright = "copyrights belong to ©supernum."
 
     # navigation
     [Languages.en.menu]
     
       [[Languages.en.menu.main]]
-        weight = 2
-        name = "Faq"
+        weight = 1
+        name = "products"
+        hasChildren = true
+
+          [[Languages.en.menu.main]]
+            parent = "products"
+            name = "Primary Edition"
+            URL = "/en/showcase/supernumV1"
+            weight = 1
+  
+          [[Languages.en.menu.main]]
+            parent = "products"
+            name = "Membership Edition"
+            URL = "/en/showcase/supernumV2"
+            weight = 2
+  
+          [[Languages.en.menu.main]]
+            parent = "products"
+            name = "Custom Edition"
+            URL = "/en/showcase/supernumV3"
+            weight = 3
+            
+
+      [[Languages.en.menu.main]]
+        weight = 3
+        name = "faq"
         url = "/en/faq"
         
       [[Languages.en.menu.main]]
-        weight = 2
+        weight = 4
         name = "contact"
         url = "/en/contact"
         
       [[Languages.en.menu.main]]
-        weight = 2
-        name = "pages"
+        weight = 5
+        name = "etc"
         hasChildren = true
-
+        
           [[Languages.en.menu.main]]
-          parent = "pages"
-          name = "Elements"
-          URL = "/en/elements"
-          weight = 1
-
+            parent = "etc"
+            name = "installation"
+            URL = "/en/installation"
+            weight = 1
+            
           [[Languages.en.menu.main]]
-          parent = "pages"
-          name = "Installation"
-          URL = "/en/installation"
-          weight = 2
-
-          [[Languages.en.menu.main]]
-          parent = "pages"
-          name = "Billing and Pricing"
-          URL = "/en/billing-pricing"
-          weight = 3
-
-          [[Languages.en.menu.main]]
-          parent = "pages"
-          name = "Features"
-          URL = "/en/features"
-          weight = 4
+            parent = "etc"
+            name = "maintenance"
+            URL = "/en/maintenance"
+            weight = 2
 
 
 
 
     # banner
     [Languages.en.params.banner]
-      title = "Support Center & Knowledge base"
-      description = "Find advice and answers from our support team fast or get in touch"
-      image = "images/banner.jpg"
-      placeholder = "Have a question? Just ask here or enter terms"
+      title = "Help and Support Center"
+      description = "Follow us to find the best solution to build report platform, present visualize report and manage data"
+      image = "image/banner.jpg"
+      placeholder = "Please enter keywords or article titles"
 
     # Topics
     [Languages.en.params.topics]
-      title = "Find your answer by subject"
+      title = "Find more"
     
     # call to action
     [Languages.en.params.cta]
       enable = true
-      title = "Didn't find an answer to your question?"
-      description = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+      title = "Cooperate with us now"
+      description = "Want to cooperate with us, or still have any questions, please leave a message to us. You can also send mail directly to our official post."
       btnText = "contact us"
       btnURL = "/en/contact"
 
     # contact
     [Languages.en.params.contact]
-      title = "Got Any Questions"
-      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
-
+      title = "Leave us a message"
+      content = "Leave your contact information, we will contact you at the first time."
+      name = "Your Name"
+      email = "Your Email"
+      message = "Message"
+      send = "Send"
+      
     # footer social icon
     [[Languages.en.socialIcon]]
-      icon = "ti-facebook"
-      URL = "/#"
+      icon = "ti-blackboard"
+      URL = "/en/showcase"
       
     [[Languages.en.socialIcon]]
-      icon = "ti-twitter-alt"
-      URL = "/#"
+      icon = "ti-comments"
+      URL = "/en/contact"
       
     [[Languages.en.socialIcon]]
-      icon = "ti-vimeo-alt"
-      URL = "/#"
-      
-    [[Languages.en.socialIcon]]
-      icon = "ti-instagram"
-      URL = "/#"
+      icon = "ti-help"
+      URL = "/en/faq"

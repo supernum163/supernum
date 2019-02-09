@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Elements</title>
 
-  <meta name="generator" content="Hugo 0.51" />
+  <meta name="generator" content="Hugo 0.53" />
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +16,9 @@
   <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
   <!-- themefy-icon -->
   <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
-  <!-- highlight -->
-  <link rel="stylesheet" href="/plugins/highlight/hybrid.css">
+
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
 
 
   <style>
@@ -33,24 +32,33 @@
   </style>
 
 
-  <!-- Main Stylesheet -->
-  
-  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
-  
-  <!-- Custom Stylesheet-->
-  <link href="/css/custom.css" rel="stylesheet">
-  
-  <!-- Custom Jquiry -->
-  <script src="/css/custom.js"></script>
 
-  <!-- jquiry -->
-  <script src="/plugins/jquery/jquery-1.12.4.js"></script>
+  <!-- Custom Stylesheet-->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Custom Stylesheet-->
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  <!-- font-awesome Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+  <!-- Custom Jquiry -->
+  <script src="/js/custom.js"></script>
+  
+
 
   <!-- jquary ui -->
   <script src="/plugins/jquery/jquery-ui.js"></script>
 
   <!--Favicon-->
-  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/image/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -80,27 +88,11 @@
           </a>
           <div class="dropdown-menu" >
             
-            <a class="dropdown-item" href="/dataanalyse_free">极速版</a>
+            <a class="dropdown-item" href="/showcase/supernumv1">极速版</a>
             
-            <a class="dropdown-item" href="/dataanalyse_vip">会员版</a>
+            <a class="dropdown-item" href="/showcase/supernumv2">会员版</a>
             
-            <a class="dropdown-item" href="/dataanalyse_customise">高级定制</a>
-            
-          </div>
-        </li>
-        
-        
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            管理员手册
-          </a>
-          <div class="dropdown-menu" >
-            
-            <a class="dropdown-item" href="/dataanalyse_free_config">极速版管理手册</a>
-            
-            <a class="dropdown-item" href="/dataanalyse_vip_config">会员版管理手册</a>
+            <a class="dropdown-item" href="/showcase/supernumv3">高级定制</a>
             
           </div>
         </li>
@@ -109,12 +101,6 @@
         
         <li class="nav-item">
             <a class="nav-link text-dark" href="/faq">常见问题</a>
-        </li>
-        
-        
-        
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="/about">关于我们</a>
         </li>
         
         
@@ -132,9 +118,9 @@
           </a>
           <div class="dropdown-menu" >
             
-            <a class="dropdown-item" href="/elements">elements</a>
+            <a class="dropdown-item" href="/installation">安装与配置</a>
             
-            <a class="dropdown-item" href="/installation">installation</a>
+            <a class="dropdown-item" href="/maintenance">管理员手册</a>
             
           </div>
         </li>
@@ -166,30 +152,37 @@
 <div class="alert rounded-0 alert-primary">
   A simple primary alert—check it out!
 </div>
+  
 
 <div class="alert rounded-0 alert-secondary">
   A simple secondary alert—check it out!
 </div>
+  
 
 <div class="alert rounded-0 alert-success">
   A simple success alert—check it out!
 </div>
+  
 
 <div class="alert rounded-0 alert-danger">
   A simple danger alert—check it out!
 </div>
+  
 
 <div class="alert rounded-0 alert-warning">
   A simple warning alert—check it out!
 </div>
+  
 
 <div class="alert rounded-0 alert-info">
   A simple info alert—check it out!
 </div>
+  
 
 <div class="alert rounded-0 alert-light">
   A simple light alert—check it out!
 </div>
+  
 
 <div class="alert rounded-0 alert-dark">
   A simple dark alert—check it out!
@@ -243,14 +236,13 @@
       <div class="col-md-4 text-md-right text-center">
         <ul class="list-inline mb-3">
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/about"><i class="ti-id-badge"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/showcase"><i class="ti-blackboard"></i></a></li>
           
           <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/contact"><i class="ti-comments"></i></a></li>
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/"><i class="ti-share"></i></a></li>
-          
           <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/faq"><i class="ti-help"></i></a></li>
           
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
         </ul>
       </div>
     </div>
@@ -267,6 +259,8 @@
 <!-- Main Script -->
 
 <script src="/js/script.min.js"></script>
+
+<script src='https://csdnimg.cn/public/common/gotop/js/goTop-v1.0.min.js?v201811201455'></script>
 
 
 </body>

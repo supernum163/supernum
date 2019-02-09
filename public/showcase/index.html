@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html  lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <title>产品展示</title>
+
+  <meta name="generator" content="Hugo 0.53" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+  }  
+  </style>
+
+
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+
+  <!-- Custom Stylesheet-->
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  <!-- font-awesome Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <!-- fancybox Stylesheet-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+
+
+  <!--Favicon-->
+  <link rel="icon" href="/image/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+<!-- navigation -->
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/">极数科技</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/">首页</a>
+        </li>
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            产品中心
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/showcase/supernumv1">极速版</a>
+            
+            <a class="dropdown-item" href="/showcase/supernumv2">会员版</a>
+            
+            <a class="dropdown-item" href="/showcase/supernumv3">高级定制</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/faq">常见问题</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/contact">联系我们</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            其它
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/installation">安装与配置</a>
+            
+            <a class="dropdown-item" href="/maintenance">管理员手册</a>
+            
+            <a class="dropdown-item" href="/tips">实用技巧</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+      <ul class="list-inline text-center mb-0">
+        
+        <li class="list-inline-item"><a class="text-dark" href="/">中文</a></li>
+        
+        <li class="list-inline-item"><a class="text-dark" href="/en/">English</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+<section class="section bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+         <h1 class="text-white mb-4">帮助与支持中心</h1> 
+         <input id="search" class="form-control" placeholder="请输入关键字或文章标题"> 
+          
+          <script>
+            $(function() {
+              var projects = [
+                
+                  {
+                    value: "极速版展示",
+                    label: "极速版展示",
+                    url:"\/showcase\/supernumv1\/"
+                  },
+                
+                  {
+                    value: "会员版展示",
+                    label: "会员版展示",
+                    url:"\/showcase\/supernumv2\/"
+                  },
+                
+                  {
+                    value: "高级定制版展示",
+                    label: "高级定制版展示",
+                    url:"\/showcase\/supernumv3\/"
+                  },
+                
+              ];
+              $( "#search" ).autocomplete({
+                  minLength: 0,
+                  source: projects,
+                  focus: function( event, ui ) {
+                    $( "#search" ).val( ui.item.label );
+                      return false;
+                  },
+                  select: function( event, ui ) {
+                    $( "#search" ).val( ui.item.label );
+                    $( "#project-id" ).val( ui.item.value );
+                    return false;
+                  }
+              })
+              .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+                return $( "<li>" )
+                .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
+                .appendTo( ul );
+              };
+            });
+          </script>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="mb-5 bg-white p-4 sticky-top">
+          <a href="/showcase/">
+            <h4 class="mb-4">产品展示</h4>
+          </a>
+          <ul class="list-styled">
+            
+            <li><a href="/showcase/supernumv1/">极速版展示</a></li>
+            
+            <li><a href="/showcase/supernumv2/">会员版展示</a></li>
+            
+            <li><a href="/showcase/supernumv3/">高级定制版展示</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+    <!-- index -->
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+          <h2>产品展示</h2>
+          <div class="bg-gray p-4">
+            <p>1、极速版。以最简洁的方式给用户呈现报表，您只需少量的维护工作就可以将报表分发给所有的用户。</p>
+
+<p>
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba/supernumV1.gif" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba/supernumV1.gif" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+<br></p>
+
+<p>2、会员版。在极速版的基础上加入了用户与权限管理系统，可以给不同角色的人员展示不同的报表内容。</p>
+
+<p>
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba/supernumV2.gif" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba/supernumV2.gif" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+<br></p>
+
+<p>3、高级定制版。结合您的需求，量身定做的报表平台，其功能、外观、用户使用方式，会根据实际需求而变化。</p>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba/supernumV3.gif" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e4%ba%a7%e5%93%81%e5%b1%95%e7%a4%ba/supernumV3.gif" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+
+          </div>
+        </div>
+      </div>
+    <!-- index -->
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+        <p>本站所有权归 @极数科技 所有</p> 
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/showcase"><i class="ti-blackboard"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/contact"><i class="ti-comments"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/faq"><i class="ti-help"></i></a></li>
+          
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jquiry -->
+<script src="/plugins/jquery/jquery-1.12.4.js"></script>
+<!-- jquary ui -->
+<script src="/plugins/jquery/jquery-ui.js"></script>
+<!-- Bootstrap JS -->
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- tabcode -->
+<script src="/js/tabcode.js"></script>
+<!--fancybox -->
+<script src="/js/fancybox.js"></script>
+<!--gotop -->
+<script src='/js/gotop.js'></script>
+
+<!--custom -->
+<script src="/js/custom.js"></script>
+
+</body>
+
+</html>

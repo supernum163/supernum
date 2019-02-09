@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Doc List</title>
+  <title>supernum</title>
 
-  <meta name="generator" content="Hugo 0.51" />
+  <meta name="generator" content="Hugo 0.53" />
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,11 +16,7 @@
   <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
   <!-- themefy-icon -->
   <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
-  <!-- highlight -->
-  <link rel="stylesheet" href="/plugins/highlight/hybrid.css">
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-
+  
 
   <style>
   :root{
@@ -33,35 +29,33 @@
   </style>
 
 
+
   <!-- Main Stylesheet -->
   
   <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
-  
+
   <!-- Custom Stylesheet-->
-  <link href="/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/custom.css">
   
-  <!-- Custom Jquiry -->
-  <script src="/css/custom.js"></script>
+  <!-- font-awesome Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <!-- fancybox Stylesheet-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
 
-  <!-- jquiry -->
-  <script src="/plugins/jquery/jquery-1.12.4.js"></script>
-
-  <!-- jquary ui -->
-  <script src="/plugins/jquery/jquery-ui.js"></script>
 
   <!--Favicon-->
-  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/image/favicon.png" type="image/x-icon">
 
 </head>
 
 <body>
 
 <!-- header -->
-<header class="hero-section overlay bg-cover banner" data-background="/images/banner.jpg">
+<header class="hero-section overlay bg-cover banner" data-background="/image/banner.jpg">
   <div class="container mb-100">
     <!-- navigation -->
     <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="/">Dot</a>
+    <a class="navbar-brand" href="/">supernum</a>
     <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -70,12 +64,30 @@
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link text-dark" href="/">Home</a>
+          <a class="nav-link text-dark" href="/en">Home</a>
         </li>
         
         
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            products
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv1">Primary Edition</a>
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv2">Membership Edition</a>
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv3">Custom Edition</a>
+            
+          </div>
+        </li>
+        
+        
+        
         <li class="nav-item">
-            <a class="nav-link text-dark" href="/en/faq">Faq</a>
+            <a class="nav-link text-dark" href="/en/faq">faq</a>
         </li>
         
         
@@ -89,17 +101,13 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
-            pages
+            etc
           </a>
           <div class="dropdown-menu" >
             
-            <a class="dropdown-item" href="/en/elements">Elements</a>
+            <a class="dropdown-item" href="/en/installation">installation</a>
             
-            <a class="dropdown-item" href="/en/installation">Installation</a>
-            
-            <a class="dropdown-item" href="/en/billing-pricing">Billing and Pricing</a>
-            
-            <a class="dropdown-item" href="/en/features">Features</a>
+            <a class="dropdown-item" href="/en/maintenance">maintenance</a>
             
           </div>
         </li>
@@ -122,121 +130,55 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 text-center mx-auto">
-        <h1 class="text-white mb-3">Support Center &amp; Knowledge base</h1> 
-        <p class="text-white mb-4">Find advice and answers from our support team fast or get in touch</p> 
+        <h1 class="text-white mb-3">Help and Support Center</h1> 
+        <p class="text-white mb-4">Follow us to find the best solution to build report platform, present visualize report and manage data</p> 
         <div class="position-relative">
-           <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms"> 
+           <input id="search" class="form-control" placeholder="Please enter keywords or article titles"> 
           
           <script>
             $(function() {
               var projects = [
                 
                   {
-                    value: "Requirments",
-                    label: "Requirments",
-                    url:"\/en\/dataanalyse_free\/requirments\/"
+                    value: "Primary Edition",
+                    label: "Primary Edition",
+                    url:"\/en\/showcase\/supernumv1\/"
                   },
                 
                   {
-                    value: "Requirments",
-                    label: "Requirments",
-                    url:"\/en\/installation\/requirments\/"
+                    value: "VM Configurate",
+                    label: "VM Configurate",
+                    url:"\/en\/installation\/virtualsystem\/"
                   },
                 
                   {
-                    value: "Installation",
-                    label: "Installation",
-                    url:"\/en\/dataanalyse_free\/install\/"
+                    value: "Membership Edition",
+                    label: "Membership Edition",
+                    url:"\/en\/showcase\/supernumv2\/"
                   },
                 
                   {
-                    value: "Installation",
-                    label: "Installation",
-                    url:"\/en\/installation\/install\/"
+                    value: "DB Configurate",
+                    label: "DB Configurate",
+                    url:"\/en\/installation\/database\/"
                   },
                 
                   {
-                    value: "Configuration",
-                    label: "Configuration",
-                    url:"\/en\/dataanalyse_free\/configuration\/"
+                    value: "Custom Edition",
+                    label: "Custom Edition",
+                    url:"\/en\/showcase\/supernumv3\/"
                   },
                 
                   {
-                    value: "Configuration",
-                    label: "Configuration",
-                    url:"\/en\/installation\/configuration\/"
+                    value: "global Config",
+                    label: "global Config",
+                    url:"\/en\/installation\/globalconfig\/"
                   },
                 
                   {
-                    value: "Customer instructions for change of ownership",
-                    label: "Customer instructions for change of ownership",
-                    url:"\/en\/billing-pricing\/ownership\/"
-                  },
-                
-                  {
-                    value: "Customization",
-                    label: "Customization",
-                    url:"\/en\/dataanalyse_free\/customization\/"
-                  },
-                
-                  {
-                    value: "Customization",
-                    label: "Customization",
-                    url:"\/en\/installation\/customization\/"
-                  },
-                
-                  {
-                    value: "How to pay your bill",
-                    label: "How to pay your bill",
-                    url:"\/en\/billing-pricing\/bill\/"
-                  },
-                
-                  {
-                    value: "Linux",
-                    label: "Linux",
-                    url:"\/en\/features\/linux\/"
-                  },
-                
-                  {
-                    value: "Mac OS",
-                    label: "Mac OS",
-                    url:"\/en\/features\/mac\/"
-                  },
-                
-                  {
-                    value: "Manage My Sprint account",
-                    label: "Manage My Sprint account",
-                    url:"\/en\/billing-pricing\/manage\/"
-                  },
-                
-                  {
-                    value: "Payment arrangements",
-                    label: "Payment arrangements",
-                    url:"\/en\/billing-pricing\/payment\/"
-                  },
-                
-                  {
-                    value: "Routing",
-                    label: "Routing",
-                    url:"\/en\/features\/routing\/"
-                  },
-                
-                  {
-                    value: "Ubuntu",
-                    label: "Ubuntu",
-                    url:"\/en\/features\/ubuntu\/"
-                  },
-                
-                  {
-                    value: "Understand the different levels of profile",
-                    label: "Understand the different levels of profile",
-                    url:"\/en\/billing-pricing\/profile\/"
-                  },
-                
-                  {
-                    value: "Windows",
-                    label: "Windows",
-                    url:"\/en\/features\/windows\/"
+                    value: "Access The Report Platform",
+                    label: "Access The Report Platform",
+                    url:"\/en\/installation\/howtovisit\/"
                   },
                 
               ];
@@ -268,44 +210,189 @@
 </header>
 <!-- /header -->
 
+<!-- index -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="col-12 text-center">
+      <h2 class="section-title">About Us</h2> 
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-6 mb-4">
+        <p style="text-indent:2em;">Supernum is an organization dedicated to efficient reporting platform, beautiful and neat visualization scheme, professional data processing and modeling knowledge to help enterprises effectively use data resources, relying on data to find problems, analyze problems, solve problems, track problems, and then realize digital management.</p>
+        <p style="text-indent:2em;">The following is only part of our work. If you need a customized data management system or consult any questions related to data management, please leave a message to us or send an email to our official post.<span class="highlight-text green">supernum@163.com</span>。</p>
+      </div>
+      <div class="col-lg-6 col-sm-6 mb-4">
+        <img src="/image/数字化思维.png" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-gray">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 text-center">
+             <h2 class="section-title">Our Products</h2> 
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="/showcase/supernumv1/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <img src="/image/产品展示/supernumV1.gif" alt="Primary Edition" />
+              <h3 class="mb-3">Primary Edition</h3>
+              <p class="mb-0">Presenting reports to users in the most concise way, you can distribute reports to all users with only a small amount of maintenance work. </p>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="/showcase/supernumv2/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <img src="/image/产品展示/supernumV2.gif" alt="supernum Membership Edition" />
+              <h3 class="mb-3">Membership Edition</h3>
+              <p class="mb-0">Membership Edition, User and authority management system are added on the basis of the Primary Edition, which can distribute different reports to users with different roles. </p>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="/showcase/supernumv3/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <img src="/image/产品展示/supernumV3.gif" alt="supernum Custom Edition" />
+              <h3 class="mb-3">Custom Edition</h3>
+              <p class="mb-0">Custom Edition, According to your needs, we will tailor-made data resource management platform for you.</p>
+            </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section bg-gray">
+  <div class="container">
+    <div class="col-12 text-center">
+      <h2 class="section-title">The Differences</h2> 
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th align="center"></th>
+          <th align="left">Primary Edition</th>
+          <th align="left">Membership Edition</th>
+          <th align="left">Custom Edition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td align="center">Report Manager</td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">User Manager</td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">Authority Manager</td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">Message Manager</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">Visualization Manager</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">Reading History Manager</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-check"></i></td>
+        </tr>
+        <tr>
+          <td align="center">More</td>
+          <td align="left"></td>
+          <td align="left"></td>
+          <td align="left"><i class="ti-more-alt"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  
+</section>
+
+<section class="bg-gray">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Distinguishing Features</h2> 
+      </div>  
+      <ul>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>Highly integrated virtual system</b>
+          <p>Our data resource management system uses virtual machine technology and HTML technology, so that you do not need to prepare a separate server, nor do you need to configure any client for your users.</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>More neatly UI design</b>  
+          <p>Our UI design is based on the principle of beauty and practicality, making the page more beautiful, the way of information display more reasonable, while not reducing the response speed of the system itself.</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>Using Page Adaptation Technology</b>
+          <p>Most of the elements in our data resource management system can be adjusted automatically according to the screen size, making the display results more perfect for mobile phones, PC, desktop and other devices.</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>Support multiple databases</b>
+          <p>Our system uses SQLite database by default and has already configured SQLite and MySQL database for you. Of course, you can also dock the database you use with a small amount of configuration.</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>Richer Resource Management System</b>  
+          <p>We have built user, report, authority, reading record, message and other management systems in a modular way as far as possible. You can choose the data resource management system you need according to your own needs.</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>Well-designed system background</b>
+          <p>We have defined the configuration and maintenance files in a simple and clear way, and we have prepared the operation manual for you. You don't need to master complex code, you just need to understand simple row and column structure to operate.</p>
+        </li>
+        <li><i class="ti-check-box"></i>&emsp;
+          <b>Support customizing</b>  
+          <p>More features, Infinite possibilities await your discovery</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- index -->
+
 <!-- topics -->
 <section class="section bg-gray">
   <div class="container">
       <div class="row justify-content-center">
           <div class="col-12 text-center">
-             <h2 class="section-title">Find your answer by subject</h2> 
+             <h2 class="section-title">Find more</h2> 
           </div>
           <!-- topic-item -->
           
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/en/dataanalyse_free/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-panel icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">Installation</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <a href="/en/showcase/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <i class="ti-blackboard icon text-dark d-block mb-4"></i>
+              <h3 class="mb-3">showcase</h3>
+              <p class="mb-0"></p>
             </a>
           </div>
           
           <div class="col-lg-4 col-sm-6 mb-4">
             <a href="/en/installation/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-panel icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">Installation</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+              <i class="ti-brush-alt icon text-dark d-block mb-4"></i>
+              <h3 class="mb-3">Installation and Configuration</h3>
+              <p class="mb-0"></p>
             </a>
           </div>
           
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/en/billing-pricing/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-credit-card icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">Billing &amp; Pricing</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
-            </a>
-          </div>
-          
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/en/features/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <i class="ti-package icon text-dark d-block mb-4"></i>
-              <h3 class="mb-3">Features</h3>
-              <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <a href="/en/maintenance/" class="px-4 py-5 bg-white shadow text-center d-block">
+              <i class="ti-palette icon text-dark d-block mb-4"></i>
+              <h3 class="mb-3">maintenance</h3>
+              <p class="mb-0"></p>
             </a>
           </div>
           
@@ -321,8 +408,8 @@
     <div class="row">
       <div class="col-12">
         <div class="section bg-white shadow text-center">
-         <h2 class="mb-4">Didn&#39;t find an answer to your question?</h2> 
-         <p class="mb-4">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam.</p> 
+         <h2 class="mb-4">Cooperate with us now</h2> 
+         <p class="mb-4">Want to cooperate with us, or still have any questions, please leave a message to us. You can also send mail directly to our official post.</p> 
         <a href="/en/contact" class="btn btn-primary">contact us</a>
         </div>
       </div>
@@ -337,19 +424,18 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 text-md-left text-center">
-        <p>The Hugo Documents are copyright © gethugothemes 2018.</p> 
+        <p>copyrights belong to ©supernum.</p> 
       </div>
       <div class="col-md-4 text-md-right text-center">
         <ul class="list-inline mb-3">
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/"><i class="ti-facebook"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/showcase"><i class="ti-blackboard"></i></a></li>
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/"><i class="ti-twitter-alt"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/contact"><i class="ti-comments"></i></a></li>
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/"><i class="ti-vimeo-alt"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/faq"><i class="ti-help"></i></a></li>
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/"><i class="ti-instagram"></i></a></li>
-          
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
         </ul>
       </div>
     </div>
@@ -357,16 +443,26 @@
 </footer>
 <!-- /footer -->
 
+<!-- jquiry -->
+<script src="/plugins/jquery/jquery-1.12.4.js"></script>
+<!-- jquary ui -->
+<script src="/plugins/jquery/jquery-ui.js"></script>
 <!-- Bootstrap JS -->
 <script src="/plugins/bootstrap/bootstrap.min.js"></script>
-<!-- highlight -->
-<script src="/plugins/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 <!-- Main Script -->
 
 <script src="/js/script.min.js"></script>
 
+<!-- tabcode -->
+<script src="/js/tabcode.js"></script>
+<!--fancybox -->
+<script src="/js/fancybox.js"></script>
+<!--gotop -->
+<script src='/js/gotop.js'></script>
+
+<!--custom -->
+<script src="/js/custom.js"></script>
 
 </body>
 

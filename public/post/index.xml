@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 极数科技官网</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on 极数科技官网</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>本站所有权归 @极数科技 所有</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 09:10:27 +0600</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>实用技巧</title>
+      <link>/post/tips/</link>
+      <pubDate>Tue, 01 Jan 2019 09:10:27 +0600</pubDate>
+      
+      <guid>/post/tips/</guid>
+      <description> 如何与虚拟机共享粘贴版 您需要在虚拟机关机的状态下打开virtualbox软件，在设置 -&amp;gt; 常规 -&amp;gt; 高级中，将共享粘贴版的值设为双向。
+如何使用虚拟机的共享文件夹 我们已经在虚拟机中为您配置好了smb共享文件协议，虚拟机中共享文件夹的位置在\\media\share，您只需在window资源管理器的地址栏中，输入\\supernum\share即可访问该共享文件夹，访问密码与默认开机密码一致。
+如果您修改了虚拟机的开机密码、主机名或共享文件夹的位置，注意替换上文中对应的信息。
+在虚拟机中安装软件 为了提高工作效率，我们以最小化安装的形式为您配置了虚拟机。如果您希望虚拟机能够帮您完成更多工作，那么您可能需要打开ubuntu 软件，并从中搜索您所需要的软件。以下是我们推荐安装的应用列表：
+ LibreOffice&amp;emsp;linux中的office套件
+ Thunderbird&amp;emsp;邮件收发软件
+ Transmission&amp;emsp;BT文件传输软件
+ Remmina&amp;emsp;远程连接软件
+ shotwall&amp;emsp;图片编辑软件
+ Rhythmbox&amp;emsp;音乐播放软件
+ VLC&amp;emsp;视频播放软件
+  </description>
+    </item>
+    
+  </channel>
+</rss>

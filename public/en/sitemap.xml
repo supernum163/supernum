@@ -3,173 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/dataanalyse_free/requirments/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/showcase/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/dataanalyse_free/requirments/"
+                href="/showcase/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/dataanalyse_free/requirments/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/installation/requirments/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/installation/requirments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/installation/requirments/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/dataanalyse_free/install/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/dataanalyse_free/install/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/dataanalyse_free/install/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/installation/install/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/installation/install/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/installation/install/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/dataanalyse_free/configuration/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/dataanalyse_free/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/dataanalyse_free/configuration/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/installation/configuration/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/installation/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/installation/configuration/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/billing-pricing/ownership/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/billing-pricing/ownership/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/billing-pricing/ownership/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/dataanalyse_free/customization/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/dataanalyse_free/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/dataanalyse_free/customization/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/installation/customization/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/installation/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/installation/customization/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/billing-pricing/bill/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/billing-pricing/bill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/billing-pricing/bill/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/dataanalyse_free/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/dataanalyse_free/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/dataanalyse_free/"
+                href="/en/showcase/"
                 />
   </url>
   
   <url>
     <loc>/en/installation/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -183,152 +33,136 @@
   </url>
   
   <url>
-    <loc>/en/features/linux/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/showcase/supernumv1/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/features/linux/"
+                href="/showcase/supernumv1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/features/linux/"
+                href="/en/showcase/supernumv1/"
                 />
   </url>
   
   <url>
-    <loc>/en/features/mac/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/installation/virtualsystem/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/features/mac/"
+                href="/installation/virtualsystem/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/features/mac/"
+                href="/en/installation/virtualsystem/"
                 />
   </url>
   
   <url>
-    <loc>/en/billing-pricing/manage/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/showcase/supernumv2/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/billing-pricing/manage/"
+                href="/showcase/supernumv2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/billing-pricing/manage/"
+                href="/en/showcase/supernumv2/"
                 />
   </url>
   
   <url>
-    <loc>/en/billing-pricing/payment/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/maintenance/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/billing-pricing/payment/"
+                href="/maintenance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/billing-pricing/payment/"
+                href="/en/maintenance/"
                 />
   </url>
   
   <url>
-    <loc>/en/features/routing/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/installation/database/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/features/routing/"
+                href="/installation/database/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/features/routing/"
+                href="/en/installation/database/"
                 />
   </url>
   
   <url>
-    <loc>/en/features/ubuntu/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/showcase/supernumv3/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/features/ubuntu/"
+                href="/showcase/supernumv3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/features/ubuntu/"
+                href="/en/showcase/supernumv3/"
                 />
   </url>
   
   <url>
-    <loc>/en/billing-pricing/profile/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/installation/globalconfig/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/billing-pricing/profile/"
+                href="/installation/globalconfig/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/billing-pricing/profile/"
+                href="/en/installation/globalconfig/"
                 />
   </url>
   
   <url>
-    <loc>/en/features/windows/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <loc>/en/installation/howtovisit/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/features/windows/"
+                href="/installation/howtovisit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/features/windows/"
+                href="/en/installation/howtovisit/"
                 />
   </url>
   
   <url>
-    <loc>/en/billing-pricing/</loc>
-    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+    <loc>/en/</loc>
+    <lastmod>2019-01-01T09:10:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/billing-pricing/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/billing-pricing/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/features/</loc>
-    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/features/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/features/"
+                href="/en/"
                 />
   </url>
   
@@ -344,36 +178,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/contact/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/about/</loc>
-    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/elements/</loc>
-    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/elements/"
                 />
   </url>
   
@@ -404,22 +208,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
                 />
   </url>
   

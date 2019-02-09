@@ -13,14 +13,15 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-       {{ with .Site.Params.contact.title }} <h2 class="section-title text-primary">{{ . }}</h2> {{ end }}
+        <h2 class="section-title text-primary">{{ .Site.Params.contact.title }}</h2> 
        {{ with .Site.Params.contact.content }} <p>{{ . | safeHTML }}</p> {{ end }}
         <form name="contact" method="POST" data-netlify="true" action="/">
-          <input type="text" id="name" name="name" placeholder="Your Name" class="form-control mb-4 shadow rounded-0">
-          <input type="email" id="mail" name="mail" placeholder="Your Email" class="form-control mb-4 shadow rounded-0">
-          <textarea name="message" id="message" placeholder="Message" class="form-control mb-4 shadow rounded-0"></textarea>
+          <input type="text" id="name" name="name" placeholder="{{ .Site.Params.contact.name }}"  class="form-control mb-4 shadow rounded-0">
+          <input type="email" id="mail" name="mail" placeholder="{{ .Site.Params.contact.email }}" class="form-control mb-4 shadow rounded-0">
+          <textarea name="message" id="message" placeholder="{{ .Site.Params.contact.message }}" class="form-control mb-4 shadow rounded-0"></textarea>
           <div data-netlify-recaptcha="false"></div>
-          <button type="submit" value="send" class="btn btn-primary">Send</button>
+          
+          <button type="submit" value="send" class="btn btn-primary">{{ .Site.Params.contact.send }} </button>
         </form>
       </div>
     </div>
