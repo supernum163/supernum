@@ -21,6 +21,14 @@ date: 2019-01-01T09:10:27+06:00
 
 1. {{< hl-text blue >}}Thunderbird{{< /hl-text >}}&emsp;邮件收发软件  
 
+1. {{< hl-text blue >}}DB Browser for SQLite{{< /hl-text >}}&emsp;SQLite数据库图形化管理界面  
+
+1. {{< hl-text blue >}}MySQL Workbench{{< /hl-text >}}&emsp;MySQL数据库图形化管理软件  
+
+1. {{< hl-text blue >}}MySQL Workbench{{< /hl-text >}}&emsp;MySQL数据库图形化管理软件  
+
+1. {{< hl-text blue >}}DataGrip{{< /hl-text >}}&emsp;一款全能的数据库图形化管理软件，支持多种数据库  
+
 1. {{< hl-text blue >}}Transmission{{< /hl-text >}}&emsp;BT文件传输软件  
 
 1. {{< hl-text blue >}}Remmina{{< /hl-text >}}&emsp;远程连接软件  

@@ -28,5 +28,5 @@ So far, your virtual system has been configured. You can select the virtual mach
 
 <br>
 
-> Note that the default user name and password of the virtual machine are **supernum**, **supernum 163**, respectively. You need to change the root user's security password at the first time after login.  
+> Note that the default user name and password of the virtual machine are **supernum**, **supernum**, respectively. You need to change the root user's security password at the first time after login.  
   
