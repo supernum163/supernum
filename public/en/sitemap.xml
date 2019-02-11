@@ -48,6 +48,21 @@
   </url>
   
   <url>
+    <loc>/en/maintenance/reportmanager/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/reportmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/reportmanager/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/installation/virtualsystem/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -74,6 +89,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/showcase/supernumv2/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/maintenance/usermanager/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/usermanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/usermanager/"
                 />
   </url>
   
@@ -107,6 +137,21 @@
   </url>
   
   <url>
+    <loc>/en/maintenance/authmanager/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/authmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/authmanager/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/showcase/supernumv3/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -133,6 +178,66 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/installation/globalconfig/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/maintenance/availablereports/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/availablereports/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/availablereports/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/maintenance/plotmanager/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/plotmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/plotmanager/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/maintenance/readinghistorymanager/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/readinghistorymanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/readinghistorymanager/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/maintenance/messagesmanager/</loc>
+    <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/messagesmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/messagesmanager/"
                 />
   </url>
   

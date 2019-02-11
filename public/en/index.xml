@@ -23,6 +23,21 @@
     </item>
     
     <item>
+      <title>Report Management</title>
+      <link>/en/maintenance/reportmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/maintenance/reportmanager/</guid>
+      <description>By default, our report management system manages reports according to ___reportTable__ . You can refer to the following SQL statements to establish the __reportTable__, of course, you need to modify some content to for your database, such as the way to query the current time in SQLite is DATETIME(&#39;now&#39;, &#39;localtime&#39;), in SQL Server is GETDATE() .
+  CREATE __reportTable__     1
+2
+3
+4
+5
+6</description>
+    </item>
+    
+    <item>
       <title>VM Configurate</title>
       <link>/en/installation/virtualsystem/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
@@ -44,6 +59,25 @@ Secondly, you need to install VirtualBox installer just like normal software, op
     </item>
     
     <item>
+      <title>User Management</title>
+      <link>/en/maintenance/usermanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/maintenance/usermanager/</guid>
+      <description>By default, our user management system manages users according to the __userTable__. You can refer to the following SQL statements to establish the __userTable__.
+  CREATE     1
+2
+3
+4
+5
+6
+7
+8
+9
+  CREATE TABLE IF NOT EXISTS __userTable__ ( userName TEXT UNIQUE NOT NULL, department TEXT, password VARCHAR(40, 40) NOT NULL, registerTime DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, lastActiveTime DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, loginTryTime INT DEFAULT 0 NOT NULL, permission INT DEFAULT 0 NOT NULL );      In the _\userTable__, you need to create at least the following columns, userName, password, registerTime, lastActiveTime, loginTryTime, permission, other cloumns can be created or deleted according to your needs.</description>
+    </item>
+    
+    <item>
       <title>DB Configurate</title>
       <link>/en/installation/database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -52,6 +86,24 @@ Secondly, you need to install VirtualBox installer just like normal software, op
       <description>Configuring different types of database connections requires slightly different steps.
 For SQLite, you only need to provide the path of the database file of the SQLite. Of course, you can skip this configuration by using our default SQLLite database file.
 For MySQL, SQL Server, and other databases, you need to provide the user name and password necessary to connect to the database, as well as the database name to connect to.</description>
+    </item>
+    
+    <item>
+      <title>Authentication Management</title>
+      <link>/en/maintenance/authmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/maintenance/authmanager/</guid>
+      <description>By default, our Authentication management system manages the user&amp;rsquo;s permission to read reports according to the __authTable__  table. You can refer to the following SQL statements to establish the __authTable__
+  CREATE __authTable__      1
+2
+3
+4
+5
+6
+7
+8
+  CREATE TABLE IF NOT EXISTS __authTable__ ( reportName TEXT NOT NULL, authGiver TEXT, reportUser TEXT NOT NULL, colSub TEXT DEFAULT &amp;#34;*&amp;#34; NOT NULL, rowSub TEXT DEFAULT NULL, authClaim TEXT );      In the __authTable__, you need to create at least the following columns, reportName, reportUser, colSub, rowSub, other cloumns can be created or deleted according to your needs.</description>
     </item>
     
     <item>
@@ -74,6 +126,62 @@ For MySQL, SQL Server, and other databases, you need to provide the user name an
 The content of the global configuration file is roughly as follows. The global configuration file will be different for different editions or products with different systems.
   Setting global configuration variables     1
 2</description>
+    </item>
+    
+    <item>
+      <title>Available Reports</title>
+      <link>/en/maintenance/availablereports/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/maintenance/availablereports/</guid>
+      <description>The first report that the report platform displays by default is a list of reports that users can view. For different versions of products, the way to achieve this function is slightly different.
+Primary Edition For the Primary Edition, you just need to create a __availableReports__  view, and insert the location, name, category and other information of the view as the first data into the __reportTable__  table. You can refer to the following SQL statements to create the __availableReports__ view.</description>
+    </item>
+    
+    <item>
+      <title>Visualization Management</title>
+      <link>/en/maintenance/plotmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/maintenance/plotmanager/</guid>
+      <description>Visualization Management  is present reports visually, essentially, so you don&amp;rsquo;t need to create additional system management tables, you just need to modify the existing system management tables slightly.。
+Firstly，you need to modify __reportTable__ ， add a plotCommand  cloumn.
+  modify __reportTable__     1
+2
+  ALTER TABLE __reportTable__ ADD COLUMN plotCommand TEXT;      secondly，you need to modify __authTable__， add a plotCommand  column.</description>
+    </item>
+    
+    <item>
+      <title>Reading History Management</title>
+      <link>/en/maintenance/readinghistorymanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/maintenance/readinghistorymanager/</guid>
+      <description>By default, our user management system manages reading records according to the __readingHistoryTable__ . You can refer to the following SQL statement to create ** __readingHistoryTable__**.
+  CREATE __readingHistoryTable__     1
+2
+3
+4
+5
+6
+  CREATE TABLE IF NOT EXISTS __readingHistoryTable__ ( reportName TEXT NOT NULL, username TEXT NOT NULL, lastReadingTime DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, readingCount INT DEFAULT 1 NOT NULL );      In ** __readingHistoryTable__**, you need to create at least the following columns: reportName, username, lastReadingTime, readingCount, other columns can be created or deleted according to actual needs.</description>
+    </item>
+    
+    <item>
+      <title>Message Management</title>
+      <link>/en/maintenance/messagesmanager/</link>
+      <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
+      
+      <guid>/en/maintenance/messagesmanager/</guid>
+      <description>By default, our user management system manages reports according to the __messagesTable__  table. You can refer to the following SQL statement to establish __ messagesTable__ table.
+  CREATE __messagesTable__     1
+2
+3
+4
+5
+6
+7
+  CREATE TABLE IF NOT EXISTS __messagesTable__ ( sender TEXT NOT NULL, receiver TEXT NOT NULL, validTime DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;)) NOT NULL, expireTime DATETIME DEFAULT (DATETIME(&amp;#39;now&amp;#39;, &amp;#39;localtime&amp;#39;, &amp;#39;&amp;#43;90 day&amp;#39;)), content TEXT NOT NULL );      In the __ messagesTable__ , you need to create at least the following cloumns: sender, receiver, validTime, expireTime, content, other cloumns can be created or deleted according to your needs.</description>
     </item>
     
     <item>

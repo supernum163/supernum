@@ -35,6 +35,16 @@
   <url>
     <loc>/maintenance/reportmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/reportmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/reportmanager/"
+                />
   </url>
   
   <url>
@@ -85,6 +95,16 @@
   <url>
     <loc>/maintenance/usermanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/usermanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/usermanager/"
+                />
   </url>
   
   <url>
@@ -135,6 +155,16 @@
   <url>
     <loc>/maintenance/authmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/authmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/authmanager/"
+                />
   </url>
   
   <url>
@@ -155,21 +185,61 @@
   <url>
     <loc>/maintenance/availablereports/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/availablereports/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/availablereports/"
+                />
   </url>
   
   <url>
     <loc>/maintenance/plotmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/plotmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/plotmanager/"
+                />
   </url>
   
   <url>
     <loc>/maintenance/readinghistorymanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/readinghistorymanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/readinghistorymanager/"
+                />
   </url>
   
   <url>
     <loc>/maintenance/messagesmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/maintenance/messagesmanager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/maintenance/messagesmanager/"
+                />
   </url>
   
   <url>

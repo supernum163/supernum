@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>权限管理系统</title>
 
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.51" />
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -284,7 +284,7 @@
 
 <p><span class="highlight-text green">记录筛选</span>即允许用户查看那些记录。默认情况下为空，即允许用户查看全部记录，您可以使用静态SQL语句或验证用户身份的方式，限制用户所能访问的记录。比如：<span class="highlight-text blue">where rowid <= 10</span>，限制用户查询前10条记录，<span class="highlight-text blue">where 销售人员 = %用户名称%</span>， 限制用户只能访问该报表中<span class="highlight-text yellow">销售人员</span>的名字等于用户名称的记录。其中<span class="highlight-text blue">%</span>之间的信息将被逐一替换为用户的实际身份信息。</p>
 
-<p><strong>__报表权限管理__</strong>表的每一条记录都可以解读为：授权给某个用户查看某个报表的那些行、那些列。为了便利权限分配，我们引入了共用账号的概念，将报表权限分配给共用账号将使所有用户都能查看该报表。权限也可以被覆盖，比如我们将<span class="highlight-text yellow">汽车销售详情表</span>赋权给共用账号（所有人）可以查看报表中<span class="highlight-text yellow">销售人员</span>的名字等于用户名称的记录，而在之前的记录中，我们又赋权<span class="highlight-text yellow">用户03</span>可以查看<span class="highlight-text yellow">汽车销售详情表</span>的全表。则<span class="highlight-text yellow">用户03</span>就可以查看全表，而其它用户只能查看报表中<span class="highlight-text yellow">销售人员</span>的名字等于用户名称的记录。</p>
+<p><strong>__报表权限管理__</strong>表的每一条记录都可以解读为：授权给某个用户查看某个报表的那些行、那些列。为了便利权限分配，我们引入了<span class="highlight-text yellow">共用账号</span>的概念，将报表权限分配给共用账号将使所有用户都能查看该报表。权限也可以被覆盖，比如我们将<span class="highlight-text yellow">汽车销售详情表</span>赋权给共用账号（所有人）可以查看报表中<span class="highlight-text yellow">销售人员</span>的名字等于用户名称的记录，而在之前的记录中，我们又赋权<span class="highlight-text yellow">用户03</span>可以查看<span class="highlight-text yellow">汽车销售详情表</span>的全表。则<span class="highlight-text yellow">用户03</span>就可以查看全表，而其它用户只能查看报表中<span class="highlight-text yellow">销售人员</span>的名字等于用户名称的记录。</p>
 
 <blockquote>
 <p>本质上报表权限管理是对用户可以查看哪些报表内容进行管理，所以您只需要在有新报表上传，或有新用户注册的时候，给合适的用户查看合适的报表内容即可。</p>

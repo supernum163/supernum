@@ -19,7 +19,7 @@ Authentication Management     | No                     | Yes                    
 Visualization Management      | No                     | No                       | Maybe  
 Reading History Management    | No                     | No                       | Maybe   
 Message Management            | No                     | No                       | Maybe  
- Available Reports            | Yes                   | Yes                       | Maybe
+Available Reports             | Yes                   | Yes                       | Maybe
 <br>
 
 In addition, you do not have to follow the management manual method, one by one to establish the system table corresponding to the resource management system. When we help you configure the system, we will send you an SQL file to create the system table. You only need to refer to the SQL file to establish the system table.  

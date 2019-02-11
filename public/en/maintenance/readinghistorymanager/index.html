@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html  lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reading History Management</title>
+
+  <meta name="generator" content="Hugo 0.51" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+  }  
+  </style>
+
+
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+
+  <!-- Custom Stylesheet-->
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  <!-- font-awesome Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <!-- fancybox Stylesheet-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+
+
+  <!--Favicon-->
+  <link rel="icon" href="/image/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- navigation -->
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/">supernum</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/en">Home</a>
+        </li>
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            products
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv1">Primary Edition</a>
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv2">Membership Edition</a>
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv3">Custom Edition</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/en/faq">faq</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/en/contact">contact</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            etc
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/en/installation">installation</a>
+            
+            <a class="dropdown-item" href="/en/maintenance">maintenance</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+      <ul class="list-inline text-center mb-0">
+        
+        <li class="list-inline-item"><a class="text-dark" href="/">中文</a></li>
+        
+        <li class="list-inline-item"><a class="text-dark" href="/en/">English</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+<section class="single pt-5 bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="p-4 bg-white sticky-top">
+            
+            <nav class="sidebar-menu">
+              <ul class="list-styled">
+            <li class=""><a href="/en/showcase/">showcase</a>
+              <ul class="">
+            <li class=""><a href="/en/showcase/supernumv1/">Primary Edition</a>
+            </li>
+            <li class=""><a href="/en/showcase/supernumv2/">Membership Edition</a>
+            </li>
+            <li class=""><a href="/en/showcase/supernumv3/">Custom Edition</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/en/installation/">Installation and Configuration</a>
+              <ul class="">
+            <li class=""><a href="/en/installation/virtualsystem/">VM Configurate</a>
+            </li>
+            <li class=""><a href="/en/installation/database/">DB Configurate</a>
+            </li>
+            <li class=""><a href="/en/installation/globalconfig/">global Config</a>
+            </li>
+            <li class=""><a href="/en/installation/howtovisit/">Access The Report Platform</a>
+            </li></ul>
+              
+            </li>
+            <li class="parent d-block "><a href="/en/maintenance/">maintenance</a>
+              <ul class="sub-menu">
+            <li class=""><a href="/en/maintenance/reportmanager/">Report Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/usermanager/">User Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/authmanager/">Authentication Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/availablereports/">Available Reports</a>
+            </li>
+            <li class=""><a href="/en/maintenance/plotmanager/">Visualization Management</a>
+            </li>
+            <li class=" active "><a href="/en/maintenance/readinghistorymanager/">Reading History Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/messagesmanager/">Message Management</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/en/contact/">Contact</a>
+            </li>
+            <li class=""><a href="/en/faq/">Frequently Asked Questions</a>
+            </li></ul>
+            </nav>
+    
+            
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+            <h2>Reading History Management</h2>
+            <p>By default, our user management system manages reading records according to the <span class="highlight-text red"> __readingHistoryTable__ </span>. You can refer to the following SQL statement to create ** __readingHistoryTable__**.</p>
+
+<p>
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>CREATE  __readingHistoryTable__</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">CREATE TABLE IF NOT EXISTS __readingHistoryTable__ (
+  reportName TEXT NOT NULL,
+  username TEXT NOT NULL,
+  lastReadingTime DATETIME  DEFAULT (DATETIME(&#39;now&#39;, &#39;localtime&#39;)) NOT NULL,
+  readingCount INT DEFAULT 1 NOT NULL
+);</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<br>
+In ** __readingHistoryTable__**, you need to create at least the following columns: <strong>reportName</strong>, <strong>username</strong>, <strong>lastReadingTime</strong>, <strong>readingCount</strong>, other columns can be created or deleted according to actual needs.</p>
+
+<p>
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e7%ae%a1%e7%90%86%e5%91%98%e6%89%8b%e5%86%8c/%e9%98%85%e8%af%bb%e8%ae%b0%e5%bd%95%e7%ae%a1%e7%90%86.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e7%ae%a1%e7%90%86%e5%91%98%e6%89%8b%e5%86%8c/%e9%98%85%e8%af%bb%e8%ae%b0%e5%bd%95%e7%ae%a1%e7%90%86.png" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+<br></p>
+
+<p><span class="highlight-text green"> rreportName </span> is the report name you defined in the <a href="/maintenance/ReportManagement/">report management system</a>.</p>
+
+<p><span class="highlight-text Green"> username </span> is the user name you defined in the User Management System (/maintenance/UserManagement/).</p>
+
+<p><span class="highlight-text green"> lastReadingTime </span> is the last time the user reads the report.</p>
+
+<p><span class="highlight-text green"> readingCount </span> is the total number of times users read the report.</p>
+
+<p>At the same time, you need to add a <strong>lastModifyTime</strong> column to <span class="highlight-text red"> __reportTable__ </span>.</p>
+
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>ALTER __reportTable__ </span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">ALTER TABLE __reportTable__ 
+    ADD COLUMN lastModifyTime DATETIME  DEFAULT (DATETIME(&#39;now&#39;, &#39;localtime&#39;)) NOT NULL,</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
+<p>User&rsquo;s reading progress will be defined according to the <span class="highlight-text green"> lastModifyTime </span> column in <span class="highlight-text red"> __reportTable__ </span> and the <span class="highlight-text green"> lastReadingTime </span> column in <span class="highlight-text red"> __readingHistoryTable__ </span>. If <strong>lastReadingTime</strong> is later than <strong>lastModifyTime</strong> then <span class="highlight-text yellow"> read </span>, less than <span class="highlight-text yellow"> updated </span>, and if <strong>lastReadingTime</strong> is NULL then  <span class="highlight-text yellow"> unread </span>.</p>
+
+<blockquote>
+<p>Data in <strong>__readingHistoryTable__</strong> will automatically updated according to users&rsquo; actual reading situation. You just need to modify the <strong>lastModifyTime</strong> column of **__ reportTable__ ** when you create or modify a report.</p>
+</blockquote>
+<nav class="pagination mt-3"><a class="nav nav-prev" href="/en/maintenance/plotmanager/" title="Visualization Management"><i class="ti-arrow-left mr-2"></i>Visualization Management</a>
+            <a class="nav nav-next" href="/en/maintenance/messagesmanager/" title="Message Management">Message Management<i class="ti-arrow-right ml-2"></i></a>
+            </nav></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+        <p>copyrights belong to ©supernum.</p> 
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/showcase"><i class="ti-blackboard"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/contact"><i class="ti-comments"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/faq"><i class="ti-help"></i></a></li>
+          
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jquiry -->
+<script src="/plugins/jquery/jquery-1.12.4.js"></script>
+<!-- jquary ui -->
+<script src="/plugins/jquery/jquery-ui.js"></script>
+<!-- Bootstrap JS -->
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- tabcode -->
+<script src="/js/tabcode.js"></script>
+<!--fancybox -->
+<script src="/js/fancybox.js"></script>
+<!--gotop -->
+<script src='/js/gotop.js'></script>
+
+<!--custom -->
+<script src="/js/custom.js"></script>
+
+</body>
+
+</html>

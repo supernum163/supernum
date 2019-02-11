@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html  lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Authentication Management</title>
+
+  <meta name="generator" content="Hugo 0.51" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+  }  
+  </style>
+
+
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+
+  <!-- Custom Stylesheet-->
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  <!-- font-awesome Stylesheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <!-- fancybox Stylesheet-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+
+
+  <!--Favicon-->
+  <link rel="icon" href="/image/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- navigation -->
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/">supernum</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/en">Home</a>
+        </li>
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            products
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv1">Primary Edition</a>
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv2">Membership Edition</a>
+            
+            <a class="dropdown-item" href="/en/showcase/supernumv3">Custom Edition</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/en/faq">faq</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/en/contact">contact</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            etc
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/en/installation">installation</a>
+            
+            <a class="dropdown-item" href="/en/maintenance">maintenance</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+      <ul class="list-inline text-center mb-0">
+        
+        <li class="list-inline-item"><a class="text-dark" href="/">中文</a></li>
+        
+        <li class="list-inline-item"><a class="text-dark" href="/en/">English</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+<section class="single pt-5 bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="p-4 bg-white sticky-top">
+            
+            <nav class="sidebar-menu">
+              <ul class="list-styled">
+            <li class=""><a href="/en/showcase/">showcase</a>
+              <ul class="">
+            <li class=""><a href="/en/showcase/supernumv1/">Primary Edition</a>
+            </li>
+            <li class=""><a href="/en/showcase/supernumv2/">Membership Edition</a>
+            </li>
+            <li class=""><a href="/en/showcase/supernumv3/">Custom Edition</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/en/installation/">Installation and Configuration</a>
+              <ul class="">
+            <li class=""><a href="/en/installation/virtualsystem/">VM Configurate</a>
+            </li>
+            <li class=""><a href="/en/installation/database/">DB Configurate</a>
+            </li>
+            <li class=""><a href="/en/installation/globalconfig/">global Config</a>
+            </li>
+            <li class=""><a href="/en/installation/howtovisit/">Access The Report Platform</a>
+            </li></ul>
+              
+            </li>
+            <li class="parent d-block "><a href="/en/maintenance/">maintenance</a>
+              <ul class="sub-menu">
+            <li class=""><a href="/en/maintenance/reportmanager/">Report Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/usermanager/">User Management</a>
+            </li>
+            <li class=" active "><a href="/en/maintenance/authmanager/">Authentication Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/availablereports/">Available Reports</a>
+            </li>
+            <li class=""><a href="/en/maintenance/plotmanager/">Visualization Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/readinghistorymanager/">Reading History Management</a>
+            </li>
+            <li class=""><a href="/en/maintenance/messagesmanager/">Message Management</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/en/contact/">Contact</a>
+            </li>
+            <li class=""><a href="/en/faq/">Frequently Asked Questions</a>
+            </li></ul>
+            </nav>
+    
+            
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+            <h2>Authentication Management</h2>
+            <p>By default, our Authentication management system manages the user&rsquo;s permission to read reports according to the <span class="highlight-text red"> __authTable__ </span> table. You can refer to the following SQL statements to establish the <strong>__authTable__</strong></p>
+
+<p>
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>CREATE __authTable__ </span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">CREATE TABLE IF NOT EXISTS __authTable__ (
+  reportName TEXT NOT NULL,
+  authGiver TEXT,
+  reportUser TEXT NOT NULL,
+  colSub TEXT DEFAULT &#34;*&#34; NOT NULL,
+  rowSub TEXT DEFAULT NULL,
+  authClaim TEXT
+);</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<br>
+In the <strong>__authTable__</strong>, you need to create at least the following columns, <strong>reportName</strong>, <strong>reportUser</strong>, <strong>colSub</strong>, <strong>rowSub</strong>, other cloumns can be created or deleted according to your needs.</p>
+
+<p>
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="/image/%e7%ae%a1%e7%90%86%e5%91%98%e6%89%8b%e5%86%8c/%e6%8a%a5%e8%a1%a8%e6%9d%83%e9%99%90%e7%ae%a1%e7%90%86.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="/image/%e7%ae%a1%e7%90%86%e5%91%98%e6%89%8b%e5%86%8c/%e6%8a%a5%e8%a1%a8%e6%9d%83%e9%99%90%e7%ae%a1%e7%90%86.png" >
+  
+    </a>
+  
+  
+</div>
+
+  <div style="clear:both;"></div>
+
+<br>
+<span class="highlight-text green"> reportName </span> is the report name that you defined in the <a href="/maintenance/report manager/"><strong>reportTable</strong></a>. The two must be related to each other, otherwise the report will not be displayed.</p>
+
+<p><span class="highlight-text green"> reportUser </span> is the user name you defined in the <a href="/maintenance/usermanager/"><strong>userTable</strong></a>. They must be related to each other, otherwise some users will not be able to view the report properly.</p>
+
+<p><span class="highlight-text green"> colSub </span> columns which allow users to view. By default, all columns are allowed, you can also specify the columns that users can view, remenber to using commas to split them.</p>
+
+<p><span class="highlight-text green"> rowSub </span> records which allow users to view . By default, it is empty, which allows users to view all records. You can use static SQL statements or verify user identity to restrict the records that users can access. For example: <span class="highlight-text blue"> where ROWID <= 10</span>, restrict users to query the first 10 records, <span class="highlight-text blue"> where salesperson =% user name% </span>, restrict users to access only <span class="highlight-text yellow"> salesperson </span> name in the report equal to user name record. Among them, the information between <span class="highlight-text blue">% </span> will be replaced by the user&rsquo;s actual identity information one by one.</p>
+
+<p>Each record in the <strong>__authTable__</strong> can be interpreted as the rows and columns authorized to a user to view a report.</p>
+
+<p>In order to facilitate permission allocation, we introduce the concept of <span class="highlight-text yellow"> public account </span>. Allocating report permissions to public account will enable all users to view the report. Permissions can also be covered. For example, we empowered <span class="highlight-text yellow"> CarSalesHistory </span> table to the public account to view the record that the name of <span class="highlight-text yellow"> saler </span> in the report equals the user name. In the previous record, we empowered <span class="highlight-text yellow"> user03</span> to view the full table of <span class="highlight-text yellow"> CarSalesHistory </span> table. Then <span class="highlight-text yellow"> user03</span> can view the full table, while other users can only view the record of <span class="highlight-text yellow"> saler </span> name in the report. equal to user name</p>
+
+<blockquote>
+<p>Essentially, report permission management is to manage which report content the user can view, so you only need to show the appropriate report content to the appropriate user when there is a new report upload, or when a new user registers.</p>
+</blockquote>
+<nav class="pagination mt-3"><a class="nav nav-prev" href="/en/maintenance/usermanager/" title="User Management"><i class="ti-arrow-left mr-2"></i>User Management</a>
+            <a class="nav nav-next" href="/en/maintenance/availablereports/" title="Available Reports">Available Reports<i class="ti-arrow-right ml-2"></i></a>
+            </nav></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+        <p>copyrights belong to ©supernum.</p> 
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/showcase"><i class="ti-blackboard"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/contact"><i class="ti-comments"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="/en/faq"><i class="ti-help"></i></a></li>
+          
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jquiry -->
+<script src="/plugins/jquery/jquery-1.12.4.js"></script>
+<!-- jquary ui -->
+<script src="/plugins/jquery/jquery-ui.js"></script>
+<!-- Bootstrap JS -->
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- tabcode -->
+<script src="/js/tabcode.js"></script>
+<!--fancybox -->
+<script src="/js/fancybox.js"></script>
+<!--gotop -->
+<script src='/js/gotop.js'></script>
+
+<!--custom -->
+<script src="/js/custom.js"></script>
+
+</body>
+
+</html>
