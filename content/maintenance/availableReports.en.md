@@ -54,7 +54,7 @@ After creating the **\_\_availableReports\_\_** View, you need to insert the rep
 {{< image classes="clear fancybox fig-100" src="/image/管理员手册/可视化管理02.png" >}}
   
   
-### 高级定制版
+### Custom Edition  
 
 For the Advanced Customization Edition, we will help you build the appropriate **\_\_availableReports\_\_** View based on your customized content.  
 <br>  
