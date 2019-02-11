@@ -13,7 +13,7 @@ We have configured the SMB shared file protocol for you in the virtual machine, 
 
 If you modify the virtual machine's login account, host name, or the location of the shared folder, be careful to replace the corresponding information above.  
 
-### 在虚拟机中安装软件  
+### Install softwares  
 
 In order to improve work efficiency, we configure the virtual machine for you in the form of minimal installation. If you want the virtual machine to help you with more work, you may need to turn on {{< hl-text yellow >}} Ubuntu software {{< /hl-text >}} and search for the software you need. Here is a list of the applications we recommend for installation:  
 
