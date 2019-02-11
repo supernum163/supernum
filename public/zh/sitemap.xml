@@ -260,6 +260,16 @@
   <url>
     <loc>/tips/</loc>
     <lastmod>2019-01-01T09:10:27+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/tips/"
+                />
   </url>
   
   <url>

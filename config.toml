@@ -196,7 +196,11 @@ whiteColor = "#ffffff"
             URL = "/en/maintenance"
             weight = 2
 
-
+          [[Languages.en.menu.main]]
+            parent = "etc"
+            name = "tips"
+            URL = "/en/tips"
+            weight = 3
 
 
     # banner

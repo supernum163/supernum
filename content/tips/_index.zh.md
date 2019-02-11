@@ -21,9 +21,7 @@ date: 2019-01-01T09:10:27+06:00
 
 1. {{< hl-text blue >}}Thunderbird{{< /hl-text >}}&emsp;邮件收发软件  
 
-1. {{< hl-text blue >}}DB Browser for SQLite{{< /hl-text >}}&emsp;SQLite数据库图形化管理界面  
-
-1. {{< hl-text blue >}}MySQL Workbench{{< /hl-text >}}&emsp;MySQL数据库图形化管理软件  
+1. {{< hl-text blue >}}sqlitebrowser{{< /hl-text >}}&emsp;SQLite数据库图形化管理界面  
 
 1. {{< hl-text blue >}}MySQL Workbench{{< /hl-text >}}&emsp;MySQL数据库图形化管理软件  
 
@@ -33,7 +31,7 @@ date: 2019-01-01T09:10:27+06:00
 
 1. {{< hl-text blue >}}Remmina{{< /hl-text >}}&emsp;远程连接软件  
 
-1. {{< hl-text blue >}}shotwall{{< /hl-text >}}&emsp;图片编辑软件  
+1. {{< hl-text blue >}}shotwell{{< /hl-text >}}&emsp;图片编辑软件  
 
 1. {{< hl-text blue >}}Rhythmbox{{< /hl-text >}}&emsp;音乐播放软件  
 

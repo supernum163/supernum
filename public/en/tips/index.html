@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Frequently Asked Questions</title>
+  <title>tips</title>
 
   <meta name="generator" content="Hugo 0.51" />
 
@@ -129,83 +129,52 @@
 </header>
 <!-- /navigation -->
 
-
-
-<!-- faq -->
-<section class="section">
+<section class="elements pt-5 bg-gray">
   <div class="container">
     <div class="row">
       <div class="col-12">
-       <h2 class="section-title text-primary">Frequently Asked Questions</h2>
-        <!-- accordion -->
-        <div id="accordion">
-          
-          <!-- accordion item -->
-          <div class="card mb-4 rounded-0 shadow border-0">
-            <div class="card-header rounded-0 border p-0 border-0">
-              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#collapseOne">
-                <span>What is supernum?</span> <i class="ti-plus text-primary text-right"></i>
-              </a>
-            </div>
-            <div id="collapseOne" class="collapse" data-parent="#accordion">
-              <div class="card-body font-secondary text-color">Supernum is an organization dedicated to efficient reporting platform, beautiful and neat visualization scheme, professional data processing and modeling knowledge to help enterprises effectively use data resources, relying on data to find problems, analyze problems, solve problems, track problems, and then realize digital management.</div>
-            </div>
-          </div>
-          
-          <!-- accordion item -->
-          <div class="card mb-4 rounded-0 shadow border-0">
-            <div class="card-header rounded-0 border p-0 border-0">
-              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#collapseTwo">
-                <span>What can we offer you?</span> <i class="ti-plus text-primary text-right"></i>
-              </a>
-            </div>
-            <div id="collapseTwo" class="collapse" data-parent="#accordion">
-              <div class="card-body font-secondary text-color">Our products and services can help you quickly build a report management platform within the company. You only need to focus on processing the data resources of the enterprise, then you can provide effective data support for business operators, managers, strategic decision-makers of the enterprise. You can digitally manage the human, material and financial resources of the enterprise, and you can also provide the enterprise with effective data support. Customers and partners provide timely information.</div>
-            </div>
-          </div>
-          
-          <!-- accordion item -->
-          <div class="card mb-4 rounded-0 shadow border-0">
-            <div class="card-header rounded-0 border p-0 border-0">
-              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#collapseThree">
-                <span>What products do we have at present?</span> <i class="ti-plus text-primary text-right"></i>
-              </a>
-            </div>
-            <div id="collapseThree" class="collapse" data-parent="#accordion">
-              <div class="card-body font-secondary text-color">At present, our products are divided into three versions, Primary Edition, Presenting reports to users in the most concise way, you can distribute reports to all users with only a small amount of maintenance work. Membership Edition, User and authority management system are added on the basis of the Primary Edition, which can distribute different reports to users with different roles. Custom Edition, According to your needs, we will tailor-made data resource management platform for you.</div>
-            </div>
-          </div>
-          
-          <!-- accordion item -->
-          <div class="card mb-4 rounded-0 shadow border-0">
-            <div class="card-header rounded-0 border p-0 border-0">
-              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#collapseFour">
-                <span>How do we charge?</span> <i class="ti-plus text-primary text-right"></i>
-              </a>
-            </div>
-            <div id="collapseFour" class="collapse" data-parent="#accordion">
-              <div class="card-body font-secondary text-color">For our products, the Primary Edition and the Membership Edition are already in shape, the tentative prices are $999 and $1999 respectively. As for the advanced Custom Edition, we will give you a reasonable price according to your needs, considering the development cycle and development cost comprehensively. The follow-up service of our products is usually up to help you build a data resource management system. If you still need to maintain the system or improve the system, of course, you can also entrust it to us, but we may charge a certain fee at our discretion.</div>
-            </div>
-          </div>
-          
-          <!-- accordion item -->
-          <div class="card mb-4 rounded-0 shadow border-0">
-            <div class="card-header rounded-0 border p-0 border-0">
-              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#collapseFive">
-                <span>How to cooperate with us?</span> <i class="ti-plus text-primary text-right"></i>
-              </a>
-            </div>
-            <div id="collapseFive" class="collapse" data-parent="#accordion">
-              <div class="card-body font-secondary text-color">You can leave us a message or send mail directly to our official post. We will contact you as soon as we receive your information.</div>
-            </div>
-          </div>
-          
-        </div>
+        
+
+<h3 id="how-to-share-paste-with-virtual-machine">How to Share Paste with Virtual Machine</h3>
+
+<p>You need to open virtualbox with your virtual machine powered off，click <span class="highlight-text yellow"> Settings </span> -&gt; <span class="highlight-text yellow">Advanced</span>, set <span class="highlight-text yellow">share Paste </span> to <span class="highlight-text yellow"> double side </span>。</p>
+
+<h3 id="how-to-use-shared-folders-of-virtual-machines">How to use shared folders of virtual machines</h3>
+
+<p>We have configured the SMB shared file protocol for you in the virtual machine, The directory of the shared folder is <span class="highlight-text red">\\media\share</span>，to view it in windows，you just need to open you windows folder manager, enter <span class="highlight-text red">\\supernum\share</span> in the address bar，The default username and password are the same as your login account in virtual machine.</p>
+
+<p>If you modify the virtual machine&rsquo;s login account, host name, or the location of the shared folder, be careful to replace the corresponding information above.</p>
+
+<h3 id="在虚拟机中安装软件">在虚拟机中安装软件</h3>
+
+<p>In order to improve work efficiency, we configure the virtual machine for you in the form of minimal installation. If you want the virtual machine to help you with more work, you may need to turn on <span class="highlight-text yellow"> Ubuntu software </span> and search for the software you need. Here is a list of the applications we recommend for installation:</p>
+
+<ol>
+<li><p><span class="highlight-text blue">LibreOffice</span>&emsp;LibreOffice productivity suite</p></li>
+
+<li><p><span class="highlight-text blue">Thunderbird</span>&emsp;email applicatio</p></li>
+
+<li><p><span class="highlight-text blue">sqlitebrowser</span>&emsp;DB browser for Sqlite</p></li>
+
+<li><p><span class="highlight-text blue">MySQL Workbench</span>&emsp;MySQL Database Design, Administration and Development Tool</p></li>
+
+<li><p><span class="highlight-text blue">DataGrip</span>&emsp;IntelliJ-based IDE for databases and SQL</p></li>
+
+<li><p><span class="highlight-text blue">Transmission</span>&emsp;Download and share files over BitTorrent</p></li>
+
+<li><p><span class="highlight-text blue">Remmina</span>&emsp;Remote Desktop Client</p></li>
+
+<li><p><span class="highlight-text blue">shotwell</span>&emsp;picture editor</p></li>
+
+<li><p><span class="highlight-text blue">Rhythmbox</span>&emsp;music player</p></li>
+
+<li><p><span class="highlight-text blue">VLC</span>&emsp;video player</p></li>
+</ol>
+
       </div>
     </div>
   </div>
 </section>
-<!-- /faq -->
 
 <!-- footer -->
 <footer class="section bg-gray pb-0">
