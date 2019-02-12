@@ -13,7 +13,9 @@ date: 2019-01-01T09:10:27+06:00
         <p style="text-indent:2em;">The following is only part of our work. If you need a customized data management system or consult any questions related to data management, please leave a message to us or send an email to our official post.{{< hl-text green >}}supernum@163.com{{< /hl-text >}}。</p>
       </div>
       <div class="col-lg-6 col-sm-6 mb-4">
-        <img src="/image/数字化思维.png" />
+       <div class="bg-white sticky-top" style="padding:0 0 0 0">
+          <img src="/image/数字化思维.png" style="margin:0 0 0 0; width:100%"/>
+        </div>
       </div>
     </div>
   </div>
@@ -59,9 +61,9 @@ date: 2019-01-01T09:10:27+06:00
       <thead>
         <tr>
           <th align="center"></th>
-          <th align="left">Primary Edition</th>
-          <th align="left">Membership Edition</th>
-          <th align="left">Custom Edition</th>
+          <th align="left">Primary</th>
+          <th align="left">Membership</th>
+          <th align="left">Custom</th>
         </tr>
       </thead>
       <tbody>

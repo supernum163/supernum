@@ -14,7 +14,9 @@ date: 2019-01-01T09:10:27+06:00
         <p style="text-indent:2em;">以下内容是仅是我们的部分成果，如果您需要定制专属的数据资源管理系统，或者需要咨询任何与数据资源管理相关的问题，欢迎留言给我们或者发送邮件至我们的官邮{{< hl-text green >}}supernum@163.com{{< /hl-text >}}。</p>
       </div>
       <div class="col-lg-6 col-sm-6 mb-4">
-        <img src="/image/数字化思维.png" />
+       <div class="bg-white sticky-top" style="padding:0 0 0 0">
+          <img src="/image/数字化思维.png" style="margin:0 0 0 0; width:100%"/>
+        </div>
       </div>
     </div>
   </div>
