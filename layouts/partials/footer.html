@@ -8,9 +8,9 @@
       <div class="col-md-4 text-md-right text-center">
         <ul class="list-inline mb-3">
           {{ range .Site.Params.socialIcon }}
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="{{ .URL | absURL}}"><i class="{{ .icon }}"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="{{ .URL | absURL}}"><i class="fa {{ .icon }}"></i></a></li>
           {{ end }}
-          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-angle-up"></i></a></li>
+          <li id="backtop" class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="fa fa-chevron-up"></i></a></li>
         </ul>
       </div>
     </div>

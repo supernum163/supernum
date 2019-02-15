@@ -1,7 +1,7 @@
 ---
 title: "maintenance"
 date: 2019-01-01T11:02:05+06:00
-icon: "ti-palette"
+icon: "fa-gears"
 description: ""
 type : "pages"
 weight: 3

@@ -115,15 +115,15 @@ whiteColor = "#ffffff"
 
     # footer social icon
     [[Languages.zh.socialIcon]]
-      icon = "ti-blackboard"
+      icon = "fa-tv"
       URL = "/showcase"
       
     [[Languages.zh.socialIcon]]
-      icon = "ti-comments"
+      icon = "fa-envelope"
       URL = "/contact"
       
     [[Languages.zh.socialIcon]]
-      icon = "ti-help"
+      icon = "fa-question"
       URL = "/faq"
 
 
@@ -233,13 +233,13 @@ whiteColor = "#ffffff"
       
     # footer social icon
     [[Languages.en.socialIcon]]
-      icon = "ti-blackboard"
+      icon = "fa-tv"
       URL = "/en/showcase"
       
     [[Languages.en.socialIcon]]
-      icon = "ti-comments"
+      icon = "fa-envelope"
       URL = "/en/contact"
       
     [[Languages.en.socialIcon]]
-      icon = "ti-help"
+      icon = "fa-question"
       URL = "/en/faq"

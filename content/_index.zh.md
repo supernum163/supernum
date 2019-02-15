@@ -70,45 +70,45 @@ date: 2019-01-01T09:10:27+06:00
       <tbody>
         <tr>
           <td align="center">报表管理系统</td>
-          <td align="left"><i class="ti-check"></i></td>
-          <td align="left"><i class="ti-check"></i></td>
-          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
         </tr>
         <tr>
           <td align="center">用户管理系统</td>
           <td align="left"></td>
-          <td align="left"><i class="ti-check"></i></td>
-          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
         </tr>
         <tr>
           <td align="center">权限管理系统</td>
           <td align="left"></td>
-          <td align="left"><i class="ti-check"></i></td>
-          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
         </tr>
         <tr>
           <td align="center">留言管理系统</td>
           <td align="left"></td>
           <td align="left"></td>
-          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
         </tr>
         <tr>
           <td align="center">报表可视化系统</td>
           <td align="left"></td>
           <td align="left"></td>
-          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
         </tr>
         <tr>
           <td align="center">阅读记录管理系统</td>
           <td align="left"></td>
           <td align="left"></td>
-          <td align="left"><i class="ti-check"></i></td>
+          <td align="left"><i class="fa fa-check"></i></td>
         </tr>
         <tr>
           <td align="center">更多资源管理系统</td>
           <td align="left"></td>
           <td align="left"></td>
-          <td align="left"><i class="ti-more-alt"></i></td>
+          <td align="left"><i class="fa fa-ellipsis-h"></i></td>
         </tr>
       </tbody>
     </table>
@@ -122,31 +122,31 @@ date: 2019-01-01T09:10:27+06:00
         <h2 class="section-title">为什么选择我们</h2> 
       </div>  
       <ul>
-        <li><i class="ti-check-box"></i>&emsp;
+        <li><i class="fa fa-check-square-o"></i>&emsp;
           <b>高度集成的虚拟系统</b>
           <p>我们的数据资源管理系统使用了虚拟机技术与HTML技术，使您无需准备单独的服务器，也无需为您的用户配置任何客户端。</p>
         </li>
-        <li><i class="ti-check-box"></i>&emsp;
+        <li><i class="fa fa-check-square-o"></i>&emsp;
           <b>更美观的UI设计</b>  
           <p>我们的UI设计本着美观实用的原则，使页面更加美观、信息展示方式更加合理的同时，又不降低系统本身的响应速度。</p>
         </li>
-        <li><i class="ti-check-box"></i>&emsp;
+        <li><i class="fa fa-check-square-o"></i>&emsp;
           <b>使用页面自适应技术</b>
           <p>我们数据资源管理系统中的绝大部分元素都可以根据屏幕大小自动调整，使展示结果更加完美的适应手机、PC、台式机等多种设备。</p>
         </li>
-        <li><i class="ti-check-box"></i>&emsp;
+        <li><i class="fa fa-check-square-o"></i>&emsp;
           <b>支持对接多种数据库</b>
           <p>我们的系统默认使用sqlite数据库，并且已经为您配置好了sqlite与mysql数据库。当然您也可以通过少量的配置，对接您所使用的数据库。</p>
         </li>
-        <li><i class="ti-check-box"></i>&emsp;
+        <li><i class="fa fa-check-square-o"></i>&emsp;
           <b>更丰富的资源管理系统</b>  
           <p>我们以尽可能模块化的方式打造了用户、报表、权限、阅读记录、留言等管理系统，您可以根据自己的需求选择需要的数据资源管理系统。</p>
         </li>
-        <li><i class="ti-check-box"></i>&emsp;
+        <li><i class="fa fa-check-square-o"></i>&emsp;
           <b>精心设计的系统后台</b>
           <p>我们以简单明晰的方式定义配置与运维文件，并且已经为您准备好了操作手册。您无需掌握复杂的代码，只需了解简单的行列结构就能操作。</p>
         </li>
-        <li><i class="ti-check-box"></i>&emsp;
+        <li><i class="fa fa-check-square-o"></i>&emsp;
           <b>支持高度定制</b>  
           <p>更多特征，期待您与我们共同进步！</p>
         </li>

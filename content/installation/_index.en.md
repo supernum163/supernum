@@ -1,7 +1,7 @@
 ---
 title: "Installation and Configuration"
 date: 2019-01-01T11:02:05+06:00
-icon: "ti-brush-alt"
+icon: "fa-wrench fa-flip-horizontal"
 description: ""
 type : "pages"
 weight: 2
