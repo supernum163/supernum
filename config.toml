@@ -89,8 +89,8 @@ whiteColor = "#ffffff"
     # banner
     [Languages.zh.params.banner]
       title = "帮助与支持中心"
-      description = "与我们一起寻找快速搭建报表平台、报表可视化展示和数据分析的最佳解决方案"
-      placeholder = "请输入关键字或文章标题"
+      description = "与我们一起寻找实现企业数字化管理的最佳解决方案"
+      placeholder = "搜索关键字或文章标题"
 
     # Topics
     [Languages.zh.params.topics]
@@ -100,7 +100,7 @@ whiteColor = "#ffffff"
     [Languages.zh.params.cta]
       enable = true
       title = "立即与我们展开合作"
-      description = "如果您想要与我们展开合作，或者您仍有任何疑问，欢迎留言给我们，当然您也可以直接发送邮件至我们的官邮。"
+      description = "如果您想要与我们展开合作，或者您仍有任何疑问，欢迎留言或者发送邮件给我们 ！"
       btnText = "联系我们"
       btnURL = "/contact"
 
@@ -205,10 +205,10 @@ whiteColor = "#ffffff"
 
     # banner
     [Languages.en.params.banner]
-      title = "Help and Support Center"
-      description = "Follow us to find the best solution to build report platform, present visualize report and manage data"
+      title = "Help & Support"
+      description = "Follow us to find the best solution to realize digital management"
       image = "image/banner.jpg"
-      placeholder = "Please enter keywords or article titles"
+      placeholder = "Search for keywords or article titles"
 
     # Topics
     [Languages.en.params.topics]
@@ -218,7 +218,7 @@ whiteColor = "#ffffff"
     [Languages.en.params.cta]
       enable = true
       title = "Cooperate with us now"
-      description = "Want to cooperate with us, or still have any questions, please leave a message to us. You can also send mail directly to our official post."
+      description = "Want to cooperate with us, or still have any questions? please leave a message or send us an email."
       btnText = "contact us"
       btnURL = "/en/contact"
 
