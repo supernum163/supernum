@@ -26,12 +26,16 @@
 
 
 {{ "<!--fancybox -->" | safeHTML }}
-<script src="/js/fancybox.js"></script>
+{{ $script := resources.Get "js/fancybox.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
 {{ "<!--gotop -->" | safeHTML }}
-<script src='/js/gotop.js'></script>
-  
+{{ $script := resources.Get "js/gotop.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
 {{ "<!--custom -->" | safeHTML }}
-<script src="/js/custom.js"></script>
+{{ $script := resources.Get "js/custom.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
 
 </body>
 

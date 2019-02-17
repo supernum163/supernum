@@ -29,13 +29,12 @@
   </style>
 
 
-
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
-  {{ "<!-- Custom Stylesheet-->" | safeHTML }}
-  <link rel="stylesheet" href="/css/custom.css">
+  {{ $styles := resources.Get "css/custom.css" | minify}}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
   
   {{ "<!-- font-awesome Stylesheet-->" | safeHTML }}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -45,6 +44,7 @@
 
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="icon" href="https://i.postimg.cc/zBWc2J3H/favicon.png" type="image/x-icon">
+  
   
   {{ "<!-- jquiry -->" | safeHTML }}
   <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
