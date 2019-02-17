@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS __报表阅读记录__ (
 <br>
 在**\_\_报表阅读记录\_\_**表中，您至少需要创建以下几个字段：**报表名称**、**阅读者**、**最后一次阅读时间**，**阅读次数**，其它字段则可以根据实际需求创建或删除。  
   
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/阅读记录管理.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/MKrmBCKC/image.png" >}}
 <br>
   
 {{< hl-text green >}}报表名称{{< /hl-text >}}即您在 [报表管理系统](/maintenance/reportmanager/) 中定义的报表名称。  

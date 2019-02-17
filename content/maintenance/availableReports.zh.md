@@ -22,7 +22,7 @@ SELECT
 FROM __报表管理__
 {{< /codeblock >}}
 <br>
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/可视化管理01.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/fLhKLYTk/01.png" >}}
   
   
 ### 会员版  
@@ -50,7 +50,7 @@ CREATE VIEW IF NOT EXISTS __可用报表__ AS
 <br>
 创建好**\_\_可用报表\_\_**视图之后，您需要将该视图的位置、名称、类别等信息作为第一条数据插入{{< hl-text red >}}\_\_报表管理\_\_{{< /hl-text >}}表，并在{{< hl-text red >}}\_\_报表权限管理\_\_{{< /hl-text >}}表中给共用账号分配适当的字段与记录查询条件。当然您也可以直接在**\_\_可用报表\_\_**中操作。最终可用报表的第一条记录应该如下图所示。  
   
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/可视化管理02.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/QtkqWVHm/02.png" >}}
   
   
 ### 高级定制版

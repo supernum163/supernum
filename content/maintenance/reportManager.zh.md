@@ -20,7 +20,7 @@ weight: 2
 <br>
 在**\_\_报表管理\_\_**表中，您至少需要创建以下几个字段：**报表类别**、**报表名称**、**报表位置**，其它字段则可以根据实际需求创建或删除。
 
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/报表管理.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/FzrVbmS4/image.png" >}}
 <br>
   
 {{< hl-text green >}}报表类别{{< /hl-text >}}和{{< hl-text green >}}报表名称{{< /hl-text >}}是报表平台赖以生成报表导航栏的唯一依据，您必须保证报表被归纳到相应的类别、报表名称是唯一的，且名称不能太长(15个字以内)。  

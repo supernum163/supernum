@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS __用户管理__ (
 <br>
 在**\_\_用户管理\_\_**表中，您至少需要创建以下几个字段：**用户名称**、**密码**、**注册时间**，**最后一次登陆时间**，**最近一天尝试登陆次数**，**是否准入**，其它字段则可以根据实际需求创建或删除。  
 
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/用户管理.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/BZpgSLWQ/image.png" >}}
 <br>
 {{< hl-text green >}}用户名称{{< /hl-text >}}即用户登陆报表平台时使用的名称。这个值必须是唯一的，因为这个字段是我们用以区分用户ID的唯一标志。  
   

@@ -45,7 +45,7 @@ finally，you need to create an {{< hl-text red >}} __availableReports__  {{< /h
     ON A.reportName = B.reportName;
 {{< /codeblock >}}
 <br>
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/可视化管理03.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/ncYtc1F9/visualization03.png" >}}
 <br>
 So far our **Visualization Management** has been set up. When we need to visualize the report for users, we just need to insert the plot command into {{< hl-text green >}} plotCommand {{< /hl-text >}} of {{< hl-text red >}} __reportTable__ {{< /hl-text >}}. For example, if we set the drawing command of {{< hl-text yellow >}}CarSalesHistory {{< /hl-text >}} to {{< hl-text blue >}} ggplot(session$report) + geom_bar(aes(saler, price, fill = saler), stat = sum, positon = stack) {{< /hl-text >}}, then each user can see a bar chart showing saler's turnover, and each user can only see the situation of his department. (Controlled by privileges).  
 

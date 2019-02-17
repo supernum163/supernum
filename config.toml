@@ -30,26 +30,7 @@ whiteColor = "#ffffff"
       [[Languages.zh.menu.main]]
         weight = 1
         name = "产品中心"
-        hasChildren = true
-
-          [[Languages.zh.menu.main]]
-            parent = "产品中心"
-            name = "极速版"
-            URL = "/showcase/supernumV1"
-            weight = 1
-  
-          [[Languages.zh.menu.main]]
-            parent = "产品中心"
-            name = "会员版"
-            URL = "/showcase/supernumV2"
-            weight = 2
-  
-          [[Languages.zh.menu.main]]
-            parent = "产品中心"
-            name = "高级定制"
-            URL = "/showcase/supernumV3"
-            weight = 3
-            
+        url = "/showcase"
 
       [[Languages.zh.menu.main]]
         weight = 3
@@ -148,26 +129,7 @@ whiteColor = "#ffffff"
       [[Languages.en.menu.main]]
         weight = 1
         name = "products"
-        hasChildren = true
-
-          [[Languages.en.menu.main]]
-            parent = "products"
-            name = "Primary Edition"
-            URL = "/en/showcase/supernumV1"
-            weight = 1
-  
-          [[Languages.en.menu.main]]
-            parent = "products"
-            name = "Membership Edition"
-            URL = "/en/showcase/supernumV2"
-            weight = 2
-  
-          [[Languages.en.menu.main]]
-            parent = "products"
-            name = "Custom Edition"
-            URL = "/en/showcase/supernumV3"
-            weight = 3
-            
+        url = "/en/showcase"
 
       [[Languages.en.menu.main]]
         weight = 3

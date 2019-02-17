@@ -19,4 +19,4 @@ weight: 9
 
 最后，在打开的网络设置面板中显示的{{< hl-text green >}}IPv4地址{{< /hl-text >}}就是您虚拟机的地址。  
 
-{{< image classes="clear fancybox fig-100" src="/image/查看IP地址.png" >}}  
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/vTtSM3rQ/IP.png" >}}  

@@ -23,7 +23,7 @@ For the Primary Edition, you just need to create a {{< hl-text red >}} __availab
     FROM __reportTable__
 {{< /codeblock >}}
 <br>
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/可视化管理01.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/B6L0S9bJ/available-Reports01.png" >}}
   
   
 ### Membership Edition  
@@ -51,7 +51,7 @@ For Membership Edition, **\_\_availableReports\_\_** is not only the place where
 <br>
 After creating the **\_\_availableReports\_\_** View, you need to insert the reportPath, reportName, reportType of the view as the first record into the {{< hl-text red >}} __reportTable__ {{< /hl-text >}} table, and assign appropriate columns and record query conditions to the public account in the {{< hl-text red >}} __authTable__ {{< /hl-text >}} table. Of course, you can also operate directly in **\_\_availableReports\_\_**. The first record of the available report should be shown in the following figure.  
   
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/可视化管理02.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/NGXcZcZ4/available-Reports02.png" >}}
   
   
 ### Custom Edition  

@@ -15,7 +15,7 @@ date: 2019-01-01T09:10:27+06:00
       </div>
       <div class="col-lg-6 col-sm-6 mb-4">
        <div class="bg-white sticky-top" style="padding:0 0 0 0">
-          <img src="/image/数字化思维.png" style="margin:0 0 0 0; width:100%"/>
+          <img src="https://i.postimg.cc/bwBVzGt2/image.png" style="margin:0 0 0 0; width:100%"/>
         </div>
       </div>
     </div>
@@ -30,21 +30,21 @@ date: 2019-01-01T09:10:27+06:00
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
             <a href="/showcase/supernumv1/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <img src="/image/产品展示/supernumV1.gif" alt="supernum 极速版" />
+              <img src="https://i.postimg.cc/fLx8jBgx/supernum-v1-small.gif" alt="极速版" />
               <h3 class="mb-3">极速版</h3>
               <p class="mb-0">一款高效率的报表平台，可以动态生成报表列表。</p>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
             <a href="/showcase/supernumv2/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <img src="/image/产品展示/supernumV2.gif" alt="supernum 会员版" />
+              <img src="https://i.postimg.cc/Y0MbXYJT/supernum-v2-small.gif" alt="会员版" />
               <h3 class="mb-3">会员版</h3>
               <p class="mb-0">加入了用户与权限管理系统，可以为不同角色的用户提供特定的报表。</p>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
             <a href="/showcase/supernumv3/" class="px-4 py-5 bg-white shadow text-center d-block">
-              <img src="/image/产品展示/supernumV3.gif" alt="supernum 高级定制版" />
+              <img src="https://i.postimg.cc/BbpNRt3b/supernum-v3-small.gif" alt="高级定制版" />
               <h3 class="mb-3">高级定制版</h3>
               <p class="mb-0">定制您需要的数据资源管理系统与前端展示UI，无限可能等您发现。</p>
             </a>

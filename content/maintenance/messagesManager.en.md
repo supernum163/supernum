@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS __messagesTable__ (
 <br>
 In the **\_\_ messagesTable\_\_** , you need to create at least the following cloumns: **sender**, **receiver**, **validTime**, **expireTime**, **content**, other cloumns can be created or deleted according to your needs.  
   
-{{< image classes="clear fancybox fig-100" src="/image/管理员手册/留言管理.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/y8ssFbQT/messages-Table.png" >}}
 <br>
 {{< hl-text green >}} sender {{< /hl-text >}} and {{< hl-text green >}} receiver {{< /hl-text >}} represent message sender and receiver respectively. Both of them need to be associated with userName defined in [user management system] (/maintenance/UserManagement/). **sender** and **receiver** can be the same person, representing users leave a message to themselves (or add a memorandum).  
 

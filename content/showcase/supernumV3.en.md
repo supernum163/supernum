@@ -9,18 +9,18 @@ weight: 4
 
 When the user opens the report platform, he will see {{< hl-text primary >}} title bar {{</hl-text >}} above, {{< hl-text primary >}} navigation bar {{</hl-text >}} on the left and {{< hl-text primary >}} content display area {{</hl-text >}} on the right. Under mobile devices, the navigation bar on the left side may be hidden automatically. Users need to click on {{< hl-text orange >}} of the title bar to expand the navigation bar {{</hl-text >}} to expand it.  
 
-{{< image classes="clear fancybox fig-100" src="/image/使用说明/1.报表平台-框架.png" >}}  
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/x16DLTb0/1-framework.png" >}}  
   
   
 ### User Management
 
 The upper half of the navigation bar is {{< hl-text blue >}} User Management Interface {{< /hl-text >}}. Without login, users will not be able to view any reports. The login UI will appear when you click on the {{< hl-text orange >}} Login {{< /hl-text >}} button, enter the corresponding information and click {{< hl-text orange >}} Confirm {{< /hl-text >}} and the login result will be displayed in the user management interface. When the login is successful, the report that the user can view will be displayed automatically.   
 
-{{< image classes="clear fancybox fig-100" src="/image/使用说明/2.用户登录.png" >}}
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/VN5ygQjX/2-user-Login.png" >}}
 <br>
 Users can also register or operate on the secret. The newly registered account will not take effect immediately. You must wait for the administrator to authenticate before you can view the report. If the secret operation is performed, the user needs to login successfully first, then click {{< hl-text orange >}} Modify {{< /hl-text >}} button, and enter the user name and new password at the time of login.
 
-{{< image classes="clear fancybox fig-100" src="/image/使用说明/3.用户注册与改密.png" >}}  
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/N0n3PJ4S/3-user-Modify.png" >}}  
   
   
 ###  Report Management
@@ -29,7 +29,7 @@ In the navigation bar, in order to save space, we give the original {{< hl-text 
 
 After opening the report, users can click on any column of the report to {{< hl-text green >}} sort {{</hl-text >}} , {{< hl-text green >}} search {{</hl-text >}} for any content in report, {{< hl-text green >}} select how many rows shell be displayed on one page {{</hl-text >}}, and {{< hl-text green >}} navigate pages {{</hl-text >}}.
 
-{{< image classes="clear fancybox fig-100" src="/image/使用说明/6.报表管理-查看报表-v3.png" >}}   
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/KjPCjZ2h/6-select-Report.png" >}}   
   
   
 ### Visualization Management
@@ -40,9 +40,9 @@ Firstly, users can select the corresponding values of {{< hl-text yellow >}}x ax
 
 Secondly, the system administrator can also define a specific visual presentation for the current report, so that users can view the visual results directly after opening the visual interface. This way can show more advanced and rich charts, but it requires the system administrator to master certain drawing commands.  
 
-{{< image classes="fancybox fig-100" src="/image/使用说明/7.可视化管理.png">}}
-{{< image classes="fancybox fig-50" src="/image/v3-08-绘图.png" >}}
-{{< image classes="clear fancybox fig-50" src="/image/v3-09-绘图.png" >}}  
+{{< image classes="fancybox fig-100" src="https://i.postimg.cc/NFqWQKZx/7-visualization.png">}}
+{{< image classes="fancybox fig-50" src="https://i.postimg.cc/vBN5n9GW/v3-08-plot.png" >}}
+{{< image classes="clear fancybox fig-50" src="https://i.postimg.cc/yddFWnC1/v3-09-plot.png" >}}  
   
   
 ### Reading History Management
@@ -51,7 +51,7 @@ After users click {{< hl-text cyan >}} Reading History {{</hl-text >}} on the na
 
 Users can also click the {{< hl-text orange >}} report overview {{</hl-text >}} button in the title bar to see how many reports have been read, how many reports have not been read, and how many reports have been updated. Click the {{< hl-text orange >}} reading progress {{</hl-text >}} button in the title bar to see the current reading progress.
   
-{{< image classes="clear fancybox fig-100" src="/image/使用说明/8.阅读记录管理.png" >}}  
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/TYcZXY0r/8-reading-History.png" >}}  
   
   
 ### Message Management
@@ -62,7 +62,7 @@ Users can also click the {{< hl-text orange >}} check message {{</hl-text >}} bu
 
 {{< alert warning >}} Messages that have not reached the effective date or expired will not be displayed.  {{< /alert >}}
 
-{{< image classes="clear fancybox fig-100" src="/image/使用说明/9.留言管理.png"  >}}   
+{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/gkpf56Vz/9-message.png"  >}}   
   
   
 ### User Guide
