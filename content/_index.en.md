@@ -10,7 +10,7 @@ date: 2019-01-01T09:10:27+06:00
     <div class="row justify-content-center">
       <div class="col-lg-6 col-sm-6 mb-4">
         <p style="text-indent:2em;">Supernum is an organization dedicated to efficient reporting platform, beautiful and neat visualization scheme, professional data processing and modeling knowledge to help enterprises effectively use data resources, relying on data to find problems, analyze problems, solve problems, track problems, and then realize digital management.</p>
-        <p style="text-indent:2em;">The following is only part of our work. If you need a customized data management system or consult any questions related to data management, please leave a message to us or send an email to our official post.{{< hl-text green >}}supernum@163.com{{< /hl-text >}}。</p>
+        <p style="text-indent:2em;">The following is only part of our work. If you need a customized data management system or consult any questions related to data management, please leave a message to us or send an email to <a href="mailto:supernum@163.com">supernum offical post</a>.</p>
       </div>
       <div class="col-lg-6 col-sm-6 mb-4">
        <div class="bg-white sticky-top" style="padding:0 0 0 0">

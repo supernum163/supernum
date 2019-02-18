@@ -96,8 +96,8 @@ whiteColor = "#ffffff"
 
     # footer social icon
     [[Languages.zh.socialIcon]]
-      icon = "fa-tv"
-      URL = "/showcase"
+      icon = "fa-at"
+      URL = "mailto:supernum@163.com"
       
     [[Languages.zh.socialIcon]]
       icon = "fa-envelope"
@@ -195,8 +195,8 @@ whiteColor = "#ffffff"
       
     # footer social icon
     [[Languages.en.socialIcon]]
-      icon = "fa-tv"
-      URL = "/en/showcase"
+      icon = "fa-at"
+      URL = "mailto:supernum@163.com"
       
     [[Languages.en.socialIcon]]
       icon = "fa-envelope"
