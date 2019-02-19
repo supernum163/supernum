@@ -167,7 +167,7 @@ whiteColor = "#ffffff"
 
     # banner
     [Languages.en.params.banner]
-      title = "Help & Support"
+      title = "Help and Support"
       description = "Follow us to find the best solution to realize digital management"
       image = "image/banner.jpg"
       placeholder = "Search for keywords or article titles"
