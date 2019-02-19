@@ -58,6 +58,7 @@ date: 2019-01-01T09:10:27+06:00
     <div class="col-12 text-center">
       <h2 class="section-title">不同版本的区别</h2> 
     </div>
+    <div style="overflow-x:scroll;">
     <table>
       <thead>
         <tr>
@@ -112,6 +113,7 @@ date: 2019-01-01T09:10:27+06:00
         </tr>
       </tbody>
     </table>
+    </div>
   </div>  
 </section>
 
