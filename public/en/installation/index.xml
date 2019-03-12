@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Installation and Configuration on supernum</title>
-    <link>/en/installation/</link>
+    <link>//www.supernum.tech/en/installation/</link>
     <description>Recent content in Installation and Configuration on supernum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>copyrights belong to ©supernum.</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
     
-	<atom:link href="/en/installation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.supernum.tech/en/installation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VM Configurate</title>
-      <link>/en/installation/virtualsystem/</link>
+      <link>//www.supernum.tech/en/installation/virtualsystem/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/en/installation/virtualsystem/</guid>
+      <guid>//www.supernum.tech/en/installation/virtualsystem/</guid>
       <description>First of all, you need to download the corresponding VirtualBox installer  and VirtualBox extension package  in virtualbox official website for your operating system. Extension packages allow your virtual machine to share pasteboards, folders and other functions with the local machine. If you do not need these functions, you don&amp;rsquo;t need to download the extension packages.
    
 Secondly, you need to install VirtualBox installer just like normal software, open VirtualBox software after installation, and drag VirtualBox extension package into the VirtualBox interface to install the extension.</description>
@@ -25,10 +25,10 @@ Secondly, you need to install VirtualBox installer just like normal software, op
     
     <item>
       <title>DB Configurate</title>
-      <link>/en/installation/database/</link>
+      <link>//www.supernum.tech/en/installation/database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/installation/database/</guid>
+      <guid>//www.supernum.tech/en/installation/database/</guid>
       <description>Configuring different types of database connections requires slightly different steps.
 For SQLite, you only need to provide the path of the database file of the SQLite. Of course, you can skip this configuration by using our default SQLLite database file.
 For MySQL, SQL Server, and other databases, you need to provide the user name and password necessary to connect to the database, as well as the database name to connect to.</description>
@@ -36,10 +36,10 @@ For MySQL, SQL Server, and other databases, you need to provide the user name an
     
     <item>
       <title>global Config</title>
-      <link>/en/installation/globalconfig/</link>
+      <link>//www.supernum.tech/en/installation/globalconfig/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/en/installation/globalconfig/</guid>
+      <guid>//www.supernum.tech/en/installation/globalconfig/</guid>
       <description>The report platform must rely on the global configuration fileconfig.Rto run normally. The default global configuration file is in a subfolder of/supernum. You can modify some of them to suit your needs.
 The content of the global configuration file is roughly as follows. The global configuration file will be different for different editions or products with different systems.
   Setting global configuration variables     1
@@ -48,10 +48,10 @@ The content of the global configuration file is roughly as follows. The global c
     
     <item>
       <title>Access The Report Platform</title>
-      <link>/en/installation/howtovisit/</link>
+      <link>//www.supernum.tech/en/installation/howtovisit/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/en/installation/howtovisit/</guid>
+      <guid>//www.supernum.tech/en/installation/howtovisit/</guid>
       <description>If you have completed the above steps, your report system has been built successfully in theory. Next, you may need to verify that the report platform is open properly or that your users can access the report platform.
 Here you just need to query the IP address of the virtual machine and tell your users about it. Your user can open the browser in any device in the same LAN, and enter the IP address of the virtual machine in the browser&amp;rsquo;s address bar to access the report platform as if it were a normal website.</description>
     </item>

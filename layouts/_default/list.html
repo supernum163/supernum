@@ -74,9 +74,11 @@
       
     {{ "<!-- index -->" | safeHTML }}
       <div class="col-lg-9">
-        <div class="container bg-white" style="padding-top: 3rem  !important; padding-bottom: 3rem  !important;">
+        <div class="p-5 bg-white">
           <h2>{{ .Title }}</h2>
-          {{ .Content }}
+          <div class="bg-gray p-4">
+            {{ .Content }}
+          </div>
         </div>
       </div>
     {{ "<!-- index -->" | safeHTML }}

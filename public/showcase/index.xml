@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>产品展示 on 极数科技官网</title>
-    <link>/showcase/</link>
+    <link>//www.supernum.tech/showcase/</link>
     <description>Recent content in 产品展示 on 极数科技官网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>本站所有权归 @极数科技 所有</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
     
-	<atom:link href="/showcase/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.supernum.tech/showcase/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>极速版展示</title>
-      <link>/showcase/supernumv1/</link>
+      <link>//www.supernum.tech/showcase/supernumv1/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/showcase/supernumv1/</guid>
+      <guid>//www.supernum.tech/showcase/supernumv1/</guid>
       <description> 报表平台框架 用户打开报表平台后，将会看到上方的标题栏，左侧的导航栏和右侧的内容展示区域。在移动端设备下，左侧的导航栏可能会被自动隐藏，用户需要点击标题栏的展开导航栏才能将其展开。
    报表管理 导航栏将会使用报表类别作为一级标题，使用报表名称作为二级标题。点击报表类别将会展开或折叠相应报表类别下的报表名称。点击报表名称将会在右侧内容展示区域显示相应的报表。
 打开报表之后，用户可以点击报表的任意字段进行排序、可以搜索报表中的任意内容、可以选择一页展示多少条数据、可以翻页。
@@ -26,10 +26,10 @@
     
     <item>
       <title>会员版展示</title>
-      <link>/showcase/supernumv2/</link>
+      <link>//www.supernum.tech/showcase/supernumv2/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/showcase/supernumv2/</guid>
+      <guid>//www.supernum.tech/showcase/supernumv2/</guid>
       <description> 报表平台框架 用户打开报表平台后，将会看到上方的标题栏，左侧的导航栏和右侧的内容展示区域。在移动端设备下，左侧的导航栏可能会被自动隐藏，用户需要点击标题栏的展开导航栏才能将其展开。
    用户管理 导航栏的上半部分是用户管理界面。在未登录的情况下，用户将无法查看任何报告。点击登陆将会出现登陆UI，输入相应的信息并点击确定登陆，用户管理界面中将会显示登陆结果。登陆成功后将会自动展示用户所能查看的报表。
     用户也可以进行注册或该密操作。新注册的账号不会立即生效，必须等待管理员认证之后才能查看报表。若进行该密操作，用户需要首先登陆成功，再点击注册&amp;该密按钮，输入登陆时的用户名与新密码即可该密。
@@ -40,10 +40,10 @@
     
     <item>
       <title>高级定制版展示</title>
-      <link>/showcase/supernumv3/</link>
+      <link>//www.supernum.tech/showcase/supernumv3/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/showcase/supernumv3/</guid>
+      <guid>//www.supernum.tech/showcase/supernumv3/</guid>
       <description>报表平台框架 用户打开报表平台后，将会看到上方的标题栏，左侧的导航栏和右侧的内容展示区域。在移动端设备下，左侧的导航栏可能会被自动隐藏，用户需要点击标题栏的展开导航栏才能将其展开。
    用户管理 导航栏的上半部分是用户管理界面。在未登录的情况下，用户将无法查看任何报告。点击登陆将会出现登陆UI，输入相应的信息并点击确定登陆，用户管理界面中将会显示登陆结果。登陆成功后将会自动展示用户所能查看的报表。
     用户也可以进行注册或该密操作。新注册的账号不会立即生效，必须等待管理员认证之后才能查看报表。若进行该密操作，用户需要首先登陆成功，再点击注册&amp;该密按钮，输入登陆时的用户名与新密码即可该密。

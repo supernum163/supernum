@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "//www.supernum.tech/"
 theme = "dot-hugo-documentation-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 defaultContentLanguage = "zh"
@@ -96,8 +96,8 @@ whiteColor = "#ffffff"
 
     # footer social icon
     [[Languages.zh.socialIcon]]
-      icon = "fa-at"
-      URL = "mailto:supernum@163.com"
+      icon = "fa-tv"
+      URL = "/showcase"
       
     [[Languages.zh.socialIcon]]
       icon = "fa-envelope"
@@ -167,7 +167,7 @@ whiteColor = "#ffffff"
 
     # banner
     [Languages.en.params.banner]
-      title = "Help and Support"
+      title = "Help & Support"
       description = "Follow us to find the best solution to realize digital management"
       image = "image/banner.jpg"
       placeholder = "Search for keywords or article titles"
@@ -195,8 +195,8 @@ whiteColor = "#ffffff"
       
     # footer social icon
     [[Languages.en.socialIcon]]
-      icon = "fa-at"
-      URL = "mailto:supernum@163.com"
+      icon = "fa-tv"
+      URL = "/en/showcase"
       
     [[Languages.en.socialIcon]]
       icon = "fa-envelope"

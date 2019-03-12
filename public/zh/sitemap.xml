@@ -3,347 +3,347 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/showcase/</loc>
+    <loc>//www.supernum.tech/showcase/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/showcase/"
+                href="//www.supernum.tech/en/showcase/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/showcase/"
+                href="//www.supernum.tech/showcase/"
                 />
   </url>
   
   <url>
-    <loc>/installation/</loc>
+    <loc>//www.supernum.tech/installation/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/"
+                href="//www.supernum.tech/en/installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/installation/"
+                href="//www.supernum.tech/installation/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/reportmanager/</loc>
+    <loc>//www.supernum.tech/maintenance/reportmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/reportmanager/"
+                href="//www.supernum.tech/en/maintenance/reportmanager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/reportmanager/"
+                href="//www.supernum.tech/maintenance/reportmanager/"
                 />
   </url>
   
   <url>
-    <loc>/showcase/supernumv1/</loc>
+    <loc>//www.supernum.tech/showcase/supernumv1/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/showcase/supernumv1/"
+                href="//www.supernum.tech/en/showcase/supernumv1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/showcase/supernumv1/"
+                href="//www.supernum.tech/showcase/supernumv1/"
                 />
   </url>
   
   <url>
-    <loc>/installation/virtualsystem/</loc>
+    <loc>//www.supernum.tech/installation/virtualsystem/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/virtualsystem/"
+                href="//www.supernum.tech/en/installation/virtualsystem/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/installation/virtualsystem/"
+                href="//www.supernum.tech/installation/virtualsystem/"
                 />
   </url>
   
   <url>
-    <loc>/showcase/supernumv2/</loc>
+    <loc>//www.supernum.tech/showcase/supernumv2/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/showcase/supernumv2/"
+                href="//www.supernum.tech/en/showcase/supernumv2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/showcase/supernumv2/"
+                href="//www.supernum.tech/showcase/supernumv2/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/usermanager/</loc>
+    <loc>//www.supernum.tech/maintenance/usermanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/usermanager/"
+                href="//www.supernum.tech/en/maintenance/usermanager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/usermanager/"
+                href="//www.supernum.tech/maintenance/usermanager/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/</loc>
+    <loc>//www.supernum.tech/maintenance/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/"
+                href="//www.supernum.tech/en/maintenance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/"
+                href="//www.supernum.tech/maintenance/"
                 />
   </url>
   
   <url>
-    <loc>/installation/database/</loc>
+    <loc>//www.supernum.tech/installation/database/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/database/"
+                href="//www.supernum.tech/en/installation/database/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/installation/database/"
+                href="//www.supernum.tech/installation/database/"
                 />
   </url>
   
   <url>
-    <loc>/installation/globalconfig/</loc>
+    <loc>//www.supernum.tech/installation/globalconfig/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/globalconfig/"
+                href="//www.supernum.tech/en/installation/globalconfig/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/installation/globalconfig/"
+                href="//www.supernum.tech/installation/globalconfig/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/authmanager/</loc>
+    <loc>//www.supernum.tech/maintenance/authmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/authmanager/"
+                href="//www.supernum.tech/en/maintenance/authmanager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/authmanager/"
+                href="//www.supernum.tech/maintenance/authmanager/"
                 />
   </url>
   
   <url>
-    <loc>/showcase/supernumv3/</loc>
+    <loc>//www.supernum.tech/showcase/supernumv3/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/showcase/supernumv3/"
+                href="//www.supernum.tech/en/showcase/supernumv3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/showcase/supernumv3/"
+                href="//www.supernum.tech/showcase/supernumv3/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/availablereports/</loc>
+    <loc>//www.supernum.tech/maintenance/availablereports/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/availablereports/"
+                href="//www.supernum.tech/en/maintenance/availablereports/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/availablereports/"
+                href="//www.supernum.tech/maintenance/availablereports/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/plotmanager/</loc>
+    <loc>//www.supernum.tech/maintenance/plotmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/plotmanager/"
+                href="//www.supernum.tech/en/maintenance/plotmanager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/plotmanager/"
+                href="//www.supernum.tech/maintenance/plotmanager/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/readinghistorymanager/</loc>
+    <loc>//www.supernum.tech/maintenance/readinghistorymanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/readinghistorymanager/"
+                href="//www.supernum.tech/en/maintenance/readinghistorymanager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/readinghistorymanager/"
+                href="//www.supernum.tech/maintenance/readinghistorymanager/"
                 />
   </url>
   
   <url>
-    <loc>/maintenance/messagesmanager/</loc>
+    <loc>//www.supernum.tech/maintenance/messagesmanager/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/maintenance/messagesmanager/"
+                href="//www.supernum.tech/en/maintenance/messagesmanager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/maintenance/messagesmanager/"
+                href="//www.supernum.tech/maintenance/messagesmanager/"
                 />
   </url>
   
   <url>
-    <loc>/installation/howtovisit/</loc>
+    <loc>//www.supernum.tech/installation/howtovisit/</loc>
     <lastmod>2019-01-01T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/howtovisit/"
+                href="//www.supernum.tech/en/installation/howtovisit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/installation/howtovisit/"
+                href="//www.supernum.tech/installation/howtovisit/"
                 />
   </url>
   
   <url>
-    <loc>/tips/</loc>
+    <loc>//www.supernum.tech/tips/</loc>
     <lastmod>2019-01-01T09:10:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tips/"
+                href="//www.supernum.tech/en/tips/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/tips/"
+                href="//www.supernum.tech/tips/"
                 />
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>//www.supernum.tech/</loc>
     <lastmod>2019-01-01T09:10:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="//www.supernum.tech/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/"
+                href="//www.supernum.tech/"
                 />
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>//www.supernum.tech/contact/</loc>
     <lastmod>2019-01-01T09:10:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/contact/"
+                href="//www.supernum.tech/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/contact/"
+                href="//www.supernum.tech/contact/"
                 />
   </url>
   
   <url>
-    <loc>/faq/</loc>
+    <loc>//www.supernum.tech/faq/</loc>
     <lastmod>2018-12-27T09:10:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/faq/"
+                href="//www.supernum.tech/en/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/faq/"
+                href="//www.supernum.tech/faq/"
                 />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>//www.supernum.tech/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="//www.supernum.tech/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/categories/"
+                href="//www.supernum.tech/categories/"
                 />
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>//www.supernum.tech/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="//www.supernum.tech/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/tags/"
+                href="//www.supernum.tech/tags/"
                 />
   </url>
   

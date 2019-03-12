@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>联系我们 on 极数科技官网</title>
-    <link>/contact/</link>
+    <link>//www.supernum.tech/contact/</link>
     <description>Recent content in 联系我们 on 极数科技官网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>本站所有权归 @极数科技 所有</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 09:10:27 +0600</lastBuildDate>
     
-	<atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.supernum.tech/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

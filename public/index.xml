@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>极数科技 on 极数科技官网</title>
-    <link>/</link>
+    <link>//www.supernum.tech/</link>
     <description>Recent content in 极数科技 on 极数科技官网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>本站所有权归 @极数科技 所有</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 09:10:27 +0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.supernum.tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>报表管理系统</title>
-      <link>/maintenance/reportmanager/</link>
+      <link>//www.supernum.tech/maintenance/reportmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/maintenance/reportmanager/</guid>
+      <guid>//www.supernum.tech/maintenance/reportmanager/</guid>
       <description>我们的报表管理系统默认是根据__报表管理__表来对报表进行管理的。您可以参考以下sql语句建立__报表管理__表，当然您需要修改部分内容以适应自己的数据库，比如SQLite中查询当前时间的方式是DATETIME(&#39;now&#39;, &#39;localtime&#39;)，而SQL Server中则是GETDATE()（以后不作赘述）。
   创建__报表管理__表     1
 2
@@ -36,10 +36,10 @@
     
     <item>
       <title>极速版展示</title>
-      <link>/showcase/supernumv1/</link>
+      <link>//www.supernum.tech/showcase/supernumv1/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/showcase/supernumv1/</guid>
+      <guid>//www.supernum.tech/showcase/supernumv1/</guid>
       <description> 报表平台框架 用户打开报表平台后，将会看到上方的标题栏，左侧的导航栏和右侧的内容展示区域。在移动端设备下，左侧的导航栏可能会被自动隐藏，用户需要点击标题栏的展开导航栏才能将其展开。
    报表管理 导航栏将会使用报表类别作为一级标题，使用报表名称作为二级标题。点击报表类别将会展开或折叠相应报表类别下的报表名称。点击报表名称将会在右侧内容展示区域显示相应的报表。
 打开报表之后，用户可以点击报表的任意字段进行排序、可以搜索报表中的任意内容、可以选择一页展示多少条数据、可以翻页。
@@ -48,10 +48,10 @@
     
     <item>
       <title>配置虚拟系统</title>
-      <link>/installation/virtualsystem/</link>
+      <link>//www.supernum.tech/installation/virtualsystem/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/virtualsystem/</guid>
+      <guid>//www.supernum.tech/installation/virtualsystem/</guid>
       <description>首先，您需要在virtualbox官网中下载与您的操作系统相应的virtualbox安装程序与VirtualBox扩展包，扩展包可以让您的虚拟机与本机实现共享粘贴板、共享文件夹等功能，如果您不需要这些功能，也可以不用下载扩展包。
    
 其次，您需要像安装普通软件一样安装virtualbox安装程序，安装完成后打开virtualbox软件，将VirtualBox扩展包拖入virtualbox界面即可安装扩展。
@@ -67,10 +67,10 @@
     
     <item>
       <title>会员版展示</title>
-      <link>/showcase/supernumv2/</link>
+      <link>//www.supernum.tech/showcase/supernumv2/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/showcase/supernumv2/</guid>
+      <guid>//www.supernum.tech/showcase/supernumv2/</guid>
       <description> 报表平台框架 用户打开报表平台后，将会看到上方的标题栏，左侧的导航栏和右侧的内容展示区域。在移动端设备下，左侧的导航栏可能会被自动隐藏，用户需要点击标题栏的展开导航栏才能将其展开。
    用户管理 导航栏的上半部分是用户管理界面。在未登录的情况下，用户将无法查看任何报告。点击登陆将会出现登陆UI，输入相应的信息并点击确定登陆，用户管理界面中将会显示登陆结果。登陆成功后将会自动展示用户所能查看的报表。
     用户也可以进行注册或该密操作。新注册的账号不会立即生效，必须等待管理员认证之后才能查看报表。若进行该密操作，用户需要首先登陆成功，再点击注册&amp;该密按钮，输入登陆时的用户名与新密码即可该密。
@@ -81,10 +81,10 @@
     
     <item>
       <title>用户管理系统</title>
-      <link>/maintenance/usermanager/</link>
+      <link>//www.supernum.tech/maintenance/usermanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/maintenance/usermanager/</guid>
+      <guid>//www.supernum.tech/maintenance/usermanager/</guid>
       <description>我们的用户管理系统默认是根据__用户管理__表来对用户进行管理的。您可以参考以下sql语句建立__用户管理__表。
   创建__报表管理__表     1
 2
@@ -101,10 +101,10 @@
     
     <item>
       <title>配置数据库</title>
-      <link>/installation/database/</link>
+      <link>//www.supernum.tech/installation/database/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/database/</guid>
+      <guid>//www.supernum.tech/installation/database/</guid>
       <description>配置不同类型的数据库连接，需要的步骤略有不同。
 对于SQLite数据库，您只需要提供SQLite的数据库文件所在路径即可。当然您完全可以使用我们默认的SQLite的数据库文件，跳过这篇配置。
 对于MySQL、SQL Server等数据库，您需要提供连接数据库所必须的用户名和密码，以及需要连接的数据库库名。当然您也可以不提供库名、但我们建议您新建一个专用于报表平台的库，将我们的系统表和后续所有的报表都放入其中。
@@ -131,10 +131,10 @@
     
     <item>
       <title>全局配置文件</title>
-      <link>/installation/globalconfig/</link>
+      <link>//www.supernum.tech/installation/globalconfig/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/globalconfig/</guid>
+      <guid>//www.supernum.tech/installation/globalconfig/</guid>
       <description>报表平台必须依赖全局配置文件config.R才能正常运行，全局配置文件默认存放在/supernum的子文件夹内。你可以修改其中的一部分内容，以适应您的需求。
 全局配置文件中的内容大致如下所示，对于不同版本或拥有不同系统的产品、其全局配置文件会有所不同。
   设定全局配置变量     1
@@ -180,10 +180,10 @@
     
     <item>
       <title>权限管理系统</title>
-      <link>/maintenance/authmanager/</link>
+      <link>//www.supernum.tech/maintenance/authmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/maintenance/authmanager/</guid>
+      <guid>//www.supernum.tech/maintenance/authmanager/</guid>
       <description>我们的用户管理系统默认是根据__报表权限管理__表来对用户阅读报表的权限进行管理的。您可以参考以下sql语句建立__报表权限管理__表。
   创建 __报表权限管理__ 表     1
 2
@@ -202,10 +202,10 @@
     
     <item>
       <title>高级定制版展示</title>
-      <link>/showcase/supernumv3/</link>
+      <link>//www.supernum.tech/showcase/supernumv3/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/showcase/supernumv3/</guid>
+      <guid>//www.supernum.tech/showcase/supernumv3/</guid>
       <description>报表平台框架 用户打开报表平台后，将会看到上方的标题栏，左侧的导航栏和右侧的内容展示区域。在移动端设备下，左侧的导航栏可能会被自动隐藏，用户需要点击标题栏的展开导航栏才能将其展开。
    用户管理 导航栏的上半部分是用户管理界面。在未登录的情况下，用户将无法查看任何报告。点击登陆将会出现登陆UI，输入相应的信息并点击确定登陆，用户管理界面中将会显示登陆结果。登陆成功后将会自动展示用户所能查看的报表。
     用户也可以进行注册或该密操作。新注册的账号不会立即生效，必须等待管理员认证之后才能查看报表。若进行该密操作，用户需要首先登陆成功，再点击注册&amp;该密按钮，输入登陆时的用户名与新密码即可该密。
@@ -224,10 +224,10 @@
     
     <item>
       <title>可用报表</title>
-      <link>/maintenance/availablereports/</link>
+      <link>//www.supernum.tech/maintenance/availablereports/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/maintenance/availablereports/</guid>
+      <guid>//www.supernum.tech/maintenance/availablereports/</guid>
       <description>报表平台默认展示的第一张报表，就是用户可以查看的报表列表。对于不同版本的产品，实现这个功能的方式略有不同。
 极速版 对于极速版而言，您只需要创建一个__可用报表__视图，并将该视图的位置、名称、类别等信息作为第一条数据插入__报表管理__表即可。您可以参考以下sql语句建立__可用报表__视图。
   创建__可用报表__视图     1
@@ -256,10 +256,10 @@
     
     <item>
       <title>可视化管理系统</title>
-      <link>/maintenance/plotmanager/</link>
+      <link>//www.supernum.tech/maintenance/plotmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/maintenance/plotmanager/</guid>
+      <guid>//www.supernum.tech/maintenance/plotmanager/</guid>
       <description>可视化管理系统本质上是将报表以可视化的形式呈现出来，所以您不需要创建额外的系统管理表，只需要在已有的系统管理表中稍加修改。
 首先，修改__报表管理__表， 加入绘图命令字段：
   修改__报表管理__表     1
@@ -281,10 +281,10 @@
     
     <item>
       <title>阅读记录管理系统</title>
-      <link>/maintenance/readinghistorymanager/</link>
+      <link>//www.supernum.tech/maintenance/readinghistorymanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/maintenance/readinghistorymanager/</guid>
+      <guid>//www.supernum.tech/maintenance/readinghistorymanager/</guid>
       <description>我们的用户管理系统默认是根据__报表阅读记录__表来对阅读记录进行管理的。您可以参考以下sql语句建立__报表阅读记录__表。
   创建__报表阅读记录__表     1
 2
@@ -303,10 +303,10 @@
     
     <item>
       <title>用户留言管理系统</title>
-      <link>/maintenance/messagesmanager/</link>
+      <link>//www.supernum.tech/maintenance/messagesmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/maintenance/messagesmanager/</guid>
+      <guid>//www.supernum.tech/maintenance/messagesmanager/</guid>
       <description>我们的用户管理系统默认是根据__留言管理__表来对报表进行管理的。您可以参考以下sql语句建立__留言管理__表。
   创建__留言管理__表     1
 2
@@ -322,10 +322,10 @@
     
     <item>
       <title>如何访问报表平台</title>
-      <link>/installation/howtovisit/</link>
+      <link>//www.supernum.tech/installation/howtovisit/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/howtovisit/</guid>
+      <guid>//www.supernum.tech/installation/howtovisit/</guid>
       <description>如果您已经完成了以上步骤，理论上您的报表系统就已经搭建成功了。接下来您可能需要验证报表平台能否正常打开，或者让您的用户访问报表平台。
 这里您只需要查询虚拟机的IP地址，并将其告诉您的用户。您的用户可以在任何同一个局域网内的设备中打开浏览器，在浏览器的地址栏中输入虚拟机的IP地址就可以像访问普通网站一样访问报表平台。
 当然，如果您知道如何配置局域网域名，也可以将一个域名绑定给虚拟机的IP地址，这样您的用户就可以通过域名的形式访问报表平台。

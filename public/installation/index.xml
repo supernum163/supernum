@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>安装与配置 on 极数科技官网</title>
-    <link>/installation/</link>
+    <link>//www.supernum.tech/installation/</link>
     <description>Recent content in 安装与配置 on 极数科技官网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>本站所有权归 @极数科技 所有</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
     
-	<atom:link href="/installation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.supernum.tech/installation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>配置虚拟系统</title>
-      <link>/installation/virtualsystem/</link>
+      <link>//www.supernum.tech/installation/virtualsystem/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/virtualsystem/</guid>
+      <guid>//www.supernum.tech/installation/virtualsystem/</guid>
       <description>首先，您需要在virtualbox官网中下载与您的操作系统相应的virtualbox安装程序与VirtualBox扩展包，扩展包可以让您的虚拟机与本机实现共享粘贴板、共享文件夹等功能，如果您不需要这些功能，也可以不用下载扩展包。
    
 其次，您需要像安装普通软件一样安装virtualbox安装程序，安装完成后打开virtualbox软件，将VirtualBox扩展包拖入virtualbox界面即可安装扩展。
@@ -33,10 +33,10 @@
     
     <item>
       <title>配置数据库</title>
-      <link>/installation/database/</link>
+      <link>//www.supernum.tech/installation/database/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/database/</guid>
+      <guid>//www.supernum.tech/installation/database/</guid>
       <description>配置不同类型的数据库连接，需要的步骤略有不同。
 对于SQLite数据库，您只需要提供SQLite的数据库文件所在路径即可。当然您完全可以使用我们默认的SQLite的数据库文件，跳过这篇配置。
 对于MySQL、SQL Server等数据库，您需要提供连接数据库所必须的用户名和密码，以及需要连接的数据库库名。当然您也可以不提供库名、但我们建议您新建一个专用于报表平台的库，将我们的系统表和后续所有的报表都放入其中。
@@ -63,10 +63,10 @@
     
     <item>
       <title>全局配置文件</title>
-      <link>/installation/globalconfig/</link>
+      <link>//www.supernum.tech/installation/globalconfig/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/globalconfig/</guid>
+      <guid>//www.supernum.tech/installation/globalconfig/</guid>
       <description>报表平台必须依赖全局配置文件config.R才能正常运行，全局配置文件默认存放在/supernum的子文件夹内。你可以修改其中的一部分内容，以适应您的需求。
 全局配置文件中的内容大致如下所示，对于不同版本或拥有不同系统的产品、其全局配置文件会有所不同。
   设定全局配置变量     1
@@ -112,10 +112,10 @@
     
     <item>
       <title>如何访问报表平台</title>
-      <link>/installation/howtovisit/</link>
+      <link>//www.supernum.tech/installation/howtovisit/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>/installation/howtovisit/</guid>
+      <guid>//www.supernum.tech/installation/howtovisit/</guid>
       <description>如果您已经完成了以上步骤，理论上您的报表系统就已经搭建成功了。接下来您可能需要验证报表平台能否正常打开，或者让您的用户访问报表平台。
 这里您只需要查询虚拟机的IP地址，并将其告诉您的用户。您的用户可以在任何同一个局域网内的设备中打开浏览器，在浏览器的地址栏中输入虚拟机的IP地址就可以像访问普通网站一样访问报表平台。
 当然，如果您知道如何配置局域网域名，也可以将一个域名绑定给虚拟机的IP地址，这样您的用户就可以通过域名的形式访问报表平台。
