@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>maintenance on supernum</title>
-    <link>//www.supernum.tech/en/maintenance/</link>
+    <link>/en/maintenance/</link>
     <description>Recent content in maintenance on supernum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>copyrights belong to ©supernum.</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
     
-	<atom:link href="//www.supernum.tech/en/maintenance/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/en/maintenance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Report Management</title>
-      <link>//www.supernum.tech/en/maintenance/reportmanager/</link>
+      <link>/en/maintenance/reportmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/en/maintenance/reportmanager/</guid>
+      <guid>/en/maintenance/reportmanager/</guid>
       <description>By default, our report management system manages reports according to ___reportTable__ . You can refer to the following SQL statements to establish the __reportTable__, of course, you need to modify some content to for your database, such as the way to query the current time in SQLite is DATETIME(&#39;now&#39;, &#39;localtime&#39;), in SQL Server is GETDATE() .
   CREATE __reportTable__     1
 2
@@ -29,10 +29,10 @@
     
     <item>
       <title>User Management</title>
-      <link>//www.supernum.tech/en/maintenance/usermanager/</link>
+      <link>/en/maintenance/usermanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/en/maintenance/usermanager/</guid>
+      <guid>/en/maintenance/usermanager/</guid>
       <description>By default, our user management system manages users according to the __userTable__. You can refer to the following SQL statements to establish the __userTable__.
   CREATE     1
 2
@@ -48,10 +48,10 @@
     
     <item>
       <title>Authentication Management</title>
-      <link>//www.supernum.tech/en/maintenance/authmanager/</link>
+      <link>/en/maintenance/authmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/en/maintenance/authmanager/</guid>
+      <guid>/en/maintenance/authmanager/</guid>
       <description>By default, our Authentication management system manages the user&amp;rsquo;s permission to read reports according to the __authTable__  table. You can refer to the following SQL statements to establish the __authTable__
   CREATE __authTable__      1
 2
@@ -66,20 +66,20 @@
     
     <item>
       <title>Available Reports</title>
-      <link>//www.supernum.tech/en/maintenance/availablereports/</link>
+      <link>/en/maintenance/availablereports/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/en/maintenance/availablereports/</guid>
+      <guid>/en/maintenance/availablereports/</guid>
       <description>The first report that the report platform displays by default is a list of reports that users can view. For different versions of products, the way to achieve this function is slightly different.
 Primary Edition For the Primary Edition, you just need to create a __availableReports__  view, and insert the location, name, category and other information of the view as the first data into the __reportTable__  table. You can refer to the following SQL statements to create the __availableReports__ view.</description>
     </item>
     
     <item>
       <title>Visualization Management</title>
-      <link>//www.supernum.tech/en/maintenance/plotmanager/</link>
+      <link>/en/maintenance/plotmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/en/maintenance/plotmanager/</guid>
+      <guid>/en/maintenance/plotmanager/</guid>
       <description>Visualization Management  is present reports visually, essentially, so you don&amp;rsquo;t need to create additional system management tables, you just need to modify the existing system management tables slightly.。
 Firstly，you need to modify __reportTable__ ， add a plotCommand  cloumn.
   modify __reportTable__     1
@@ -89,10 +89,10 @@ Firstly，you need to modify __reportTable__ ， add a plotCommand  cloumn.
     
     <item>
       <title>Reading History Management</title>
-      <link>//www.supernum.tech/en/maintenance/readinghistorymanager/</link>
+      <link>/en/maintenance/readinghistorymanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/en/maintenance/readinghistorymanager/</guid>
+      <guid>/en/maintenance/readinghistorymanager/</guid>
       <description>By default, our user management system manages reading records according to the __readingHistoryTable__ . You can refer to the following SQL statement to create ** __readingHistoryTable__**.
   CREATE __readingHistoryTable__     1
 2
@@ -105,10 +105,10 @@ Firstly，you need to modify __reportTable__ ， add a plotCommand  cloumn.
     
     <item>
       <title>Message Management</title>
-      <link>//www.supernum.tech/en/maintenance/messagesmanager/</link>
+      <link>/en/maintenance/messagesmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/en/maintenance/messagesmanager/</guid>
+      <guid>/en/maintenance/messagesmanager/</guid>
       <description>By default, our user management system manages reports according to the __messagesTable__  table. You can refer to the following SQL statement to establish __ messagesTable__ table.
   CREATE __messagesTable__     1
 2

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>管理员手册 on 极数科技官网</title>
-    <link>//www.supernum.tech/maintenance/</link>
+    <link>/maintenance/</link>
     <description>Recent content in 管理员手册 on 极数科技官网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>本站所有权归 @极数科技 所有</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 11:02:05 +0600</lastBuildDate>
     
-	<atom:link href="//www.supernum.tech/maintenance/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/maintenance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>报表管理系统</title>
-      <link>//www.supernum.tech/maintenance/reportmanager/</link>
+      <link>/maintenance/reportmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/maintenance/reportmanager/</guid>
+      <guid>/maintenance/reportmanager/</guid>
       <description>我们的报表管理系统默认是根据__报表管理__表来对报表进行管理的。您可以参考以下sql语句建立__报表管理__表，当然您需要修改部分内容以适应自己的数据库，比如SQLite中查询当前时间的方式是DATETIME(&#39;now&#39;, &#39;localtime&#39;)，而SQL Server中则是GETDATE()（以后不作赘述）。
   创建__报表管理__表     1
 2
@@ -36,10 +36,10 @@
     
     <item>
       <title>用户管理系统</title>
-      <link>//www.supernum.tech/maintenance/usermanager/</link>
+      <link>/maintenance/usermanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/maintenance/usermanager/</guid>
+      <guid>/maintenance/usermanager/</guid>
       <description>我们的用户管理系统默认是根据__用户管理__表来对用户进行管理的。您可以参考以下sql语句建立__用户管理__表。
   创建__报表管理__表     1
 2
@@ -56,10 +56,10 @@
     
     <item>
       <title>权限管理系统</title>
-      <link>//www.supernum.tech/maintenance/authmanager/</link>
+      <link>/maintenance/authmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/maintenance/authmanager/</guid>
+      <guid>/maintenance/authmanager/</guid>
       <description>我们的用户管理系统默认是根据__报表权限管理__表来对用户阅读报表的权限进行管理的。您可以参考以下sql语句建立__报表权限管理__表。
   创建 __报表权限管理__ 表     1
 2
@@ -78,10 +78,10 @@
     
     <item>
       <title>可用报表</title>
-      <link>//www.supernum.tech/maintenance/availablereports/</link>
+      <link>/maintenance/availablereports/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/maintenance/availablereports/</guid>
+      <guid>/maintenance/availablereports/</guid>
       <description>报表平台默认展示的第一张报表，就是用户可以查看的报表列表。对于不同版本的产品，实现这个功能的方式略有不同。
 极速版 对于极速版而言，您只需要创建一个__可用报表__视图，并将该视图的位置、名称、类别等信息作为第一条数据插入__报表管理__表即可。您可以参考以下sql语句建立__可用报表__视图。
   创建__可用报表__视图     1
@@ -110,10 +110,10 @@
     
     <item>
       <title>可视化管理系统</title>
-      <link>//www.supernum.tech/maintenance/plotmanager/</link>
+      <link>/maintenance/plotmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/maintenance/plotmanager/</guid>
+      <guid>/maintenance/plotmanager/</guid>
       <description>可视化管理系统本质上是将报表以可视化的形式呈现出来，所以您不需要创建额外的系统管理表，只需要在已有的系统管理表中稍加修改。
 首先，修改__报表管理__表， 加入绘图命令字段：
   修改__报表管理__表     1
@@ -135,10 +135,10 @@
     
     <item>
       <title>阅读记录管理系统</title>
-      <link>//www.supernum.tech/maintenance/readinghistorymanager/</link>
+      <link>/maintenance/readinghistorymanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/maintenance/readinghistorymanager/</guid>
+      <guid>/maintenance/readinghistorymanager/</guid>
       <description>我们的用户管理系统默认是根据__报表阅读记录__表来对阅读记录进行管理的。您可以参考以下sql语句建立__报表阅读记录__表。
   创建__报表阅读记录__表     1
 2
@@ -157,10 +157,10 @@
     
     <item>
       <title>用户留言管理系统</title>
-      <link>//www.supernum.tech/maintenance/messagesmanager/</link>
+      <link>/maintenance/messagesmanager/</link>
       <pubDate>Tue, 01 Jan 2019 11:02:05 +0600</pubDate>
       
-      <guid>//www.supernum.tech/maintenance/messagesmanager/</guid>
+      <guid>/maintenance/messagesmanager/</guid>
       <description>我们的用户管理系统默认是根据__留言管理__表来对报表进行管理的。您可以参考以下sql语句建立__留言管理__表。
   创建__留言管理__表     1
 2

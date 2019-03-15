@@ -1,4 +1,4 @@
-baseURL = "https://www.supernum.tech/"
+baseURL = "/"
 theme = "dot-hugo-documentation-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 defaultContentLanguage = "zh"

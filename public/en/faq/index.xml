@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frequently Asked Questions on supernum</title>
-    <link>//www.supernum.tech/en/faq/</link>
+    <link>/en/faq/</link>
     <description>Recent content in Frequently Asked Questions on supernum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>copyrights belong to ©supernum.</copyright>
     <lastBuildDate>Thu, 27 Dec 2018 09:10:27 +0600</lastBuildDate>
     
-	<atom:link href="//www.supernum.tech/en/faq/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/en/faq/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
