@@ -47,11 +47,11 @@ finally，you need to create an {{< hl-text red >}} __availableReports__  {{< /h
 <br>
 {{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/ncYtc1F9/visualization03.png" >}}
 <br>
-So far our **Visualization Management** has been set up. When we need to visualize the report for users, we just need to insert the plot command into {{< hl-text green >}} plotCommand {{< /hl-text >}} of {{< hl-text red >}} __reportTable__ {{< /hl-text >}}. For example, if we set the drawing command of {{< hl-text yellow >}}CarSalesHistory {{< /hl-text >}} to {{< hl-text blue >}} ggplot(session$report) + geom_bar(aes(saler, price, fill = saler), stat = sum, positon = stack) {{< /hl-text >}}, then each user can see a bar chart showing saler's turnover, and each user can only see the situation of his department. (Controlled by privileges).  
+So far our **Visualization Management** has been set up. When we need to visualize the report for users, we just need to insert the plot command into {{< hl-text green >}} plotCommand {{< /hl-text >}} of {{< hl-text red >}} __reportTable__ {{< /hl-text >}}. For example, if we set the drawing command of {{< hl-text yellow >}}CarSalesHistory {{< /hl-text >}} to {{< hl-text blue >}} ggplot(s$report) + geom_bar(aes(saler, price, fill = saler), stat = sum, positon = stack) {{< /hl-text >}}, then each user can see a bar chart showing saler's turnover, and each user can only see the situation of his department. (Controlled by privileges).  
 
 **plotCommand** can be covered like permissions. For example, {{< hl-text yellow >}} user03 {{< /hl-text >}} can view all sales' record. So we can customize a visual report for him. We only need to add hte plot command for **user03** to Visualize **CarSalesHistory** into {{< hl-text green >}} plotCommand {{< /hl-text >}} of {{< hl-text red >}} __authTable__ {{< /hl-text >}}.  Then **user03** can view the overall status of salers and departments.
   
-{{< alert info >}} Note that report currently viewed by users are stored in **session$report** in the report platform. {{< /alert >}}
+{{< alert info >}} Note that report currently viewed by users are stored in **s$report** in the report platform. {{< /alert >}}
   
 > As for **Visualization Management**, you only need to consider presenting specific reports in a specific visual way, or viewing specific visual reports to specific users. These maintenance tasks can be one-time. 
   
