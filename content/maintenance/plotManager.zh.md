@@ -44,9 +44,15 @@ CREATE VIEW IF NOT EXISTS __可用报表__ AS
       INNER JOIN __报表权限管理__ AS B 
       ON A.报表名称 = B.报表名称;
 {{< /codeblock >}}
+
 <br>
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/SK9dkg4w/03.png" >}}
+
+{{< image group="visual" classes="fancybox fig-50" src="/images/管理员手册_可视化管理_01.png" >}}
+{{< image group="visual" classes="fancybox fig-50" src="/images/管理员手册_可视化管理_02.png" >}}
+{{< image group="visual" classes="clear fancybox fig-100" src="/images/管理员手册_可视化管理_03.png" >}}
+
 <br>
+
 至此我们的**可视化管理系统**就已经搭建成功了。当我们需要将报表以可视化的形式展现给阅读着时，我们只需要将生成可视化图表的命令插入{{< hl-text red >}}__报表管理__{{< /hl-text >}}表中的{{< hl-text green >}}绘图命令{{< /hl-text >}}中即可。比如我们将{{< hl-text yellow >}}汽车销售详情表{{< /hl-text >}}的绘图命令设为{{< hl-text blue >}}ggplot(s$report) + geom_bar(aes(销售人员, 价格, fill = 销售人员), stat = "sum", positon = "stack")  {{< /hl-text >}}，则每个用户都能看到一幅显示销售人员营业额的柱形图，而且每个用户都只能看到自己部门销售人员的情况（受权限控制）。  
   
 绘图命令也拥有像权限一样可覆盖的功能，比如{{< hl-text yellow >}}用户03{{< /hl-text >}}可以查看所有人的销售情况，我们就可以专门为他定制一份可视化报表，只需要{{< hl-text red >}}__报表权限管理__{{< /hl-text >}}表的{{< hl-text green >}}定制绘图命令{{< /hl-text >}}中，将绘图命令加入到给**用户03**分配**汽车销售详情表**权限的记录中，**用户03**就能查看到分析全体销售人员、销售部门的综合型图表。  

@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS __报表权限管理__ (
 <br>
 在**\_\_报表权限管理\_\_**表中，您至少需要创建以下几个字段：**报表名称**、**使用者**、**字段筛选**，**记录筛选**，其它字段则可以根据实际需求创建或删除。  
   
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/8cZBt3dr/image.png" >}}
+{{< image classes="clear fancybox fig-100" src="/images/管理员手册_报表权限管理.png" >}}
 <br>
 {{< hl-text green >}}报表名称{{< /hl-text >}}即您在 [报表管理系统](/maintenance/reportmanager/) 中定义的报表名称，二者必须互相关联，否则将导致报表无法展示。  
    

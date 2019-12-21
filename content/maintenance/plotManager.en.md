@@ -44,9 +44,15 @@ finally，you need to create an {{< hl-text red >}} __availableReports__  {{< /h
     INNER JOIN __authTable__ AS B 
     ON A.reportName = B.reportName;
 {{< /codeblock >}}
+
 <br>
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/ncYtc1F9/visualization03.png" >}}
+
+{{< image group="visual" classes="fancybox fig-50" src="/images/maintainance_visualization_01.png" >}}
+{{< image group="visual" classes="fancybox fig-50" src="/images/maintainance_visualization_02.png" >}}
+{{< image group="visual" classes="clear fancybox fig-100" src="/images/maintainance_visualization_03.png" >}}
+
 <br>
+
 So far our **Visualization Management** has been set up. When we need to visualize the report for users, we just need to insert the plot command into {{< hl-text green >}} plotCommand {{< /hl-text >}} of {{< hl-text red >}} __reportTable__ {{< /hl-text >}}. For example, if we set the drawing command of {{< hl-text yellow >}}CarSalesHistory {{< /hl-text >}} to {{< hl-text blue >}} ggplot(s$report) + geom_bar(aes(saler, price, fill = saler), stat = sum, positon = stack) {{< /hl-text >}}, then each user can see a bar chart showing saler's turnover, and each user can only see the situation of his department. (Controlled by privileges).  
 
 **plotCommand** can be covered like permissions. For example, {{< hl-text yellow >}} user03 {{< /hl-text >}} can view all sales' record. So we can customize a visual report for him. We only need to add hte plot command for **user03** to Visualize **CarSalesHistory** into {{< hl-text green >}} plotCommand {{< /hl-text >}} of {{< hl-text red >}} __authTable__ {{< /hl-text >}}.  Then **user03** can view the overall status of salers and departments.

@@ -21,7 +21,7 @@ By default, our user management system manages users according to the {{< hl-tex
 <br>
 In the **\_\userTable\_\_**, you need to create at least the following columns, **userName**, **password**, **registerTime**, **lastActiveTime**, **loginTryTime**, **permission**, other cloumns can be created or deleted according to your needs.  
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/nh2ZTGNf/user-Table.png" >}}
+{{< image classes="clear fancybox fig-100" src="/images/maintainance_userTable.png" >}}
 <br>
 {{< hl-text green >}} userName {{< /hl-text >}} is the name used by users when they login. This column must be unique, because this column is the only token we use to distinguish users.  
   

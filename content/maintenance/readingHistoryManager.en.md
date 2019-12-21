@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS __readingHistoryTable__ (
 <br>
 In ** \_\_readingHistoryTable\_\_**, you need to create at least the following columns: **reportName**, **username**, **lastReadingTime**, **readingCount**, other columns can be created or deleted according to actual needs.
   
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/qRPdgb6y/reading-History-Table.png" >}}
+{{< image classes="clear fancybox fig-100" src="/images/maintainance_readingHistoryTable.png" >}}
 <br>
   
 {{< hl-text green >}} rreportName {{< /hl-text >}} is the report name you defined in the [report management system] (/maintenance/ReportManagement/).  

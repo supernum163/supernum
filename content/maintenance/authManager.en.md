@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS __authTable__ (
 <br>
 In the **\_\_authTable\_\_**, you need to create at least the following columns, **reportName**, **reportUser**, **colSub**, **rowSub**, other cloumns can be created or deleted according to your needs.    
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/VNHwPLY7/auth-Table.png" >}}
+{{< image classes="clear fancybox fig-100" src="/images/maintainance_authTable.png" >}}
 <br>
 {{< hl-text green >}} reportName {{< /hl-text >}} is the report name that you defined in the [__reportTable__] (/maintenance/report manager/). The two must be related to each other, otherwise the report will not be displayed.  
 

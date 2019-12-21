@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS __留言管理__ (
 <br>
 在**\_\_留言管理\_\_**表中，您至少需要创建以下几个字段：**留言者**、**接收者**、**留言时间**，**留言生效日期**，**留言过期日期**，**留言内容**，其它字段则可以根据实际需求创建或删除。  
   
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/52TghZhB/image.png" >}}
+{{< image classes="clear fancybox fig-100" src="/images/管理员手册_留言管理.png" >}}
 <br>
 {{< hl-text green >}}留言者{{< /hl-text >}}和{{< hl-text green >}}接收者{{< /hl-text >}}分别代表留言信息的发送者与接收者，两者都需要与 [用户管理系统](/maintenance/usermanager/) 中定义的用户名称相互关联。**留言者**与**接收者**可以是同一人，代表给自己留言（或添加备忘录）。  
   

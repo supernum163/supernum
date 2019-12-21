@@ -21,7 +21,7 @@ By default, our report management system manages reports according to {{< hl-tex
 <br>
 In the **\_\_reportTable\_\_**，You need to create at least the following columns: **reportType**, **reportName**, **reportPath**, and other columns can be created or deleted according to actual needs.
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/zvTYhCTM/report-Table.png" >}}
+{{< image classes="clear fancybox fig-100" src="/images/maintainance_reportTable.png" >}}
 <br>
   
 {{< hl-text green >}} reportType {{< /hl-text >}} and {{< hl-text green >}} reportName {{< /hl-text >}} are used to create the {{< hl-text purple >}}report filter{{< /hl-text >}}, you must ensure that the report is placed to the corresponding category, report name is unique, and the name can not be too long (less than 40 letters).  

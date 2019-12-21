@@ -9,18 +9,20 @@ weight: 4
 
 用户打开报表平台后，将会看到上方的{{< hl-text primary >}}标题栏{{< /hl-text >}}，左侧的{{< hl-text primary >}}导航栏{{< /hl-text >}}和右侧的{{< hl-text primary >}}内容展示区域{{< /hl-text >}}。在移动端设备下，左侧的导航栏可能会被自动隐藏，用户需要点击标题栏的{{< hl-text orange >}}展开导航栏{{< /hl-text >}}才能将其展开。  
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/jSp6gyfv/1.png" >}}  
+{{< image classes="clear fancybox fig-100" src="/images/使用说明_01_报表平台框架.png" >}}  
   
   
 ### 用户管理
 
 导航栏的上半部分是{{< hl-text blue >}}用户管理界面{{< /hl-text >}}。在未登录的情况下，用户将无法查看任何报告。点击{{< hl-text orange >}}登陆{{< /hl-text >}}将会出现登陆UI，输入相应的信息并点击{{< hl-text orange >}}确定登陆{{< /hl-text >}}，用户管理界面中将会显示登陆结果。登陆成功后将会自动展示用户所能查看的报表。  
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/C1YGYYmq/2.png" >}}
+{{< image classes="clear fancybox fig-100" src="/images/使用说明_02_用户登录.png" >}}
+
 <br>
+
 用户也可以进行注册或该密操作。新注册的账号不会立即生效，必须等待管理员认证之后才能查看报表。若进行该密操作，用户需要首先登陆成功，再点击{{< hl-text orange >}}注册&该密{{< /hl-text >}}按钮，输入登陆时的用户名与新密码即可该密。  
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/GpvFZ9JR/3.png" >}}  
+{{< image classes="clear fancybox fig-100" src="/images/使用说明_03_用户注册与改密.png" >}}  
   
   
 ###  报表管理
@@ -29,7 +31,7 @@ weight: 4
   
 打开报表之后，用户可以点击报表的任意字段进行{{< hl-text green >}}排序{{< /hl-text >}}、可以{{< hl-text green >}}搜索{{< /hl-text >}}报表中的任意内容、可以{{< hl-text green >}}选择一页展示多少条数据{{< /hl-text >}}、可以{{< hl-text green >}}翻页{{< /hl-text >}}。  
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/fTkxM8jB/6-v3.png" >}}   
+{{< image classes="clear fancybox fig-100" src="/images/使用说明_06_查看报表.png" >}}   
   
   
 ### 可视化管理
@@ -40,9 +42,9 @@ weight: 4
 
 其次，系统管理员也可以为当前报表定义特定的可视化展示方式，这样用户打开可视化界面后可以直接查看可视化结果。这种方式可以展示更加高级、更加丰富的图表，但是需要系统管理员掌握一定的绘图命令。  
 
-{{< image classes="fancybox fig-100" src="https://i.postimg.cc/KzNn8VHs/7.png">}}
-{{< image classes="fancybox fig-50" src="https://i.postimg.cc/BtWDY0Lb/v3-08.png" >}}
-{{< image classes="clear fancybox fig-50" src="https://i.postimg.cc/C5nks1K9/v3-09.png" >}}  
+{{< image group="visual" classes="fancybox fig-100" src="/images/使用说明_07_可视化管理.png">}}
+{{< image group="visual" classes="fancybox fig-50" src="/images/使用说明_08_可视化管理.png" >}}
+{{< image group="visual" classes="clear fancybox fig-50" src="/images/使用说明_09_可视化管理.png" >}}  
   
   
 ### 阅读记录管理
@@ -51,7 +53,7 @@ weight: 4
 
 用户也可以点击标题栏中的{{< hl-text orange >}}报告总揽{{< /hl-text >}}按钮查看当前共有多少份报告、有多少份报告已读、有多少份报告未读、有多少份报告有更新，点击标题栏中的{{< hl-text orange >}}阅读进度{{< /hl-text >}}按钮查看当前的阅读进度。  
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/BQy2b2ms/8.png" >}}  
+{{< image classes="clear fancybox fig-100" src="/images/使用说明_10_阅读记录管理.png" >}}  
   
   
 ### 留言管理
@@ -60,7 +62,7 @@ weight: 4
 
 用户也可以点击标题栏中的{{< hl-text orange >}}查收留言{{< /hl-text >}}按钮打开留言弹窗，接收留言信息。{{< hl-text red >}}注意未到生效日期或者已经过期的留言将不会被展示。{{< /hl-text >}}  
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/xj6vrwHX/9.png"  >}}   
+{{< image classes="clear fancybox fig-100" src="/images/使用说明_11_留言管理.png"  >}}   
   
   
 ### 使用帮助
