@@ -19,4 +19,4 @@ Secondly, in the open settings panel, click {{< hl-text red >}}  network {{< /hl
 
 Finally, the {{< hl-text green >}}  IPv4 address {{< /hl-text >}} displayed in the open network settings panel is the address of your virtual machine.   
 
-{{< image classes="clear fancybox fig-100" src="https://i.postimg.cc/pLX3Vbc3/find-IPAddress.png" >}}   
+{{< image classes="clear fancybox fig-100" src="/images/find-IP-Address.png" >}}   
