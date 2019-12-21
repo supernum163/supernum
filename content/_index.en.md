@@ -28,21 +28,21 @@ date: 2019-01-01T09:10:27+06:00
              <h2 class="section-title">Our Products</h2> 
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/showcase/supernumv1/" class="px-4 py-5 bg-white shadow text-center d-block">
+            <a href="/en/showcase/supernumv1/" class="px-4 py-5 bg-white shadow text-center d-block">
               <img src="/images/showcase_v1_small.gif" alt="Primary Edition" />
               <h3 class="mb-3">Primary Edition</h3>
               <p class="mb-0">Presenting reports to users in the most concise way, you can distribute reports to all users with only a small amount of maintenance work. </p>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/showcase/supernumv2/" class="px-4 py-5 bg-white shadow text-center d-block">
+            <a href="/en/showcase/supernumv2/" class="px-4 py-5 bg-white shadow text-center d-block">
               <img src="/images/showcase_v2_small.gif" alt="supernum Membership Edition" />
               <h3 class="mb-3">Membership Edition</h3>
               <p class="mb-0">Membership Edition, User and authority management system are added on the basis of the Primary Edition, which can distribute different reports to users with different roles. </p>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="/showcase/supernumv3/" class="px-4 py-5 bg-white shadow text-center d-block">
+            <a href="/en/showcase/supernumv3/" class="px-4 py-5 bg-white shadow text-center d-block">
               <img src="/images/showcase_v3_small.gif" alt="supernum Custom Edition" />
               <h3 class="mb-3">Custom Edition</h3>
               <p class="mb-0">Custom Edition, According to your needs, we will tailor-made data resource management platform for you.</p>
