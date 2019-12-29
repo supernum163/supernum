@@ -121,36 +121,28 @@ date: 2019-01-01T09:10:27+06:00
     <div class="row justify-content-center">
       <h2 class="section-title">Distinguishing Features</h2> 
       <div class="col-12 text-left">
-        <ul>
-          <li><i class="fa fa-check-square-o"></i>&emsp;
-            <b>Highly integrated virtual system</b>
-            <p>Our data resource management system uses virtual machine technology and HTML technology, so that you do not need to prepare a separate server, nor do you need to configure any client for your users.</p>
-          </li>
-          <li><i class="fa fa-check-square-o"></i>&emsp;
-            <b>More neatly UI design</b>  
-            <p>Our UI design is based on the principle of beauty and practicality, making the page more beautiful, the way of information display more reasonable, while not reducing the response speed of the system itself.</p>
-          </li>
-          <li><i class="fa fa-check-square-o"></i>&emsp;
-            <b>Using Page Adaptation Technology</b>
-            <p>Most of the elements in our data resource management system can be adjusted automatically according to the screen size, making the display results more perfect for mobile phones, PC, desktop and other devices.</p>
-          </li>
-          <li><i class="fa fa-check-square-o"></i>&emsp;
-            <b>Support multiple databases</b>
-            <p>Our system uses SQLite database by default and has already configured SQLite and MySQL database for you. Of course, you can also dock the database you use with a small amount of configuration.</p>
-          </li>
-          <li><i class="fa fa-check-square-o"></i>&emsp;
-            <b>Richer Resource Management System</b>  
-            <p>We have built user, report, authority, reading record, message and other management systems in a modular way as far as possible. You can choose the data resource management system you need according to your own needs.</p>
-          </li>
-          <li><i class="fa fa-check-square-o"></i>&emsp;
-            <b>Well-designed system background</b>
-            <p>We have defined the configuration and maintenance files in a simple and clear way, and we have prepared the operation manual for you. You don't need to master complex code, you just need to understand simple row and column structure to operate.</p>
-          </li>
-          <li><i class="fa fa-check-square-o"></i>&emsp;
-            <b>Support customizing</b>  
-            <p>More features, Infinite possibilities await your discovery</p>
-          </li>
-        </ul>
+        <style type="text/css"> .alert.check::before { content: "\f046";  } </style>
+        <div class="alert check" style="border-color: #349ef3; background-color: #e6f3fe;">
+          <strong>Highly integrated virtual system</strong>&emsp;Our data resource management system uses virtual machine technology and HTML technology, so that you do not need to prepare a separate server, nor do you need to configure any client for your users.
+        </div>
+        <div class="alert check" style="border-color: #4dc657; background-color: #effaf0;">
+          <strong>Practically UI designment</strong>&emsp;Our UI design is based on the principle of beauty and practicality, making the page more beautiful, the way of information display more reasonable, while not reducing the response speed of the system.
+        </div>
+        <div class="alert check" style="border-color: #f5aa0a; background-color: #fdf1d8;">
+          <strong>Using Page Adaptation Technology</strong>&emsp;Most of the elements in our data resource management system can be adjusted automatically according to the screen size, making the display results more perfect for mobile phones, PC, desktop and other devices.
+        </div>
+        <div class="alert check" style="border-color: #349ef3; background-color: #e6f3fe;">
+          <strong>Support multiple databases</strong>&emsp;Our system uses SQLite database by default and has already configured SQLite and MySQL database for you. Of course, you can also dock the database you use with a small amount of configuration.
+        </div>
+        <div class="alert check" style="border-color: #4dc657; background-color: #effaf0;">
+          <strong>Rich Resource Management System</strong>&emsp;We have built user, report, authority, reading record, message and other management systems in a modular way as far as possible. You can choose the data resource management system you need according to your own needs.
+        </div>
+        <div class="alert check" style="border-color: #f5aa0a; background-color: #fdf1d8;">
+          <strong>Well-designed management system</strong>&emsp;We have defined the configuration and maintenance files in a simple and clear way, and we have prepared the operation manual for you. You don't need to master complex code, you just need to understand simple row and column structure to operate.
+        </div>
+        <div class="alert check" style="border-color: #f5311d; background-color: #feecea;">
+          <strong>Support customizing</strong>&emsp;More features waiting for your discovery.
+        </div>
       </div>  
     </div>
   </div>
